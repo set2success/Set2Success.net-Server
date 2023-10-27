@@ -1,9 +1,15 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const session = require("express-session");
+const cors = require('cors'); 
+const cookieParser = require("cookie-parser"); 
 
 require("dotenv").config();
 const app = express();
+
+// Use the cors middleware to allow cross-origin requests
+app.use(cors());
+
 const PORT = process.env.PORT || 4001;
 const URI = process.env.Database_URI;
 const SESSION_PASSWORD = process.env.SESSION_PASSWORD;
@@ -37,6 +43,7 @@ app.use(session({
 }))
 
 app.use(express.json());
+app.use(cookieParser());
 
 //! API'S
 app.use("/api/auth", require("./routes/auth"));
