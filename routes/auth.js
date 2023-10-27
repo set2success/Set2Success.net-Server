@@ -6,7 +6,6 @@ const jwt = require("jsonwebtoken");
 const cookie = require("cookie"); // Import the 'cookie' package to store user
 const SESSION_PASSWORD = process.env.SESSION_PASSWORD;
 
-
 // Registration
 router.post("/register", async (req, res) => {
   try {
@@ -83,6 +82,9 @@ router.post("/login", checkLoggedIn, async (req, res) => {
       return res.status(400).json({ message: "Invalid credentials" });
     }
 
+    // Store the token as an HttpOnly cookie on the client side
+    // res.cookie("token", token, { httpOnly: true });
+
     // Generate and send a JWT token
     const token = jwt.sign({ id: user._id }, SESSION_PASSWORD, {
       expiresIn: "1h", // Token expires in 1 hour
@@ -110,13 +112,13 @@ function checkUserLoggedIn(req, res, next) {
   const token = cookies.token;
 
   if (!token) {
-    return res.status(401).json({ message: "User not logged in" });
+    return res.status(401).json({ message: "User not logged in 1" });
   }
 
   // Verify the token
   jwt.verify(token, SESSION_PASSWORD, (err, decoded) => {
     if (err) {
-      return res.status(401).json({ message: "User not logged in" });
+      return res.status(401).json({ message: "User not logged in 2" });
     }
 
     // Token is valid, user is already logged in
@@ -124,16 +126,6 @@ function checkUserLoggedIn(req, res, next) {
     next();
   });
 }
-
-// Middleware to clear the 'token' cookie
-function clearTokenCookie(req, res, next) {
-  res.clearCookie("token"); // Clear the 'token' cookie
-  next();
-}
-
-router.post("/logout", checkUserLoggedIn, clearTokenCookie, (req, res) => {
-  res.status(200).json({ message: "Logged out" });
-});
 
 // Route to get all users
 router.get("/getAllUsers", async (req, res) => {
@@ -290,6 +282,31 @@ router.post("/forgotPassword", async (req, res) => {
       .status(500)
       .json({ message: "Failed to reset password", error: error.message });
   }
+});
+
+// Middleware function to verify the user's token
+const verifyToken = (req, res, next) => {
+  const token = req.cookies.token; // Retrieve the token from the 'token' cookie
+
+  if (!token) {
+    return res.status(401).json({ message: "Unauthorized: No token provided" });
+  }
+
+  jwt.verify(token, SESSION_PASSWORD, (err, decoded) => {
+    if (err) {
+      return res.status(401).json({ message: "Unauthorized: Invalid token" });
+    }
+
+    // The token is valid, and you can access the user's information in `decoded`
+    req.userId = decoded.id;
+    next();
+  });
+};
+
+// Check if the user is logged in
+router.get("/check-login", verifyToken, (req, res) => {
+  // If the middleware successfully verifies the token, it will proceed to this route.
+  res.json({ message: "User is logged in" });
 });
 
 module.exports = router;
