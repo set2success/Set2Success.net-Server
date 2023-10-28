@@ -1,27 +1,27 @@
 {
-  "name": "set2success-server",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./index.js",
-    "build": "npm run build"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@clerk/clerk-sdk-node": "^4.12.15",
-    "bcrypt": "^5.1.1",
-    "cookie": "^0.5.0",
-    "cookie-parser": "^1.4.6",
-    "cors": "^2.8.5",
-    "crypto": "^1.0.1",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "express-session": "^1.17.3",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^7.6.3"
-  },
-  "description": ""
+    "name": "set2success-server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node ./index.js",
+        "build": "npm run build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@clerk/clerk-sdk-node": "^4.12.15",
+        "bcrypt": "^5.1.1",
+        "cookie": "^0.5.0",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "crypto": "^1.0.1",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "express-session": "^1.17.3",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^7.6.3"
+    },
+    "description": ""
 }
