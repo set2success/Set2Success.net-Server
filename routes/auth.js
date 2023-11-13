@@ -1,5 +1,5 @@
 const express = require('express');
-const router = express.Router();
+const authRouter = express.Router();
 const User = require('../models/User');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
@@ -7,7 +7,7 @@ const cookie = require('cookie'); // Import the 'cookie' package to store user
 const SESSION_PASSWORD = process.env.SESSION_PASSWORD;
 
 // Registration
-router.post('/register', async (req, res) => {
+authRouter.post('/register', async (req, res) => {
     try {
         const { name, email, password } = req.body;
 
@@ -70,7 +70,7 @@ function checkLoggedIn(req, res, next) {
         res.status(200).json({ message: 'Already logged in' });
     });
 }
-router.post('/login', checkLoggedIn, async (req, res) => {
+authRouter.post('/login', checkLoggedIn, async (req, res) => {
     try {
         const { email, password } = req.body;
 
@@ -139,7 +139,7 @@ function checkUserLoggedIn(req, res, next) {
 }
 
 // Route to get all users
-router.get('/getAllUsers', async (req, res) => {
+authRouter.get('/getAllUsers', async (req, res) => {
     try {
         // Fetch all users
         const users = await User.find({}, 'name email'); // You can specify which user properties to retrieve
@@ -154,7 +154,7 @@ router.get('/getAllUsers', async (req, res) => {
 });
 
 // Route to get details for a specific user
-router.get('/getUserDetails/:userId', checkLoggedIn, async (req, res) => {
+authRouter.get('/getUserDetails/:userId', checkLoggedIn, async (req, res) => {
     try {
         const userId = req.params.userId;
 
@@ -175,7 +175,7 @@ router.get('/getUserDetails/:userId', checkLoggedIn, async (req, res) => {
 });
 
 // Route to update a user's password
-router.post('/updatePassword', checkUserLoggedIn, async (req, res) => {
+authRouter.post('/updatePassword', checkUserLoggedIn, async (req, res) => {
     try {
         const userId = req.userId; // Get the logged-in user's ID from the request
 
@@ -218,7 +218,7 @@ router.post('/updatePassword', checkUserLoggedIn, async (req, res) => {
 });
 
 // Route to delete the logged-in user's account
-router.post('/deleteUser', checkUserLoggedIn, async (req, res) => {
+authRouter.post('/deleteUser', checkUserLoggedIn, async (req, res) => {
     try {
         const userId = req.userId; // Get the logged-in user's ID from the request
 
@@ -245,7 +245,7 @@ router.post('/deleteUser', checkUserLoggedIn, async (req, res) => {
 });
 
 // Route to update a user's details
-router.post('/updateUserDetails', checkUserLoggedIn, async (req, res) => {
+authRouter.post('/updateUserDetails', checkUserLoggedIn, async (req, res) => {
     try {
         const userId = req.userId; // Get the logged-in user's ID from the request
         const { name, email } = req.body;
@@ -273,7 +273,7 @@ router.post('/updateUserDetails', checkUserLoggedIn, async (req, res) => {
 });
 
 // Route to handle the forgot password request
-router.post('/forgotPassword', async (req, res) => {
+authRouter.post('/forgotPassword', async (req, res) => {
     try {
         const { email, newPassword } = req.body;
 
@@ -329,9 +329,9 @@ const verifyToken = (req, res, next) => {
 };
 
 // Check if the user is logged in
-router.get('/check-login', verifyToken, (req, res) => {
+authRouter.get('/check-login', verifyToken, (req, res) => {
     // If the middleware successfully verifies the token, it will proceed to this route.
     res.json({ message: 'User is logged in' });
 });
 
-module.exports = router;
+module.exports = authRouter;
