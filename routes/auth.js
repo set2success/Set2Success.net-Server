@@ -66,12 +66,21 @@ function checkLoggedIn(req, res, next) {
             return next(); // Token is invalid, proceed with login
         }
 
+        // res.status(200).json({ message: 'Already logged in' });
+        // Do not send a response here, just call next()
         // Token is valid, user is already logged in
-        res.status(200).json({ message: 'Already logged in' });
+        req.isLoggedIn = true; // Add a flag to indicate the user is logged in
+        req.userId = decoded.id; // Add user ID to request for use in other routes
+        next();
     });
 }
 authRouter.post('/login', checkLoggedIn, async (req, res) => {
     try {
+        // Check if the user is already logged in
+        if (req.isLoggedIn) {
+            return res.status(200).json({ message: 'Already logged in' });
+            // Optionally, you can redirect or handle this case as needed
+        }
         const { email, password } = req.body;
 
         // Find the user by email
@@ -323,6 +332,7 @@ const verifyToken = (req, res, next) => {
         }
 
         // The token is valid, and you can access the user's information in `decoded`
+        // console.log("decoded", decoded)
         req.userId = decoded.id;
         next();
     });
@@ -330,8 +340,33 @@ const verifyToken = (req, res, next) => {
 
 // Check if the user is logged in
 authRouter.get('/check-login', verifyToken, (req, res) => {
-    // If the middleware successfully verifies the token, it will proceed to this route.
-    res.json({ message: 'User is logged in' });
+    const userId = req.userId;
+    User.findById(userId, 'name email').then((user) => {
+        res.status(200).json({ message: 'User is logged in', user });
+    });
+});
+
+//logout route
+authRouter.get('/logout', checkLoggedIn, (req, res) => {
+    try {
+        // Check if the user is already logged out
+        if (!req.isLoggedIn) {
+            return res.status(200).json({ message: 'Already logged out' });
+            // Optionally, you can redirect or handle this case as needed
+        }
+
+        // Clear the token cookie on the client side
+        res.clearCookie('token');
+
+        // Optionally, you can perform additional logout logic here
+
+        res.status(200).json({ message: 'Logout successful' });
+    } catch (error) {
+        res.status(500).json({
+            message: 'Logout failed',
+            error: error.message,
+        });
+    }
 });
 
 module.exports = authRouter;
