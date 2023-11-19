@@ -422,7 +422,13 @@ CourseTextBookRouter.post(
     checkUserLoggedIn,
     async (req, res) => {
         try {
-            const userId = req.userId;
+            let userId;
+            if (req.body.userId) {
+                userId = req.body.userId;
+            } else {
+                userId = req.userId;
+            }
+
             const courses = allCourseJson.courses;
 
             // Retrieve existing courses for the current user
