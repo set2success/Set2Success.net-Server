@@ -113,7 +113,7 @@ authRouter.post('/login', checkLoggedIn, async (req, res) => {
         //     token,
         //     user: { id: user._id, name: user.name, email: user.email },
         // });
-
+        console.log("Logged-In successfully ✅")
         res.json({
             token,
             user,
@@ -358,7 +358,7 @@ authRouter.get('/logout', checkLoggedIn, (req, res) => {
         // Clear the token cookie on the client side
         res.clearCookie('token');
 
-        // Optionally, you can perform additional logout logic here
+        console.log('Logged-Out successfully ✅');
 
         res.status(200).json({ message: 'Logout successful' });
     } catch (error) {
