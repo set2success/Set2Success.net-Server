@@ -7,10 +7,8 @@ const questionSchema = new mongoose.Schema({
     essayAnswer: { type: String, required: true },
     answer: { type: String, required: true },
     options: [{ type: String }],
-    correctOption: { type: Number, required: true },
     correctOptionExplanation: { type: String, required: true },
     note: { type: String, required: true },
-    isCompleted: { type: Boolean, default: false, required: true },
     isFlagged: { type: Boolean, default: false, required: true },
 });
 
