@@ -45,4 +45,22 @@ espRouter.post(
     },
 );
 
+// Post: save question
+espRouter.post(
+    '/saveQuestion',
+    espPracticeController.SaveQuestionById,
+    (req, res) => {
+        res.status(201).json(req.updatedCourses);
+    },
+);
+
+// Post: flagged question
+espRouter.post(
+    '/flagQuestion',
+    espPracticeController.FlagQuestionById,
+    (req, res) => {
+        res.status(201).json(req.updatedCourses);
+    },
+);
+
 module.exports = espRouter;
