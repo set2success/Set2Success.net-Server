@@ -36,7 +36,6 @@ const ESPPracticeSchema = new mongoose.Schema(
                 courseName: { type: String, required: true },
                 topics: [TopicSchema],
                 savedQuestions:[],
-                flaggedQuestions:[],
             },
         ],
     },

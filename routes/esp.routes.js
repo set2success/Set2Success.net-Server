@@ -54,13 +54,4 @@ espRouter.post(
     },
 );
 
-// Post: flagged question
-espRouter.post(
-    '/flagQuestion',
-    espPracticeController.FlagQuestionById,
-    (req, res) => {
-        res.status(201).json(req.updatedCourses);
-    },
-);
-
 module.exports = espRouter;

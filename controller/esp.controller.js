@@ -150,71 +150,9 @@ const SaveQuestionById = async (req, res) => {
     }
 };
 
-// flag questions by id
-const FlagQuestionById = async (req, res) => {
-    const { questionId } = req.query;
-
-    // User ID Handling:
-    let userId;
-    if (req.body.userId) {
-        userId = req.body.userId;
-    } else {
-        userId = req.userId;
-    }
-    console.log('userId', userId);
-
-    if (!questionId) {
-        return res.status(400).json({ error: 'Question ID is required' });
-    }
-
-    try {
-        const course = await ESPPracticeModel.findOne({ user: userId });
-
-        if (!course) {
-            return res.status(404).json({ error: 'Course not found' });
-        }
-
-        const flaggedQuestionsArray =
-            course?.ESPPracticeExams[0]?.flaggedQuestions;
-
-        const isQuestionFlagged = flaggedQuestionsArray.includes(questionId);
-
-        const updateOperation = isQuestionFlagged
-            ? { $pull: { 'ESPPracticeExams.0.flaggedQuestions': questionId } }
-            : {
-                  $addToSet: {
-                      'ESPPracticeExams.0.flaggedQuestions': questionId,
-                  },
-              };
-
-        const updatedCourse = await ESPPracticeModel.findOneAndUpdate(
-            { user: userId },
-            updateOperation,
-            { new: true, upsert: true },
-        );
-
-        const updatedFlaggedQuestionsArray =
-            updatedCourse?.ESPPracticeExams[0]?.flaggedQuestions;
-        // const message = isQuestionFlagged
-        //     ? `Remove (-) Question ID: ${questionId} from flaggedQuestions, to userId: ${userId}`
-        //     : `Add (+) Question ID: ${questionId} to flaggedQuestions, to userId: ${userId}`;
-        const message = isQuestionFlagged
-            ? `Question UnFlagged Successfully`
-            : `Question Flagged Successfully`;
-
-        console.log(message);
-
-        res.json({ updatedFlaggedQuestionsArray, message });
-    } catch (error) {
-        console.error(error);
-        res.status(500).json({ error: 'Internal Server Error' });
-    }
-};
-
 // export functions
 module.exports = {
     GetSingleCourseById,
     addNewCoursesMiddleware,
     SaveQuestionById,
-    FlagQuestionById,
 };
