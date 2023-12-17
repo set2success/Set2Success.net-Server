@@ -1,7 +1,7 @@
 {
     "ESPPracticeExams": [
         {
-            "courseName": "ExamSupportPackagePractice",
+            "courseName": "ExamSupportPackagePracticeMCQ",
             "topics": [
                 {
                     "sectionTitle": "Section A : External Financial Reporting Decisions",
@@ -247,6 +247,386 @@
                                         "Net working capital"
                                     ],
                                     "correctOptionExplanation": "Correct answer c. The sale of a fixed asset for less than book value will decrease net profit, as the loss on the sale will be recognized on the Income Statement",
+                                    "note": "Write your note here",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subSectionTitle": "A2 - Recognition, Measurement, Valuation, and Disclosure",
+                            "questions": [
+                                {
+                                    "sNo": 16,
+                                    "title": "The financial statements included in the annual report to the shareholders are least useful to which one of the following?",
+                                    "quesType": "MCQ",
+                                    "essayAnswer": "Write essay answer",
+                                    "answer": "Stockbrokers",
+                                    "options": [
+                                        "Stockbrokers",
+                                        "Bankers preparing to lend money",
+                                        "Competing businesses",
+                                        "Managers in charge of operating activities"
+                                    ],
+                                    "correctOptionExplanation": "Correct answer d. The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations",
+                                    "note": "Write your note here",
+                                    "isFlagged": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sectionTitle": "Section B : Planning, Budgeting and Forecasting",
+                    "subSectionTopics": [
+                        {
+                            "subSectionTitle": "Sub Section 1 : Financial Statements",
+                            "questions": [
+                                {
+                                    "sNo": 17,
+                                    "title": "The financial statements included in the annual report to the shareholders are least useful to which one of the following?",
+                                    "quesType": "MCQ",
+                                    "essayAnswer": "Write essay answer",
+                                    "answer": "Stockbrokers",
+                                    "options": [
+                                        "Stockbrokers",
+                                        "Bankers preparing to lend money",
+                                        "Competing businesses",
+                                        "Managers in charge of operating activities"
+                                    ],
+                                    "correctOptionExplanation": "Correct answer d. The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations",
+                                    "note": "Write your note here",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subSectionTitle": "Sub Section 2 : Recognition, Measurement, Valuation, and Disclosure",
+                            "questions": [
+                                {
+                                    "sNo": 18,
+                                    "title": "The financial statements included in the annual report to the shareholders are least useful to which one of the following?",
+                                    "quesType": "MCQ",
+                                    "essayAnswer": "Write essay answer",
+                                    "answer": "Bankers preparing to lend money",
+                                    "options": [
+                                        "Stockbrokers",
+                                        "Bankers preparing to lend money",
+                                        "Competing businesses",
+                                        "Managers in charge of operating activities"
+                                    ],
+                                    "correctOptionExplanation": "Correct answer d. The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations",
+                                    "note": "Write your note here",
+                                    "isFlagged": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sectionTitle": "Section C : Performance Management",
+                    "subSectionTopics": [
+                        {
+                            "subSectionTitle": "Sub Section 1 : Financial Statements",
+                            "questions": [
+                                {
+                                    "sNo": 19,
+                                    "title": "The financial statements included in the annual report to the shareholders are least useful to which one of the following?",
+                                    "quesType": "MCQ",
+                                    "essayAnswer": "Write essay answer",
+                                    "answer": "Managers in charge of operating activities",
+                                    "options": [
+                                        "Stockbrokers",
+                                        "Bankers preparing to lend money",
+                                        "Competing businesses",
+                                        "Managers in charge of operating activities"
+                                    ],
+                                    "correctOptionExplanation": "Correct answer d. The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations",
+                                    "note": "Write your note here",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subSectionTitle": "Sub Section 2 : Recognition, Measurement, Valuation, and Disclosure",
+                            "questions": [
+                                {
+                                    "sNo": 20,
+                                    "title": "The financial statements included in the annual report to the shareholders are least useful to which one of the following?",
+                                    "quesType": "MCQ",
+                                    "essayAnswer": "Write essay answer",
+                                    "answer": "Bankers preparing to lend money",
+                                    "options": [
+                                        "Stockbrokers",
+                                        "Bankers preparing to lend money",
+                                        "Competing businesses",
+                                        "Managers in charge of operating activities"
+                                    ],
+                                    "correctOptionExplanation": "Correct answer d. The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations",
+                                    "note": "Write your note here",
+                                    "isFlagged": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sectionTitle": "Section D : Cost Management",
+                    "subSectionTopics": [
+                        {
+                            "subSectionTitle": "Sub Section 1 : Financial Statements",
+                            "questions": [
+                                {
+                                    "sNo": 21,
+                                    "title": "The financial statements included in the annual report to the shareholders are least useful to which one of the following?",
+                                    "quesType": "MCQ",
+                                    "essayAnswer": "Write essay answer",
+                                    "answer": "Bankers preparing to lend money",
+                                    "options": [
+                                        "Stockbrokers",
+                                        "Bankers preparing to lend money",
+                                        "Competing businesses",
+                                        "Managers in charge of operating activities"
+                                    ],
+                                    "correctOptionExplanation": "Correct answer d. The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations",
+                                    "note": "Write your note here",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subSectionTitle": "Sub Section 2 : Recognition, Measurement, Valuation, and Disclosure",
+                            "questions": [
+                                {
+                                    "sNo": 22,
+                                    "title": "The financial statements included in the annual report to the shareholders are least useful to which one of the following?",
+                                    "quesType": "MCQ",
+                                    "essayAnswer": "Write essay answer",
+                                    "answer": "Competing businesses",
+                                    "options": [
+                                        "Stockbrokers",
+                                        "Bankers preparing to lend money",
+                                        "Competing businesses",
+                                        "Managers in charge of operating activities"
+                                    ],
+                                    "correctOptionExplanation": "Correct answer d. The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations",
+                                    "note": "Write your note here",
+                                    "isFlagged": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sectionTitle": "Section E : Internal Controls",
+                    "subSectionTopics": [
+                        {
+                            "subSectionTitle": "Sub Section 1 : Financial Statements",
+                            "questions": [
+                                {
+                                    "sNo": 23,
+                                    "title": "The financial statements included in the annual report to the shareholders are least useful to which one of the following?",
+                                    "quesType": "MCQ",
+                                    "essayAnswer": "Write essay answer",
+                                    "answer": "Bankers preparing to lend money",
+                                    "options": [
+                                        "Stockbrokers",
+                                        "Bankers preparing to lend money",
+                                        "Competing businesses",
+                                        "Managers in charge of operating activities"
+                                    ],
+                                    "correctOptionExplanation": "Correct answer d. The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations",
+                                    "note": "Write your note here",
+                                    "isFlagged": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sectionTitle": "Section F : Technology and Analytics",
+                    "subSectionTopics": [
+                        {
+                            "subSectionTitle": "Sub Section 1 : Financial Statements",
+                            "questions": [
+                                {
+                                    "sNo": 24,
+                                    "title": "The financial statements included in the annual report to the shareholders are least useful to which one of the following?",
+                                    "quesType": "MCQ",
+                                    "essayAnswer": "Write essay answer",
+                                    "answer": "Managers in charge of operating activities",
+                                    "options": [
+                                        "Stockbrokers",
+                                        "Bankers preparing to lend money",
+                                        "Competing businesses",
+                                        "Managers in charge of operating activities"
+                                    ],
+                                    "correctOptionExplanation": "Correct answer d. The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations",
+                                    "note": "Write your note here",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subSectionTitle": "Sub Section 2 : Recognition, Measurement, Valuation, and Disclosure",
+                            "questions": [
+                                {
+                                    "sNo": 25,
+                                    "title": "The financial statements included in the annual report to the shareholders are least useful to which one of the following?",
+                                    "quesType": "MCQ",
+                                    "essayAnswer": "Write essay answer",
+                                    "answer": "Bankers preparing to lend money",
+                                    "options": [
+                                        "Stockbrokers",
+                                        "Bankers preparing to lend money",
+                                        "Competing businesses",
+                                        "Managers in charge of operating activities"
+                                    ],
+                                    "correctOptionExplanation": "Correct answer d. The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations",
+                                    "note": "Write your note here",
+                                    "isFlagged": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "savedQuestions": []
+        },
+        {
+            "courseName": "ExamSupportPackagePracticeEssay",
+            "topics": [
+                {
+                    "sectionTitle": "Section A : External Financial Reporting Decisions",
+                    "subSectionTopics": [
+                        {
+                            "subSectionTitle": "A1 - Financial Statements",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Consider the following financial data for a company that is preparing its cash flow statement. <div class=\"TblScrl\"><table><tr><td>Amortization expense</td><td>$150,000 </td></tr><tr><td>Cash dividends paid to common shareholders</td><td>$75,000 </td></tr><tr><td>Net income</td><td>$1,500,000 </td></tr><tr><td>Work-in-process inventory increase over the prior year</td><td>$300,000 </td></tr><tr><td>Gain on sale of equipment</td><td>$50,000 </td></tr></table></div>Using the indirect method, cash flow from operating activities would be",
+                                    "quesType": "MCQ",
+                                    "essayAnswer": "Write essay answer",
+                                    "answer": "Stockbrokers",
+                                    "options": [
+                                        "Stockbrokers",
+                                        "Bankers preparing to lend money",
+                                        "Competing businesses",
+                                        "Managers in charge of operating activities"
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"answerContainer\">Correct answer d</div> The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations",
+                                    "note": "Write your note here",
+                                    "isFlagged": false
+                                },
+
+                                {
+                                    "sNo": 2,
+                                    "title": "When a fixed asset is sold for less than book value, which one of the following will decrease?",
+                                    "quesType": "MCQ",
+                                    "essayAnswer": "Write essay answer",
+                                    "answer": "Total current assets",
+                                    "options": [
+                                        "Total current assets",
+                                        "Current ratio",
+                                        "Net profit",
+                                        "Net working capital"
+                                    ],
+                                    "correctOptionExplanation": "Correct answer c. The sale of a fixed asset for less than book value will decrease net profit, as the loss on the sale will be recognized on the Income Statement",
+                                    "note": "Write your note here",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "On July 15, a company entered into a three-month agreement to rent a machine the company needed to complete a special order. The machine would be delivered on August 1, and rental payments are due on the first day of each rental month. The effect this event would have on the company’s July 31 financial statements would be to",
+                                    "quesType": "MCQ",
+                                    "essayAnswer": "Write essay answer",
+                                    "answer": "increase both assets and liabilities",
+                                    "options": [
+                                        "cause no change in assets, liabilities, or income",
+                                        "increase both assets and income",
+                                        "increase both assets and liabilities",
+                                        "increase liabilities and decrease income"
+                                    ],
+                                    "correctOptionExplanation": "Correct answer a. Cash has not yet been paid and no expense was incurred before the machine arrived. A recordable transaction has therefore not yet occurred",
+                                    "note": "Write your note here",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "All of the following are limitations to the information provided on the statement of financial position except the",
+                                    "quesType": "MCQ",
+                                    "essayAnswer": "Write essay answer",
+                                    "answer": "lack of current valuation for most assets and liabilities",
+                                    "options": [
+                                        "quality of the earnings reported for the enterprise",
+                                        "judgments and estimates used regarding the collectability, salability, and longevity of assets",
+                                        "omission of items that are of financial value to the business such as the worth of the employees",
+                                        "lack of current valuation for most assets and liabilities"
+                                    ],
+                                    "correctOptionExplanation": "Correct answer a. The quality of the earnings reported for the enterprise cannot be determined from the Income Statement and is therefore a limitation of that statement. All of the other characteristics listed refer to limitations of the Statement of Financial Position",
+                                    "note": "Write your note here",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "A statement of financial position provides a basis for all of the following except",
+                                    "quesType": "MCQ",
+                                    "essayAnswer": "Write essay answer",
+                                    "answer": "evaluating capital structure",
+                                    "options": [
+                                        "computing rates of return",
+                                        "evaluating capital structure",
+                                        "assessing liquidity and financial flexibility",
+                                        "determining profitability and assessing past performance"
+                                    ],
+                                    "correctOptionExplanation": "Correct answer d. The Income Statement is used to determine a firm’s profitability and past performance can be evaluated using prior period income statements. All of the other characteristics listed can be determined from the Statement of Financial Position",
+                                    "note": "Write your note here",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 6,
+                                    "title": "An income statement could be used by an external investor for all of the following purposes except to",
+                                    "quesType": "MCQ",
+                                    "essayAnswer": "Write essay answer",
+                                    "answer": "analyze the company’s performance compared to the budget",
+                                    "options": [
+                                        "analyze the company’s performance compared to the budget",
+                                        "compare the company’s results to those of its competitors",
+                                        "assess the risk of the company achieving future profitability",
+                                        "predict the company’s future revenues"
+                                    ],
+                                    "correctOptionExplanation": "Correct answer a. An external user would not have access to the company’s budgeted numbers",
+                                    "note": "Write your note here",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 7,
+                                    "title": "The financial statement that provides a summary of the firm’s operations for a period of time is the",
+                                    "quesType": "MCQ",
+                                    "essayAnswer": "Write essay answer",
+                                    "answer": "income statement",
+                                    "options": [
+                                        "income statement",
+                                        "statement of financial position",
+                                        "statement of shareholders’ equity",
+                                        "statement of retained earnings"
+                                    ],
+                                    "correctOptionExplanation": "Correct answer a. The purpose of the Income Statement is to provide a summary of a firm’s operating activities for a period of time",
+                                    "note": "Write your note here",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 8,
+                                    "title": "Bertram Company had a balance of $100,000 in Retained Earnings at the beginning of the year and $125,000 at the end of the year. Net income for this time period was $40,000. Bertram’s Statement of Financial Position indicated that Dividends Payable had decreased by $5,000 throughout the year, despite the fact that both cash dividends and a stock dividend were declared. The amount of the stock dividend was $8,000. When preparing its Statement of Cash Flows for the year, Bertram should show Cash Paid for Dividends as",
+                                    "quesType": "MCQ",
+                                    "essayAnswer": "Write essay answer",
+                                    "answer": "$12,000",
+                                    "options": [
+                                        "$20,000",
+                                        "$15,000",
+                                        "$12,000",
+                                        "$5,000"
+                                    ],
+                                    "correctOptionExplanation": "Correct answer c. Bertram’s Cash Paid for Dividends is $12,000",
                                     "note": "Write your note here",
                                     "isFlagged": false
                                 }
