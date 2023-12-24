@@ -1,7 +1,7 @@
 {
     "ESPPracticeExams": [
         {
-            "courseName": "ExamSupportPackagePracticeMCQ",
+            "courseName": "ExamSupportPackagePracticeMCQP1",
             "topics": [
                 {
                     "sectionTitle": "Section A : External Financial Reporting Decisions",
@@ -493,209 +493,253 @@
             "savedQuestions": []
         },
         {
-            "courseName": "ExamSupportPackagePracticeEssay",
+            "courseName": "ExamSupportPackagePracticeEssayP1",
             "topics": [
                 {
-                    "sectionTitle": "Section A : External Financial Reporting Decisions",
+                    "sectionTitle": "Section B - Planning, Budgeting & Forcasting",
                     "subSectionTopics": [
                         {
-                            "subSectionTitle": "A1 - Financial Statements",
+                            "subEssayTitle": "Essay 1 - COE COMPANY",
+                            "pdfLink": "https://drive.google.com/file/d/1bIzlaUtNG1Rzx8NNuA0ShEBlsCj73of2/preview",
                             "questions": [
                                 {
                                     "sNo": 1,
-                                    "title": "Consider the following financial data for a company that is preparing its cash flow statement. <div class=\"TblScrl\"><table><tr><td>Amortization expense</td><td>$150,000 </td></tr><tr><td>Cash dividends paid to common shareholders</td><td>$75,000 </td></tr><tr><td>Net income</td><td>$1,500,000 </td></tr><tr><td>Work-in-process inventory increase over the prior year</td><td>$300,000 </td></tr><tr><td>Gain on sale of equipment</td><td>$50,000 </td></tr></table></div>Using the indirect method, cash flow from operating activities would be",
-                                    "quesType": "MCQ",
-                                    "essayAnswer": "Write essay answer",
-                                    "answer": "Stockbrokers",
-                                    "options": [
-                                        "Stockbrokers",
-                                        "Bankers preparing to lend money",
-                                        "Competing businesses",
-                                        "Managers in charge of operating activities"
-                                    ],
-                                    "correctOptionExplanation": "<div class=\"answerContainer\">Correct answer d</div> The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations",
-                                    "note": "Write your note here",
+                                    "title": "By using the cumulative average-time learning curve, estimate the total number of labor hours that are required to manufacture the first four units of product. Show your calculations.",
+                                    "quesType": "ESSAY",
                                     "isFlagged": false
                                 },
-
                                 {
                                     "sNo": 2,
-                                    "title": "When a fixed asset is sold for less than book value, which one of the following will decrease?",
-                                    "quesType": "MCQ",
-                                    "essayAnswer": "Write essay answer",
-                                    "answer": "Total current assets",
-                                    "options": [
-                                        "Total current assets",
-                                        "Current ratio",
-                                        "Net profit",
-                                        "Net working capital"
-                                    ],
-                                    "correctOptionExplanation": "Correct answer c. The sale of a fixed asset for less than book value will decrease net profit, as the loss on the sale will be recognized on the Income Statement",
-                                    "note": "Write your note here",
+                                    "title": "Assume the 90% learning curve is realized. Calculate Coe’s cost savings in producing the three additional units if the cost of direct labor is $25 per hour. Show your calculations. ",
+                                    "quesType": "ESSAY",
                                     "isFlagged": false
                                 },
                                 {
                                     "sNo": 3,
-                                    "title": "On July 15, a company entered into a three-month agreement to rent a machine the company needed to complete a special order. The machine would be delivered on August 1, and rental payments are due on the first day of each rental month. The effect this event would have on the company’s July 31 financial statements would be to",
-                                    "quesType": "MCQ",
-                                    "essayAnswer": "Write essay answer",
-                                    "answer": "increase both assets and liabilities",
-                                    "options": [
-                                        "cause no change in assets, liabilities, or income",
-                                        "increase both assets and income",
-                                        "increase both assets and liabilities",
-                                        "increase liabilities and decrease income"
-                                    ],
-                                    "correctOptionExplanation": "Correct answer a. Cash has not yet been paid and no expense was incurred before the machine arrived. A recordable transaction has therefore not yet occurred",
-                                    "note": "Write your note here",
+                                    "title": "Define budgetary slack. Identify and explain two negative effects that budgetary slack can have on the budgeting process. ",
+                                    "quesType": "ESSAY",
                                     "isFlagged": false
                                 },
                                 {
                                     "sNo": 4,
-                                    "title": "All of the following are limitations to the information provided on the statement of financial position except the",
-                                    "quesType": "MCQ",
-                                    "essayAnswer": "Write essay answer",
-                                    "answer": "lack of current valuation for most assets and liabilities",
-                                    "options": [
-                                        "quality of the earnings reported for the enterprise",
-                                        "judgments and estimates used regarding the collectability, salability, and longevity of assets",
-                                        "omission of items that are of financial value to the business such as the worth of the employees",
-                                        "lack of current valuation for most assets and liabilities"
-                                    ],
-                                    "correctOptionExplanation": "Correct answer a. The quality of the earnings reported for the enterprise cannot be determined from the Income Statement and is therefore a limitation of that statement. All of the other characteristics listed refer to limitations of the Statement of Financial Position",
-                                    "note": "Write your note here",
+                                    "title": "Assume that Coe actually used 1,740 labor hours to produce the four units at a total cost of $44,805. If the company ignored the learning curve when creating the budget, for the four units produced, compute Coe’s direct labor rate (price) variance and direct labor efficiency variance. How would the above two variances differ if the learning curve had been considered when creating the budget? Show your calculations. ",
+                                    "quesType": "ESSAY",
                                     "isFlagged": false
                                 },
                                 {
                                     "sNo": 5,
-                                    "title": "A statement of financial position provides a basis for all of the following except",
-                                    "quesType": "MCQ",
-                                    "essayAnswer": "Write essay answer",
-                                    "answer": "evaluating capital structure",
-                                    "options": [
-                                        "computing rates of return",
-                                        "evaluating capital structure",
-                                        "assessing liquidity and financial flexibility",
-                                        "determining profitability and assessing past performance"
-                                    ],
-                                    "correctOptionExplanation": "Correct answer d. The Income Statement is used to determine a firm’s profitability and past performance can be evaluated using prior period income statements. All of the other characteristics listed can be determined from the Statement of Financial Position",
-                                    "note": "Write your note here",
+                                    "title": "Assume that the price variance is unfavorable and the efficiency variance is favorable. Identify and discuss one reason that explains both of these variances.  ",
+                                    "quesType": "ESSAY",
                                     "isFlagged": false
                                 },
                                 {
                                     "sNo": 6,
-                                    "title": "An income statement could be used by an external investor for all of the following purposes except to",
-                                    "quesType": "MCQ",
-                                    "essayAnswer": "Write essay answer",
-                                    "answer": "analyze the company’s performance compared to the budget",
-                                    "options": [
-                                        "analyze the company’s performance compared to the budget",
-                                        "compare the company’s results to those of its competitors",
-                                        "assess the risk of the company achieving future profitability",
-                                        "predict the company’s future revenues"
-                                    ],
-                                    "correctOptionExplanation": "Correct answer a. An external user would not have access to the company’s budgeted numbers",
-                                    "note": "Write your note here",
+                                    "title": "Explain the effect on the direct labor efficiency variance if the manufacturing process were subject to an 80% learning curve.  ",
+                                    "quesType": "ESSAY",
                                     "isFlagged": false
                                 },
                                 {
                                     "sNo": 7,
-                                    "title": "The financial statement that provides a summary of the firm’s operations for a period of time is the",
-                                    "quesType": "MCQ",
-                                    "essayAnswer": "Write essay answer",
-                                    "answer": "income statement",
-                                    "options": [
-                                        "income statement",
-                                        "statement of financial position",
-                                        "statement of shareholders’ equity",
-                                        "statement of retained earnings"
-                                    ],
-                                    "correctOptionExplanation": "Correct answer a. The purpose of the Income Statement is to provide a summary of a firm’s operating activities for a period of time",
-                                    "note": "Write your note here",
+                                    "title": "Identify and explain one limitation of learning curve analysis. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 2 - BISCAYNE INDUSTRIES",
+                            "pdfLink": "https://drive.google.com/file/d/10oRN2EeCx4RwUM3_gSIq8HEVcaKqtS7g/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Identify and explain three benefits of using a flexible budget. .",
+                                    "quesType": "ESSAY",
                                     "isFlagged": false
                                 },
                                 {
-                                    "sNo": 8,
-                                    "title": "Bertram Company had a balance of $100,000 in Retained Earnings at the beginning of the year and $125,000 at the end of the year. Net income for this time period was $40,000. Bertram’s Statement of Financial Position indicated that Dividends Payable had decreased by $5,000 throughout the year, despite the fact that both cash dividends and a stock dividend were declared. The amount of the stock dividend was $8,000. When preparing its Statement of Cash Flows for the year, Bertram should show Cash Paid for Dividends as",
-                                    "quesType": "MCQ",
-                                    "essayAnswer": "Write essay answer",
-                                    "answer": "$12,000",
-                                    "options": [
-                                        "$20,000",
-                                        "$15,000",
-                                        "$12,000",
-                                        "$5,000"
-                                    ],
-                                    "correctOptionExplanation": "Correct answer c. Bertram’s Cash Paid for Dividends is $12,000",
-                                    "note": "Write your note here",
+                                    "sNo": 2,
+                                    "title": "Prepare Biscayne’s flexible budget through operating income, at the $55,000,000 sales level. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Identify and explain three possible reasons Biscayne’s sales increased, but the company’s operating income decreased. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Define zero-based budgeting. ",
+                                    "quesType": "ESSAY",
                                     "isFlagged": false
                                 }
                             ]
                         },
                         {
-                            "subSectionTitle": "A2 - Recognition, Measurement, Valuation, and Disclosure",
+                            "subEssayTitle": "Essay 3 - Stark",
+                            "pdfLink": "https://drive.google.com/file/d/1LXJif4Uu-EOs-AZjzk29SngE3JHgIQOb/preview",
                             "questions": [
                                 {
-                                    "sNo": 16,
-                                    "title": "The financial statements included in the annual report to the shareholders are least useful to which one of the following?",
-                                    "quesType": "MCQ",
-                                    "essayAnswer": "Write essay answer",
-                                    "answer": "Stockbrokers",
-                                    "options": [
-                                        "Stockbrokers",
-                                        "Bankers preparing to lend money",
-                                        "Competing businesses",
-                                        "Managers in charge of operating activities"
-                                    ],
-                                    "correctOptionExplanation": "Correct answer d. The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations",
-                                    "note": "Write your note here",
+                                    "sNo": 1,
+                                    "title": "Explain the role of a sales budget in the development of the annual profit plan. .",
+                                    "quesType": "ESSAY",
                                     "isFlagged": false
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "sectionTitle": "Section B : Planning, Budgeting and Forecasting",
-                    "subSectionTopics": [
-                        {
-                            "subSectionTitle": "Sub Section 1 : Financial Statements",
-                            "questions": [
+                                },
                                 {
-                                    "sNo": 17,
-                                    "title": "The financial statements included in the annual report to the shareholders are least useful to which one of the following?",
-                                    "quesType": "MCQ",
-                                    "essayAnswer": "Write essay answer",
-                                    "answer": "Stockbrokers",
-                                    "options": [
-                                        "Stockbrokers",
-                                        "Bankers preparing to lend money",
-                                        "Competing businesses",
-                                        "Managers in charge of operating activities"
-                                    ],
-                                    "correctOptionExplanation": "Correct answer d. The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations",
-                                    "note": "Write your note here",
+                                    "sNo": 2,
+                                    "title": "Identify four factors that should be considered when preparing a sales forecast.  ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Which two factors did management fail to consider in this scenario and what was the impact? ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Discuss authoritative and participative budgets and identify which type is described in the scenario. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Identify and describe two best practice guidelines for the budget process. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 6,
+                                    "title": "Identify and describe four characteristics that define a successful budgeting process.  ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 7,
+                                    "title": "Discuss the financial impact of excess inventory. ",
+                                    "quesType": "ESSAY",
                                     "isFlagged": false
                                 }
                             ]
                         },
                         {
-                            "subSectionTitle": "Sub Section 2 : Recognition, Measurement, Valuation, and Disclosure",
+                            "subEssayTitle": "Essay 4 - GREAT RIVERS INTERNATIONAL",
+                            "pdfLink": "https://drive.google.com/file/d/1KTWSx-mpM0JHVmF6JJnXUs6Vz2H3Oqpo/preview",
                             "questions": [
                                 {
-                                    "sNo": 18,
-                                    "title": "The financial statements included in the annual report to the shareholders are least useful to which one of the following?",
-                                    "quesType": "MCQ",
-                                    "essayAnswer": "Write essay answer",
-                                    "answer": "Bankers preparing to lend money",
-                                    "options": [
-                                        "Stockbrokers",
-                                        "Bankers preparing to lend money",
-                                        "Competing businesses",
-                                        "Managers in charge of operating activities"
-                                    ],
-                                    "correctOptionExplanation": "Correct answer d. The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations",
-                                    "note": "Write your note here",
+                                    "sNo": 1,
+                                    "title": "Define the master budget and outline the process that should be followed in order to prepare the budget at Nile River Company. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Identify the components of the sales budget. Explain the interrelationships of the sales budget with the other components of the master budget. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Assume that the company is expecting to sell 10,000 units of product during its first year of operation and that the expected annual sales growth is 5% during the second year of operation. Assume further that the first year’s desired ending inventory is 30% of the following year’s sales. What will be the budgeted production quantity during the first year of operation? Show your calculations. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Other than sales, identify two other budgets that should be prepared in order to prepare budgeted net operating income. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Identify and explain three characteristics of a successful budgeting process.  ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 5 - SARA HALL",
+                            "pdfLink": "https://drive.google.com/file/d/1ZfM0bUiNPbwVxU_fLkBp0fmkSvfoUL5V/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Identify and explain four characteristics that could make this company’s budgeting process successful. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Describe how this business should differentiate between ideal standards and currently attainable standards.  ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Identify and explain two possible reasons why the production process in this scenario regularly fails to meet its maximum quantity.  ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Identify and explain two benefits of reducing the incidence of stock-outs",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Define budgetary slack. Identify and explain two ways this business can reduce the incidence and effect of budgetary slack.  ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 6,
+                                    "title": "Based on information provided, prepare the toy company’s production budget for the  month of November. Show your calculations. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 6 - LASERTECH",
+                            "pdfLink": "https://drive.google.com/file/d/1y5-irBZ9L1iYecCiUqmP6Y6BZ_B1nvwg/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Describe the role budgeting plays in strategic planning. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Describe the role budgeting plays in defining short-term objectives.  ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Identify and explain three characteristics of a successful budgeting process.  ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Explain how the budgeting process might be able to facilitate communication among the manufacturing, marketing, and finance units of the company. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Define flexible budgeting and explain how it is used.   ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 6,
+                                    "title": "Identify two other types of that companies use other than flexible budgeting.  ",
+                                    "quesType": "ESSAY",
                                     "isFlagged": false
                                 }
                             ]
@@ -706,43 +750,309 @@
                     "sectionTitle": "Section C : Performance Management",
                     "subSectionTopics": [
                         {
-                            "subSectionTitle": "Sub Section 1 : Financial Statements",
+                            "subEssayTitle": "Essay 1 - LAW SERVICES INC.",
+                            "pdfLink": "https://drive.google.com/file/d/1Zfr1S6YYxm68X-r1wL7nZ8XOgA0qcmXJ/preview",
                             "questions": [
                                 {
-                                    "sNo": 19,
-                                    "title": "The financial statements included in the annual report to the shareholders are least useful to which one of the following?",
-                                    "quesType": "MCQ",
-                                    "essayAnswer": "Write essay answer",
-                                    "answer": "Managers in charge of operating activities",
-                                    "options": [
-                                        "Stockbrokers",
-                                        "Bankers preparing to lend money",
-                                        "Competing businesses",
-                                        "Managers in charge of operating activities"
-                                    ],
-                                    "correctOptionExplanation": "Correct answer d. The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations",
-                                    "note": "Write your note here",
+                                    "sNo": 1,
+                                    "title": "What is the advantage of using a flexible budget to evaluate Law Services’ results for last year as opposed to a static budget? Explain your answer.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Explain the process of creating a flexible budget for Law Services.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Calculate the total static budget revenue variance, the flexible budget revenue variance, and the sales-volume revenue variance. Show your calculations.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Calculate the variable expense variance. Show your calculations.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Was the variable expense variance a flexible budget variance or a sales volume variance? Explain your answer.",
+                                    "quesType": "ESSAY",
                                     "isFlagged": false
                                 }
                             ]
                         },
                         {
-                            "subSectionTitle": "Sub Section 2 : Recognition, Measurement, Valuation, and Disclosure",
+                            "subEssayTitle": "Essay 2 - LAWTON INDUSTRIES",
+                            "pdfLink": "https://drive.google.com/file/d/1liH4qq9ONIPwf5N6eh9DEPnDCIUHU00W/preview",
                             "questions": [
                                 {
-                                    "sNo": 20,
-                                    "title": "The financial statements included in the annual report to the shareholders are least useful to which one of the following?",
-                                    "quesType": "MCQ",
-                                    "essayAnswer": "Write essay answer",
-                                    "answer": "Bankers preparing to lend money",
-                                    "options": [
-                                        "Stockbrokers",
-                                        "Bankers preparing to lend money",
-                                        "Competing businesses",
-                                        "Managers in charge of operating activities"
-                                    ],
-                                    "correctOptionExplanation": "Correct answer d. The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations",
-                                    "note": "Write your note here",
+                                    "sNo": 1,
+                                    "title": "Calculate ROI for the year just ended for the Presser Division of Lawton Industries. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Calculate Residual income for the year just ended for the Presser Division of Lawton Industries.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Would the management of Presser Division have been more likely to accept the investment opportunity it had during the year if residual income were used as a performance measure instead of ROI? Explain you answer.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "The Presser Division is a separate investment center with Lawton Industries. Identify and describe the items Presser must control if it is to be evaluated fairly by either the ROI or residual income performance measures.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 3 - BELLATON",
+                            "pdfLink": "https://drive.google.com/file/d/1DetfrFWmCcDMDgkn-GKLPS3m8TA49SO5/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Prepare a flexible budget based on the actual sales volume.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Calculate the flexible-budget variance by comparing actual results to the flexible budget. Explain the significance of these variances.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Identify and describe three benefits and one limitation of measuring performance by comparing actual results to the master budget.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Identify and describe different types of responsibility centers. Identify the responsibility centers in the scenario.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+
+                                {
+                                    "sNo": 5,
+                                    "title": "Explain the difference between the sales-volume variance for operating income and the sales- price variance.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 4 - EDGE",
+                            "pdfLink": "https://drive.google.com/file/d/1X0MNh0Rb60z_rgcEp_Qh-S7TwQqlKgJR/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Define transfer pricing and identify the objectives of transfer pricing. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Identify the methods for determining transfer prices. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Explain the advantages and disadvantages of each transfer pricing method. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Based on the scenario, which transfer pricing method should this company select? Explain your answer. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "How could tariffs, customs duties, or taxes affect transfer pricing and related performance evaluation in this multinational company? ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 6,
+                                    "title": "Identify and explain the four different types of responsibility centers.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 5 - BLUE MOUNTAIN",
+                            "pdfLink": "https://drive.google.com/file/d/1XGDxdTXi60ttypITA06DYjMjXLbR-Ve9/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Identify and describe the four types of responsibility centers.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "What type of center do the three retail divisions of Blue Mountain represent?",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "How should Blue Mountain allocate the fixed expenses when evaluating the performance of the three retail divisions? Explain.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Calculate the contribution margin for each division. Show your calculations.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Which division of Blue Mountain is the most unprofitable one and how can Blue Mountain improve this division’s profitability? Explain you answer. No calculations necessary.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 6,
+                                    "title": "Discuss how contribution margin can be used as a performance evaluation tool.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 6 - MAXWELL MECHANICAL",
+                            "pdfLink": "https://drive.google.com/file/d/1WtV2CyLIEgBeDRKa5ML2I54Hy8dq_KCP/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Explain how Maxwell could use management by exception.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Calculate Maxwell’s total direct labor rate variance for the month of May. Show your calculations. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Calculate Maxwell’s total direct labor efficiency variance for the month of May. Show your calculations. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Without performing any calculations, explain how Maxwell could further analyze the labor efficiency variance. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Identify one possible cause and one corrective action for the combination of a  favorable direct materials price variance and an unfavorable direct materials usage variance experienced by Maxwell in May.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 7 - TOR INDUSTRIES",
+                            "pdfLink": "https://drive.google.com/file/d/1Gi40RshUtxNf8QnSNiVulHRx1lfyrGKn/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Identify which customer has the highest operating profit margin percentage based on net revenue. Show your calculations. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Identify three factors that are contributing to this higher profit margin percentage. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "The sales department has been given the goal of increasing the gross profit margin from customer C by $25,000 next year. If the gross profit margin percentage remains at its current level, how much more in revenue, net of discounts, is required to meet this gross profit goal? Show your calculations. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Recommend and explain three improvements in operations that would decrease customer operating costs and increase customer profitability. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Assume that each shipment is sent to the customer directly and each truck can hold up to 500 units. To minimize shipping costs, how many times per year should customer C be ordering? Show your calculations. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+
+                                {
+                                    "sNo": 6,
+                                    "title": "From the customer’s perspective, discuss the potential costs and benefits of reducing the number of shipments per year. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 8 - ARLINGTON INDUSTRIES",
+                            "pdfLink": "https://drive.google.com/file/d/1kozcsexvqJSubS2G5tKZ_G4RRKZ5xZIc/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Calculate the unit contribution margin for Raddix Plastics if 1,484,000 units were produced and sold during the fiscal year ended December 31. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Based on the average operating assets employed, calculate return on investment (ROI) and residual income (RI) for the Raddix Plastics division. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Explain why the management of Raddix Plastics would have been more likely to accept the proposed capital acquisition if RI rather than ROI was used as a performance measure. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Identify one disadvantage for the organization to focus only on ROI and RI, respectively. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Raddix Plastics is a separate investment center within Arlington Industries. Identify three other types of responsibility centers.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 6,
+                                    "title": "Identify the items that Raddix should control if it is to be evaluated fairly by using the ROI or RI performance measures.",
+                                    "quesType": "ESSAY",
                                     "isFlagged": false
                                 }
                             ]
@@ -753,43 +1063,410 @@
                     "sectionTitle": "Section D : Cost Management",
                     "subSectionTopics": [
                         {
-                            "subSectionTitle": "Sub Section 1 : Financial Statements",
+                            "subEssayTitle": "Essay 1 - INMAN INC.",
+                            "pdfLink": "https://drive.google.com/file/d/1U9t-ftNLM2A01U8Swv_wJD1UKwMYayH2/preview",
                             "questions": [
                                 {
-                                    "sNo": 21,
-                                    "title": "The financial statements included in the annual report to the shareholders are least useful to which one of the following?",
-                                    "quesType": "MCQ",
-                                    "essayAnswer": "Write essay answer",
-                                    "answer": "Bankers preparing to lend money",
-                                    "options": [
-                                        "Stockbrokers",
-                                        "Bankers preparing to lend money",
-                                        "Competing businesses",
-                                        "Managers in charge of operating activities"
-                                    ],
-                                    "correctOptionExplanation": "Correct answer d. The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations",
-                                    "note": "Write your note here",
+                                    "sNo": 1,
+                                    "title": "Using absorption costing, calculate Inman’s September manufacturing cost per unit, Inman’s September 30 inventory value, and Inman’s September net income. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Using variable costing, calculate Inman’s September manufacturing cost per unit, Inman’s September 30 inventory value, and Inman’s September net income ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Identify and explain one reason why the income calculated in the previous two questions might differ. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Identify and discuss one advantage of using absorption costing and variable costing. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Identify one strength and one weakness each of authoritative budgeting and participative Budgeting. Identify and explain Which of these budgeting methods will work best for Inman Inc. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 6,
+                                    "title": "Identify and explain one method the top managers can take to restrict the Production Manager from taking advantage of budgetary slack.",
+                                    "quesType": "ESSAY",
                                     "isFlagged": false
                                 }
                             ]
                         },
                         {
-                            "subSectionTitle": "Sub Section 2 : Recognition, Measurement, Valuation, and Disclosure",
+                            "subEssayTitle": "Essay 2 - SMART ELECTRONICS",
+                            "pdfLink": "https://drive.google.com/file/d/1PTrADSjLvPgE9jiBqrSF6uH_65cVYX3E/preview",
                             "questions": [
                                 {
-                                    "sNo": 22,
-                                    "title": "The financial statements included in the annual report to the shareholders are least useful to which one of the following?",
-                                    "quesType": "MCQ",
-                                    "essayAnswer": "Write essay answer",
-                                    "answer": "Competing businesses",
-                                    "options": [
-                                        "Stockbrokers",
-                                        "Bankers preparing to lend money",
-                                        "Competing businesses",
-                                        "Managers in charge of operating activities"
-                                    ],
-                                    "correctOptionExplanation": "Correct answer d. The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations",
-                                    "note": "Write your note here",
+                                    "sNo": 1,
+                                    "title": "Using Smart’s current costing system, calculate the gross margin per unit for Model M-11 and for Model R-24. Assume no beginning or ending inventory. Show your calculations.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Using activity-based costing, calculate the gross margin for Model M-11 and for Model R-24. Assume no beginning or ending inventory. Show your calculations.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Describe how Smart Electronics can use the activity-based costing information to formulate a more competitive pricing strategy. Be sure to include specific examples to justify the recommended strategy.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Identify and explain two advantages and two limitations of activity-based costing.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 3 - THOMPSON",
+                            "pdfLink": "https://drive.google.com/file/d/1eixSYScf8F5-YeF_JDJEpJqwrJrI2jbb/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Identify and explain two positive and two negative behavioral implications that can arise from employing a negotiated transfer price system for goods that are exchanged between divisions. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Identify and explain two behavioral problems that can arise from using actual full (absorption) manufacturing costs as a transfer price. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Identify and explain two behavioral problems most likely to arise if Thompson Corporation changes from its current transfer pricing policy to a revised transfer pricing policy that it applies uniformly to all divisions. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Discuss the likely behavior of both “buying” and “selling” divisional managers if Thompson Corporation uses standard full manufacturing costs plus markup. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Discuss the likely behavior of both “buying” and “selling” divisional managers if Thompson Corporation uses market selling price of the products being transferred ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 6,
+                                    "title": "Discuss the likely behavior of both “buying” and “selling” divisional managers if Thompson Corporation uses outlay (out-of-pocket) costs incurred to the point of transfer plus opportunity cost per unit.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 4 - BROWN PRINTING",
+                            "pdfLink": "https://drive.google.com/file/d/1fxyLFN9qBS0bbA4ajjKF2hWLWUB6052j/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Define and explain absorption costing and variable costing.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Calculate the unit cost of goods sold and prepare the income statement for March using variable costing.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Calculate the unit cost of goods sold and prepare the income statement for March using absorption costing.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Identify and describe two advantages of using variable costing and two limitations of using absorption costing.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Explain why there is a difference in net income between variable costing and absorption costing. Show your calculations.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+
+                                {
+                                    "sNo": 6,
+                                    "title": "Define and explain throughput costing.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 5 - SIECO",
+                            "pdfLink": "https://drive.google.com/file/d/1irDFJSDTnjMEC-Rnsl3SjfW2RIHv4dZz/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Using the information from Exhibit 1, describe the shortcomings of the system for applying overhead that is currently used by SieCo.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Recommend two ways to improve SieCo’s method for applying overhead in the Cutting and Grinding Departments.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Recommend two ways to improve SieCo’s method for applying overhead to accommodate the automation of the Drilling Department.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Explain the misconceptions underlying the statement that the manufacturing overhead cost in the Drilling Department would be reduced to zero if the automation proposal were implemented.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 6 - ECOCLOCK",
+                            "pdfLink": "https://drive.google.com/file/d/1yMGRRLrAihBdHRsvufmOlsNbX8qcq1MT/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Assume fixed costs are allocated based on the proportion of units produced by each center. What is Center D’s per unit cost?",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "What would be Center A’s per unit cost if Center E’s fixed costs are allocated based on practical capacity?",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Although allocating Center E’s fixed costs on a per-unit produced basis seems equitable, the manager of Center C is worried about Center B reducing the number of units produced. Calculate Center C’s per unit cost with no change in production.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "If Center B reduces the number of units produced to 5,000, will Center C’s cost increase or decrease and by how much?",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "The center managers are concerned that being charged for unused capacity will impact their bonus. Explain how company management could alleviate the concerns.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 6,
+                                    "title": "Identify three additional measures that could be used to evaluate manager performance.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 7 - ZAVOD",
+                            "pdfLink": "https://drive.google.com/file/d/1aveyj8uxR3E0p_inGogCeBWxSfeB2cf9/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Explain how absorption costing and variable costing methods treat the following costs: a) Direct materials. b) Direct labor. c) Variable overhead. d) Fixed overhead. e) Variable selling and administrative. f) Fixed selling and administrative.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Calculate the unit cost to be used in valuation of the ending inventory under absorption costing. Show your calculations.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Calculate the unit cost to be used in valuation of the ending inventory under variable costing. Show your calculations. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Calculate operating income using absorption costing and variable costing, respectively. Show your calculations. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Explain why operating income calculated under absorption costing differs from operating income calculated under variable costing. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 6,
+                                    "title": "Explain why absorption costing is required under U.S. GAAP. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 7,
+                                    "title": "Explain why variable costing is more appropriate for management decision-making.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 8 - ROSEWOOD DESIGNS",
+                            "pdfLink": "https://drive.google.com/file/d/1cQ07tBCimZHgB8Mxo01Pj_LPtHD0itES/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Define and explain the job costing system Rosewood currently uses. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Identify what costing system would be most suitable if Rosewood begins mass producing school uniforms. Explain your answer. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "For Job 431, calculate the cost per unit by using full absorption costing. Show your calculations. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Identify and explain the major difference between full absorption costing and direct costing. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Define and explain the concept of the learning curve.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 6,
+                                    "title": "After completing 8,000 uniforms, what is the estimated direct labor cost per uniform? Show your calculations.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 9 - HOLT MANUFACTURING",
+                            "pdfLink": "https://drive.google.com/file/d/1b7-KIpQomGzt-v2WzeU8LTJRnhm2rGgy/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Calculate the amount of Holt’s underapplied or overapplied overhead. Show your calculations. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Identify and describe two different methods Holt could use to allocate this underapplied or overapplied overhead at the end of the year. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Identify and explain the most appropriate method to allocate this underapplied or overapplied overhead in this situation. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Identify and explain the impact that the underapplied or overapplied overhead has on Holt’s profitability for this year. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Explain how activity-based costing might help Holt in future years. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 6,
+                                    "title": "What type of budgeting could Holt use to monitor performance? ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 10 - ARKLAN PRODUCTION",
+                            "pdfLink": "https://drive.google.com/file/d/19sEt3F_Ac2J5Re3_D4VB1GbmxbODfFna/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Identify and explain three disadvantages of using a predetermined plant-wide overhead rate to allocate overhead costs. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Identify and explain three benefits of using departmental overhead rates to allocate overhead costs. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Explain why direct labor hours may not be a good basis for allocation of overhead costs after Arklan implements the new system. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Recommend two bases of overhead allocation other than direct labor costs that might work better in the new manufacturing process. Explain your recommendation. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Identify and explain two differences between a traditional cost allocation system and an activity-based costing (ABC) system. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 6,
+                                    "title": "Explain the difference between absorption costing and variable costing. Identify which is more suitable for internal decision making and explain. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 7,
+                                    "title": "Identify and explain two limitations of an ABC system.",
+                                    "quesType": "ESSAY",
                                     "isFlagged": false
                                 }
                             ]
@@ -797,80 +1474,234 @@
                     ]
                 },
                 {
-                    "sectionTitle": "Section E : Internal Controls",
+                    "sectionTitle": "Section E : Internal Control",
                     "subSectionTopics": [
                         {
-                            "subSectionTitle": "Sub Section 1 : Financial Statements",
+                            "subEssayTitle": "Essay 1 - SMALLPARTS",
+                            "pdfLink": "https://drive.google.com/file/d/1-kKHdJOX4lSUkumLTjAZvkFI8aRF2vbV/preview",
                             "questions": [
                                 {
-                                    "sNo": 23,
-                                    "title": "The financial statements included in the annual report to the shareholders are least useful to which one of the following?",
-                                    "quesType": "MCQ",
-                                    "essayAnswer": "Write essay answer",
-                                    "answer": "Bankers preparing to lend money",
-                                    "options": [
-                                        "Stockbrokers",
-                                        "Bankers preparing to lend money",
-                                        "Competing businesses",
-                                        "Managers in charge of operating activities"
-                                    ],
-                                    "correctOptionExplanation": "Correct answer d. The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations",
-                                    "note": "Write your note here",
+                                    "sNo": 1,
+                                    "title": "Identify and describe the three objectives of a system of internal control.",
+                                    "quesType": "ESSAY",
                                     "isFlagged": false
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "sectionTitle": "Section F : Technology and Analytics",
-                    "subSectionTopics": [
-                        {
-                            "subSectionTitle": "Sub Section 1 : Financial Statements",
-                            "questions": [
+                                },
                                 {
-                                    "sNo": 24,
-                                    "title": "The financial statements included in the annual report to the shareholders are least useful to which one of the following?",
-                                    "quesType": "MCQ",
-                                    "essayAnswer": "Write essay answer",
-                                    "answer": "Managers in charge of operating activities",
-                                    "options": [
-                                        "Stockbrokers",
-                                        "Bankers preparing to lend money",
-                                        "Competing businesses",
-                                        "Managers in charge of operating activities"
-                                    ],
-                                    "correctOptionExplanation": "Correct answer d. The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations",
-                                    "note": "Write your note here",
+                                    "sNo": 2,
+                                    "title": "Identify and explain three ways that the procedure for handling returned product violates the internal control system of segregation of duties. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Identify four functional responsibilities within an organization that should be separated. Explain why these responsibilities should be separated. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Identify and describe three ways that SmallParts can provide for better internal control over its inventory of returned product.",
+                                    "quesType": "ESSAY",
                                     "isFlagged": false
                                 }
                             ]
                         },
                         {
-                            "subSectionTitle": "Sub Section 2 : Recognition, Measurement, Valuation, and Disclosure",
+                            "subEssayTitle": "Essay 2 - MICHAEL HANSON",
+                            "pdfLink": "https://drive.google.com/file/d/1EeFMA7KO5tbEirl4qYOZ5log5RuftO9F/preview",
                             "questions": [
                                 {
-                                    "sNo": 25,
-                                    "title": "The financial statements included in the annual report to the shareholders are least useful to which one of the following?",
-                                    "quesType": "MCQ",
-                                    "essayAnswer": "Write essay answer",
-                                    "answer": "Bankers preparing to lend money",
-                                    "options": [
-                                        "Stockbrokers",
-                                        "Bankers preparing to lend money",
-                                        "Competing businesses",
-                                        "Managers in charge of operating activities"
-                                    ],
-                                    "correctOptionExplanation": "Correct answer d. The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations",
-                                    "note": "Write your note here",
+                                    "sNo": 1,
+                                    "title": "For each of the areas shown below, identify two controls that Hanson should review and explain why. a.Transaction processing. b.Virus protection. c.Backup controls.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Identify four components of a sound disaster recovery plan. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "During his evaluation of general operations, Hanson found the following conditions. a.Daily bank deposits do not always correspond with cash receipts. b.Physical inventory counts sometimes differ from perpetual inventory records, and there have been alterations to physical counts and perpetual records. c.An unexplained and unexpected decrease in gross profit percentage has occurred. .For each of these conditions, describe a possible cause of the condition and recommend actions to be taken and/or controls to be implemented that would correct the condition.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 3 - ACCUBRAKE",
+                            "pdfLink": "https://drive.google.com/file/d/13EcWibKalmhvjLEfQdkUAlbqacO-LboQ/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Identify and describe two types of internal control failures and related risks that internal auditors should report to management or to the Board of Directors. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Should the chief audit executive report the conflict of interest to the Board of Directors? Explain your answer. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Identify and explain four responsibilities of the Board of Directors’ with respect to ensuring that the company is operated in the best interest of shareholders. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Describe three activities relating to auditors prohibited under Section 201 of the Sarbanes-Oxley Act Section 201 relating to auditors’ activities. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Will the company be compliant with the Sarbanes-Oxley Act Section 302, if the chairman signs off on the appropriateness of the financial statements? Explain your answer. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 6,
+                                    "title": "Identify and describe the major internal control provisions of the Foreign Corrupt Practices Act (FCPA).",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 7,
+                                    "title": "Identify one change that the management of AccuBrake should implement to be compliant with the FCPA.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 4 - GREETING CARD STORES",
+                            "pdfLink": "https://drive.google.com/file/d/1Kvz6GP2ZRWudI7EwziMXNbdNHk9lxEPd/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Explain the objective of a disaster recovery plan.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Explain the importance of backing up all program and data files regularly and storing them at a secure remote site. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Explain the difference between a hot backup site and a cold backup site",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Recommend four changes to improve the disaster recovery and storage control procedures at Greeting Card Stores Inc. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Besides disaster recovery, system security is also an important control to the business. Identify three means by which management can protect programs and databases from unauthorized use. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 5 - ACME",
+                            "pdfLink": "https://drive.google.com/file/d/15dp89ptZ8r85L1IDzfqjfhQIfv2kAn7A/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Explain input controls, processing controls, and output controls and identify one each in this scenario. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Define data encryption and describe why there is a much greater need for data encryption methods when using the internet. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Identify two procedures that Acme could implement to better limit access to its physical hardware. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Identify two ways that Acme could limit access to its data and computer programs to authorized users.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "How can separation of duties enhance systems security? ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 6,
+                                    "title": "Identify two accounting system duties that should be kept separate to improve internal controls.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 6 - LOGAN ASSOCIATES",
+                            "pdfLink": "https://drive.google.com/file/d/1dzQkTfuq_q53FArcef-PPXhZ6JnSD5PI/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Describe the purposes of input controls, processing controls, and output controls. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Provide one example of an input control, a processing control, and an output control at Logan Associates, respectively.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Identify and explain three ways by which Logan’s management can protect programs such as the payroll system from unauthorized use. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Identify three ways that Logan Associates can ensure that limited access to physical hardware can be achieved. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "How can Logan Associates ensure that access to the blank checks has been safeguarded? ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 6,
+                                    "title": "Describe two ways that additional segregation of duties at Logan Associates could enhance the security of the payroll process. ",
+                                    "quesType": "ESSAY",
                                     "isFlagged": false
                                 }
                             ]
                         }
                     ]
                 }
-            ],
-            "savedQuestions": []
+            ]
         }
+
     ]
 }
