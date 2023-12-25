@@ -1701,7 +1701,764 @@
                     ]
                 }
             ]
-        }
+        },
+        {
+            "courseName": "ExamSupportPackagePracticeEssayP2",
+            "topics": [
+                {
+                    "sectionTitle": "Section A : Financial Statement Analysis",
+                    "subSectionTopics": [
+                        {
+                            "subEssayTitle": "Essay 1 - FOYLE INC.",
+                            "pdfLink": "https://drive.google.com/file/d/1O-FOm_MI0zRVgSEyIvLaPajdAVjwptpr/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Using the three Foyle Inc. statements, Show your calculations. a.Prepare a comparative common-size statement using revenue as the base measure. b.Prepare a common base-year income statement using Year 1 as the base year.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Calculate Foyle’s growth rate of both revenue and operating income for Year 2 and Year 3. Show your calculations. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "By evaluating Foyle’s performance against the performance of Foyle’s largest competitor and the industry average, identify and discuss three areas that Foyle should target for further investigation and performance improvement. Support your discussion with data.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sectionTitle": "Section B : Corporate Finance",
+                    "subSectionTopics": [
+                        {
+                            "subEssayTitle": "Essay 1 - GRANDEUR INDUSTRIES",
+                            "pdfLink": "https://drive.google.com/file/d/1w5L2xQhsOJ527i8Bi40ew1QkH8TbU01o/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "a. Calculate the required return for all four projects. Show your calculations. b. Which of the four projects under consideration should Grandeur accept? Support your decision.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "a. Define and explain beta. b. Describe four factors that would impact the beta value that is chosen for use in evaluating a project.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Identify alternative approaches to dealing with risk in capital budgeting.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 2 - SUZHOU TOOL",
+                            "pdfLink": "https://drive.google.com/file/d/1yG-FPRdagoSrsaWMPxTNeVxwKzUxivtL/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Define hurdle rate and explain why the WACC is often appropriate to use as a hurdle rate. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Calculate the WACC.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Explain the importance of beta in the capital assets pricing model (CAPM) and explain the importance of beta in Suzhou’s WACC. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Explain the importance of changes in net working capital in capital budgeting and identify which project time period(s) may be affected by changes in net working capital. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Explain how depreciation and income taxes affect cash flows in the capital budget for a project. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 6,
+                                    "title": "Identify and explain one method Chen can use to account for uncertainty in the cash flow forecasts.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
 
+                                {
+                                    "sNo": 7,
+                                    "title": "Define a capital budget post completion audit. Explain the role of the post-audit in the capital budgeting process.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 3 - MEDNOVATION",
+                            "pdfLink": "https://drive.google.com/file/d/1RxeHxTGzSZgUpoOenupDVkSniDflGQmx/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Define and explain the concept of cost of capital.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Calculate the cost of capital for Mednovation raised through common stock, preferred stock, and debt. Show your calculations for each instrument.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Identify and describe one advantage and one disadvantage to Mednovation of raising capital through common stock, preferred stock and debt, respectively. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Calculate Mednovation’s weighted average cost of capital, assuming the company decided to raise capital using the following weights: 25% common stock, 30% preferred stock and 45% bonds. Show your calculations. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Define and explain the two types of public offering. Which type of offering can Mednovation use to raise capital through common stock? ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 4 - APEX",
+                            "pdfLink": "https://drive.google.com/file/d/1VndiH-6Cu_xfmVSkF2ms6k5ZcmMvfF13/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Define operating leverage and describe how the operating leverage created by the expansion will affect the company’s return and business risk.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Define financial leverage ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Define and identify two characteristics of common stock and preferred stock.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Describe the maturity, par value, and coupon rate for a bond. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Identify and explain one advantage and one disadvantage of raising capital through common stock, preferred stock, and bond. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sectionTitle": "Section C : Decision Analysis",
+                    "subSectionTopics": [
+                        {
+                            "subEssayTitle": "Essay 1 - ONECO, INC.",
+                            "pdfLink": "https://drive.google.com/file/d/1YTJ_JlN2yjLj2Ey6SHkG6TotL2gY7ABy/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "What would be the effect on OneCo's operating income if it accepts of the proposal from Gatsby, but rejects the proposal from Zelda?",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "What would be the effect on OneCo's operating income if it accepts of the proposal from Zelda, but rejects the proposal from Gatsby? ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "What would be the effect on OneCo's operating income if it accepts both proposals?",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Assume Gatsby has offered a second proposal to purchase 2,000 units at the market price of $16.50, but has requested product modifications that would increase direct materials cost by $.30 per unit and increase direct labor and variable overhead by 15%. The sales commission would be $.35 per unit. Should OneCo accept this order? Explain your recommendation.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Under the situation described above, would your recommendation be different if the company had excess capacity? Explain your answer. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 6,
+                                    "title": "Identify and describe at least two factors other than the effect on income that OneCo should consider before making a decision on the proposals.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 2 - KOLOBOK",
+                            "pdfLink": "https://drive.google.com/file/d/1HLuJTQmdJP8cH-uM9nuAqNGBJbL_13zW/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Describe target costing. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Analyze and compare the two alternative pricing methods: mark-up pricing and target costing. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Assuming that the sales volumes will not be affected by the new product pricing based on target costing and that the process improvements will be implemented, calculate Kolobok’s before-tax return on sales using the proposed target prices.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Recommend which pricing method (mark-up or target) Kolobok should use in the future and explain why.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 3 - SUPER SONIC",
+                            "pdfLink": "https://drive.google.com/file/d/1Vp90ErBqZmcFDbCe1XCTZUUM2pket5Bq/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Calculate the original target selling price of the product. Show your calculations.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Using the market-based pricing approach, calculate the target cost per unit given the competitive target price of $45. Show your calculations.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Identify and explain one advantage and one disadvantage of cost-based pricing and market-based pricing, respectively.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Define value engineering and explain how value engineering can help Super Sonic.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Identify and explain one reason why Super Sonic may want to set its selling price below $45.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 4 - BUCKEYE GRAIN",
+                            "pdfLink": "https://drive.google.com/file/d/1e0eX1dcwL_fT6xfvHTApv9BybnILTgn4/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Calculate the estimated breakeven point in annual unit sales of the new product if the company uses the capital-intensive manufacturing method and labor-intensive manufacturing method, respectively. Show your calculations. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Calculate the annual unit sales volume at which the company would be indifferent between the two manufacturing methods. Show your calculations. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Explain how the level of sales can affect the company’s choice of manufacturing method. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Identify the four stages of the product life cycle. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Identify the pricing strategy that the company might use when the new product is in its second stage of the product life cycle. Explain your answer. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 6,
+                                    "title": "Explain operating leverage and its relationship with business risk.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 5 - NUCO",
+                            "pdfLink": "https://drive.google.com/file/d/1IiqvDsxIp7r0jKoSfQvgqGWULHxG_Nc7/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Using cost plus-based pricing, what selling price should be set for the new product? Show your calculations. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Assume that the marketplace will accept a price of $200. Using market-based pricing, what target cost would allow NuCo to reach their required 15% after-tax ROI? Show your calculations. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Identify and describe one way to reduce fixed costs, working capital, and direct labor hours per unit, respectively. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Explain the difference between cost-based pricing and market-based pricing. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Define target pricing and identify the main steps in developing target prices and target costs. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 6,
+                                    "title": "Define and explain the role of price elasticity of demand in pricing decisions. Explain how the level of elasticity affects the way changing prices can change total revenue. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sectionTitle": "Section E : Investment Decisions",
+                    "subSectionTopics": [
+                        {
+                            "subEssayTitle": "Essay 1 - ORION CORP.",
+                            "pdfLink": "https://drive.google.com/file/d/1x0kouHJbEQCKSYxYFCi8cwG5bbB2La4Z/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Based on the information provided, calculate Orion’s weighted average cost of capital.  Show your calculations.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Referring to projects A through F, identify which projects should be accepted by Orion. Provide a brief defense of the decision criteria that you have used in arriving at your recommendations.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Referring to project X, state whether the firm should use its weighted average cost of capital to evaluate this project. Explain your answer.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Based on an analysis of two firms with operations similar to project X, Kochar has determined that the project’s beta is 2.0. The risk-free rate is 10% and the market risk premium is 15%. Calculate the net present value of project X and provide a recommendation on whether the project should be accepted.  Show your calculations.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "In the past the firm has typically used the payback period method for evaluating risky projects and accepted projects with a payback period less than 3 years. a.Calculate the payback period for project X. Based on the firm’s payback period threshold, what decision should the firm make regarding project X? b.Provide one reason why using the payback period can result in the firm making a sub-optimal decision.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 2 - ULTRA COMP",
+                            "pdfLink": "https://drive.google.com/file/d/1sP5P9WgCMk2rp-gEr6ECgUKlEWW_9RpI/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Ultra-Comp utilizes the Net Present Value (NPV) method to quantify the financial aspects of corporate decisions. Calculate the NPV of each of the three alternatives.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Based on financial considerations, which of the three alternatives should the team recommend? Explain why.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Define sensitivity analysis and discuss how Ultra Comp could use this technique in analyzing the three vendor alternatives.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Identify and briefly discuss three non-financial considerations that the Ultra Comp team should consider prior to making a recommendation to senior management.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 3 - RIGHT-WAY",
+                            "pdfLink": "https://drive.google.com/file/d/1m17NOdYNVfjmw7aCdmbbXbtSaICtd8GX/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "What is Right-Way’s total initial cash outflow?  Show your calculations.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Calculate the annual expected cash flow from the proposed new store.  Show your calculations.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Right-Way management evaluates new stores over a five-year horizon as management believes there is too much uncertainty after 5 years of operation. Calculate the Net Present Value (NPV) for the store for the first 5 years of operation. Show your calculations.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Based solely on your answer to C, would you recommend that Right-Way build this store? Explain your answer.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "How would you use sensitivity analysis to test your confidence in the recommendation?  No calculations are required.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 4 - – ROMCO",
+                            "pdfLink": "https://drive.google.com/file/d/1xUEgoC-7c5ivX821gc_Q_E6vv_hfir5v/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": " Because of volatility in the financial markets, the company’s cost of equity may be higher than assumed in this analysis. This is important as RomCo is entirely equity financed. a. What cost of equity was used in this analysis? Explain your answer. b. Would an increase in the cost of equity affect the NPV and IRR of the projects, and thus the desirability of undertaking the projects? Explain your answer.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "There is a possibility that the corporate income tax rate may be lowered in the near future. If this were to occur, how would this affect the NPV and IRR of the projects, and the desirability of investing in the projects?",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Answer the below questions! a. What is the payback period for each project? Show your calculations. b. Identify and explain three weaknesses of using the payback period to decide on doing these projects. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 5 - EDMONDS",
+                            "pdfLink": "https://drive.google.com/file/d/1APKAjUIcwH2FHtDF6Z3HSXoXUP9cvNXH/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Answer the below questions! a. Define capital budgeting. b. What two steps should Edmonds take in evaluating and implementing this project? ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "What are two qualitative factors Edmonds should consider before implementing this project?",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Identify the relevant cash flows for the project on both a pretax and an after-tax basis. Show your calculations.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Answer the below questions! a. Define Net Present Value (NPV). b. Define Internal Rate of Return (IRR). c. Identify one assumption of NPV and one assumption of IRR. d. Discuss the decision criteria used in NPV and IRR to determine acceptable projects.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Explain one advantage and one disadvantage of IRR. a. Define the payback method b. Identify and explain two disadvantages of the payback method. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 6 - ENCINO",
+                            "pdfLink": "https://drive.google.com/file/d/1YzSK6xylAv4M6D_K_5jgwE1aY-tE9kiL/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Identify and explain two advantages and two disadvantages of using payback period method and net present value method, respectively.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Which project(s) should Encino select based on the payback period method? Explain your answer.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Which project(s) should Encino select based on the net present value method? Explain your answer.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Assume the Board of Directors revises the capital budget upward to $10,000,000. Which project(s) should the company select based on the payback period method and which project(s) should the company select based on the net present value method? Explain your answer.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Define sensitivity analysis and explain how management could use sensitivity analysis in its capital budgeting process.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 6,
+                                    "title": "Discuss two qualitative factors that Encino should consider when making capital budgeting decisions.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 7 - HOTSPOT SYSTEMS",
+                            "pdfLink": "https://drive.google.com/file/d/1MkYUa7u0ioWGxX_y9_gkQ5P4xS6r1McO/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Calculate the net cash flow impact if HotSpot sells the Oceanport office complex. Show your calculations.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Explain how the potential net cash flow from the sale of Oceanport should be considered in the decision to pursue the project.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Identify and explain one advantage and one disadvantage of a licensing agreement based on a percentage of game sales, as compared to a licensing agreement based on a flat fee.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": " For the following items which are being reviewed by HotSpot’s management, indicate how the item would be included in the project’s cash flow and the year in which the cash flows will be affected. a. Research and development. b. Additional computer equipment. c. Working capital increase. d. Introductory advertising program. e. Sale of the Oceanport office at the end of the project. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Explain how IRR is determined and what IRR measures.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 8 - FOCUSED SOLUTION",
+                            "pdfLink": "https://drive.google.com/file/d/1SrdfaizQeU7gQ3o3Ba4nAnfEqbLIr7PB/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Identify and describe three steps in the capital budgeting process. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Identify and explain the role of the post-audit in the capital budgeting process. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Define hurdle rate, sunk cost, and opportunity cost. Explain how each is relevant to capital budgeting. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Should the company use cash flows or accounting profits in its capital budgeting analysis? Explain. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Should the company consider total amounts or incremental amounts in its capital budgeting ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 6,
+                                    "title": "Describe how the company should be considering the impact of income taxes and inflation on their cash flows. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 7,
+                                    "title": "Explain the decision criteria used to determine acceptable projects when using NPV and IRR, respectively. ",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 9 - GLOBEX CORPORATION",
+                            "pdfLink": "https://drive.google.com/file/d/1bJTIHXQMGpbyBZAjEDnxOf0nH2Rg9gPP/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Define working capital and discuss the effects of both projects on the firm’s working capital.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Define political risk and discuss the political risk for both projects and how a firm would mitigate this risk.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "Define mutually exclusive projects. Identify and explain which project would you recommend based on the information presented, assuming both projects have the same level of political risk.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "What other additional information would be helpful to evaluate those projects? Explain your answer.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Define hurdle rate and explain how does a firm develop its hurdle rate.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        },
+                        {
+                            "subEssayTitle": "Essay 10 - MACRO SOLUTIONS",
+                            "pdfLink": "https://drive.google.com/file/d/1ZAeE9IqKk3h-UJY_yBTt5OHKVYTO4vfP/preview",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Calculate the internal rate of return (IRR) for each project. Show your calculations.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "Based on the IRR of each project, and a capital budgeting constraint of $275,000, what recommendations should Alexander make regarding the projects? Explain your answer.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 3,
+                                    "title": "If Macro has no capital budgeting constraints, what recommendation should Alexander make regarding the projects? Explain your answer.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 4,
+                                    "title": "Calculate the payback period for both projects. Show your calculations. Assuming a four-year maximum payback requirement and no other constraint, what recommendation should Alexander make? Explain your answer.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 5,
+                                    "title": "Identify and explain two advantages of using net present value (NPV) over IRR and one advantage of using IRR over NPV",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 6,
+                                    "title": "Identify and explain three weaknesses of the payback method.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                },
+                                {
+                                    "sNo": 7,
+                                    "title": "Define and explain sensitivity analysis. Explain two ways Alexander can use sensitivity analysis to further evaluate proposed projects.",
+                                    "quesType": "ESSAY",
+                                    "isFlagged": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
