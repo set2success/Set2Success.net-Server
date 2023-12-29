@@ -90,22 +90,17 @@ const addNewCoursesMiddleware = async (req, res, next) => {
     }
 };
 
-// Save question by id
-const SaveQuestionById = async (req, res) => {
-    const { questionId } = req.query;
-    console.log('question id: ' + questionId);
-
-    // User ID Handling:
-    let userId;
-    if (req.body.userId) {
-        userId = req.body.userId;
-    } else {
-        userId = req.userId;
-    }
-
-    if (!questionId) {
-        return res.status(400).json({ error: 'Question ID is required' });
-    }
+// Store Result: SubmitResult
+const SubmitStatistics = async (req, res) => {
+    const {
+        userId,
+        courseName,
+        totalQuestions,
+        correctQuestions,
+        wrongQuestions,
+        completed,
+        percentage,
+    } = req.body;
 
     try {
         const course = await ESPPracticeModel.findOne({ user: userId });
@@ -114,36 +109,56 @@ const SaveQuestionById = async (req, res) => {
             return res.status(404).json({ error: 'Course not found' });
         }
 
-        const savedQuestionsArray = course?.ESPPracticeExams[0]?.savedQuestions;
-
-        const isQuestionSaved = savedQuestionsArray.includes(questionId);
-
-        const updateOperation = isQuestionSaved
-            ? { $pull: { 'ESPPracticeExams.0.savedQuestions': questionId } }
-            : {
-                  $addToSet: {
-                      'ESPPracticeExams.0.savedQuestions': questionId,
-                  },
-              };
-
-        const updatedCourse = await ESPPracticeModel.findOneAndUpdate(
-            { user: userId },
-            updateOperation,
-            { new: true, upsert: true },
+        // console.log("course:", course);
+        const espMcqP1Course = course.ESPPracticeExams.find(
+            (exam) => exam.courseName === courseName,
         );
 
-        const updatedSavedQuestionsArray =
-            updatedCourse?.ESPPracticeExams[0]?.savedQuestions;
-        // const message = isQuestionSaved
-        //     ? `Remove (-) Question ID: ${questionId} from savedQuestions, to userId: ${userId}`
-        //     : `Add (+) Question ID: ${questionId} to savedQuestions, to userId: ${userId}`;
-        const message = isQuestionSaved
-            ? `Question Removed Successfully`
-            : `Question Saved Successfully`;
+        // espMcqP1Course.statistics is a array you have to insert data as a object
+        espMcqP1Course.statistics.push({
+            totalQuestions,
+            correctQuestions,
+            wrongQuestions,
+            completed,
+            percentage,
+            date: new Date(),
+        });
 
-        console.log(message);
+        await course.save();
 
-        res.json({ updatedSavedQuestionsArray, message });
+        return res.status(200).json({
+            data: espMcqP1Course,
+            message: 'Result Submitted Successfully',
+        });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+};
+
+// Get Result: SubmitStatistics
+const GetStatistics = async (req, res) => {
+    const { userId, courseName } = req.query;
+    console.log('userId1: ', userId);
+    console.log('courseName2: ', courseName);
+
+    try {
+        const course = await ESPPracticeModel.findOne({ user: userId });
+
+        if (!course) {
+            return res.status(404).json({ error: 'Course not found' });
+        }
+
+        const espMcqP1Course = course.ESPPracticeExams.find(
+            (exam) => exam.courseName === courseName,
+        );
+
+        console.log(`Statistics fetched for courseName: ${courseName} ✅`);
+
+        return res.status(200).json({
+            data: espMcqP1Course,
+            message: 'Result Fetched Successfully',
+        });
     } catch (error) {
         console.error(error);
         res.status(500).json({ error: 'Internal Server Error' });
@@ -154,5 +169,6 @@ const SaveQuestionById = async (req, res) => {
 module.exports = {
     GetSingleCourseById,
     addNewCoursesMiddleware,
-    SaveQuestionById,
+    SubmitStatistics,
+    GetStatistics,
 };
