@@ -1,7 +1,1234 @@
 {
     "ESPPracticeExams": [
         {
-            "courseName": "ExamSupportPackagePracticeMCQP1",
+            "courseName": "ESP_MCQ_P1",
+            "topics": [
+                {
+                    "sectionTitle": "Section A : External Financial Reporting Decisions",
+                    "subSectionTopics": [
+                        {
+                            "subSectionTitle": "A1 - Financial Statements",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "The financial statements included in the annual report to the shareholders are least useful to which one of the following?",
+                                    "answer": "Managers in charge of operating activities.",
+                                    "options": [
+                                        "Stockbrokers.",
+                                        "Bankers preparing to lend money.",
+                                        "Competing businesses.",
+                                        "Managers in charge of operating activities."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer D.</div> The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations."
+                                },
+                                {
+                                    "sNo": 2,
+                                    "title": "When a fixed asset is sold for less than book value, which one of the following will decrease?",
+                                    "answer": "Net profit.",
+                                    "options": [
+                                        "Total current assets.",
+                                        "Current ratio.",
+                                        "Net profit.",
+                                        "Net working capital."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer C.</div> The sale of a fixed asset for less than book value will decrease net profit, as the loss on the sale will be recognized on the Income Statement."
+                                },
+
+                                {
+                                    "sNo": 3,
+                                    "title": "On July 15, a company entered into a three-month agreement to rent a machine the company needed to complete a special order. The machine would be delivered on August 1, and rental payments are due on the first day of each rental month. The effect this event would have on the company's July 31 financial statements would be to",
+                                    "answer": "Cause no change in assets, liabilities, or income.",
+                                    "options": [
+                                        "Cause no change in assets, liabilities, or income.",
+                                        "Increase both assets and income.",
+                                        "Increase both assets and liabilities.",
+                                        "Increase liabilities and decrease income."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer A.</div> Cash has not yet been paid, and no expense was incurred before the machine arrived. A recordable transaction has therefore not yet occurred."
+                                },
+
+                                {
+                                    "sNo": 4,
+                                    "title": "All of the following are limitations to the information provided on the statement of financial position except the",
+                                    "answer": "Quality of the earnings reported for the enterprise.",
+                                    "options": [
+                                        "Quality of the earnings reported for the enterprise.",
+                                        "Judgments and estimates used regarding the collectability, salability, and longevity of assets.",
+                                        "Omission of items that are of financial value to the business such as the worth of the employees.",
+                                        "Lack of current valuation for most assets and liabilities."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer A.</div> The quality of the earnings reported for the enterprise cannot be determined from the Income Statement and is therefore a limitation of that statement. All of the other characteristics listed refer to limitations of the Statement of Financial Position."
+                                },
+
+                                {
+                                    "sNo": 5,
+                                    "title": "A statement of financial position provides a basis for all of the following except",
+                                    "answer": "Determining profitability and assessing past performance.",
+                                    "options": [
+                                        "Computing rates of return.",
+                                        "Evaluating capital structure.",
+                                        "Assessing liquidity and financial flexibility.",
+                                        "Determining profitability and assessing past performance."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer D.</div> The Income Statement is used to determine a firm's profitability, and past performance can be evaluated using prior period income statements. All of the other characteristics listed can be determined from the Statement of Financial Position."
+                                },
+
+                                {
+                                    "sNo": 6,
+                                    "title": "An income statement could be used by an external investor for all of the following purposes except to",
+                                    "answer": "Analyze the company's performance compared to the budget.",
+                                    "options": [
+                                        "Analyze the company's performance compared to the budget.",
+                                        "Compare the company's results to those of its competitors.",
+                                        "Assess the risk of the company achieving future profitability.",
+                                        "Predict the company's future revenues."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer A.</div> An external user would not have access to the company's budgeted numbers."
+                                },
+
+                                {
+                                    "sNo": 7,
+                                    "title": "The financial statement that provides a summary of the firm's operations for a period of time is the",
+                                    "answer": "Income statement.",
+                                    "options": [
+                                        "Income statement.",
+                                        "Statement of financial position.",
+                                        "Statement of shareholders' equity.",
+                                        "Statement of retained earnings."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer A.</div> The purpose of the Income Statement is to provide a summary of a firm's operating activities for a period of time."
+                                },
+
+                                {
+                                    "sNo": 8,
+                                    "title": "Bertram Company had a balance of $100,000 in Retained Earnings at the beginning of the year and $125,000 at the end of the year. Net income for this time period was $40,000. Bertram's Statement of Financial Position indicated that Dividends Payable had decreased by $5,000 throughout the year, despite the fact that both cash dividends and a stock dividend were declared. The amount of the stock dividend was $8,000. When preparing its Statement of Cash Flows for the year, Bertram should show Cash Paid for Dividends as",
+                                    "answer": "$12,000.",
+                                    "options": [
+                                        "$20,000.",
+                                        "$15,000.",
+                                        "$12,000.",
+                                        "$5,000."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer C.</div> Bertram's Cash Paid for Dividends is $12,000 as calculated below.<div class=\"TblScrl\"><table><tr><td>$100,000 + $40,000 - $8,000 + $5,000 – X</td><td>= $125,000</td> </tr><tr><td>$137,000 – X</td><td>= $125,000</td></tr><tr><td>X</td><td>= $12,000</td></tr></table></div>"
+                                },
+
+                                {
+                                    "sNo": 9,
+                                    "title": "All of the following are elements of an income statement except",
+                                    "answer": "Shareholders' equity.",
+                                    "options": [
+                                        "Expenses.",
+                                        "Shareholders' equity.",
+                                        "Gains and losses.",
+                                        "Revenue."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> Shareholders' Equity is presented on the Statement of Financial Position (Balance Sheet) while all the other elements listed are components of the Income Statement."
+                                },
+
+                                {
+                                    "sNo": 10,
+                                    "title": "The statement of shareholders' equity shows a",
+                                    "answer": "Reconciliation of the beginning and ending balances in shareholders' equity accounts.",
+                                    "options": [
+                                        "Reconciliation of the beginning and ending balances in shareholders' equity accounts.",
+                                        "Listing of all shareholders' equity accounts and their corresponding dollar amounts.",
+                                        "Computation of the number of shares outstanding used for earnings per share calculations.",
+                                        "Reconciliation of the beginning and ending balances in the Retained Earnings account."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer A.</div> Firms are required to present reconciliations of the beginning and ending balances of their shareholder accounts; this is accomplished by presenting a Statement of Shareholders' Equity."
+                                },
+                                {
+                                    "sNo": 11,
+                                    "title": "Which one of the following items could be identified on the cash flow statement prepared using the indirect method?",
+                                    "answer": "Depreciation related to buildings and equipment.",
+                                    "options": [
+                                        "The payment of interest expense of $200,000.",
+                                        "A change in unrealized holding gains of $50,000.",
+                                        "A settlement of a lawsuit that was previously accrued.",
+                                        "Depreciation related to buildings and equipment."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer D.</div> D is correct as depreciation is shown on both the income statement and the statement of cash flows. A and C would be shown in the income statement and B is not shown in either these statements as it is unrealized."
+                                },
+
+                                {
+                                    "sNo": 12,
+                                    "title": "Consider the following financial data for a company that is preparing its cash flow statement. <div class=\"TblScrl\"><table><tr><td>Amortization expense</td><td>$150,000 </td></tr><tr><td>Cash dividends paid to common shareholders</td><td>$75,000 </td></tr><tr><td>Net income</td><td>$1,500,000 </td></tr><tr><td>Work-in-process inventory increase over the prior year</td><td>$300,000 </td></tr><tr><td>Gain on sale of equipment</td><td>$50,000 </td></tr></table></div>Using the indirect method, cash flow from operating activities would be",
+                                    "answer": "$1,300,000.",
+                                    "options": [
+                                        "$1,225,000.",
+                                        "$1,300,000.",
+                                        "$1,350,000.",
+                                        "$1,375,000."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> Net income + Amortization expense &#8211; inventory increase - Gain on sale of equipment<div class=\"TblScrl\"><table><tr><td>a.</td><td>$1,500,000 + 150,000 - 300,000 - 50,000 - 75,000</td><td>= $1,225,000 </td></tr><tr><td>b.</td><td>$1,500,000 + 150,000 - 300,000 - 50,000</td><td>= $1,300,000 </td></tr><tr><td>c.</td><td>$1,500,000 + 150,000 - 300,000</td><td>= $1,350,000 </td></tr><tr><td>d.</td><td>$1,500,000 + 150,000 - 300,000 - 50,000 + 75,000</td><td>= $1,375,000 </td></tr></table></div>"
+                                },
+
+                                {
+                                    "sNo": 13,
+                                    "title": "Dividends paid to company shareholders would be shown on the statement of cash flows as",
+                                    "answer": "Cash flows from financing activities.",
+                                    "options": [
+                                        "Operating cash inflows.",
+                                        "Operating cash outflows.",
+                                        "Cash flows from investing activities.",
+                                        "Cash flows from financing activities."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer D.</div> The payment of dividends is a financing activity and should be presented as a cash outflow in that section of the Cash Flow Statement."
+                                },
+
+                                {
+                                    "sNo": 14,
+                                    "title": "All of the following are classifications on the statement of cash flows except",
+                                    "answer": "Equity activities.",
+                                    "options": [
+                                        "Operating activities.",
+                                        "Equity activities.",
+                                        "Investing activities.",
+                                        "Financing activities."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> The Cash Flow Statement does not have an &#8220;equity activities&#8221; section; equity transactions are presented as financing activities."
+                                },
+
+                                {
+                                    "sNo": 15,
+                                    "title": "The purchase of fixed assets should be accounted for on the statement of cash flows as a(n)",
+                                    "answer": "Investing activity.",
+                                    "options": [
+                                        "Operating activity.",
+                                        "Investing activity.",
+                                        "Financing activity.",
+                                        "Noncash investing and financing activity."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> The purchase of fixed assets is considered as an investing activity on the statement of cash flows."
+                                },
+
+                                {
+                                    "sNo": 16,
+                                    "title": "A statement of cash flows prepared using the indirect method would have cash activities listed in which one of the following orders?",
+                                    "answer": "Operating, investing, financing.",
+                                    "options": [
+                                        "Financing, investing, operating.",
+                                        "Investing, financing, operating.",
+                                        "Operating, financing, investing.",
+                                        "Operating, investing, financing."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer D.</div> The order in which cash activities should be listed on the Cash Flow Statement is Operating Activities, Investing Activities, and Financing Activities."
+                                },
+
+                                {
+                                    "sNo": 17,
+                                    "title": "Kelli Company acquired land by assuming a mortgage for the full acquisition cost. This transaction should be disclosed on Kelli's Statement of Cash Flows as a(n)",
+                                    "answer": "Non-cash financing and investing activity.",
+                                    "options": [
+                                        "Financing activity.",
+                                        "Investing activity.",
+                                        "Operating activity.",
+                                        "Non-cash financing and investing activity."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer D.</div> This transaction would be presented as a non-cash financing and investing activity as the full amount of the acquisition cost was mortgaged."
+                                },
+
+                                {
+                                    "sNo": 18,
+                                    "title": "Which one of the following should be classified as an operating activity on the statement of cash flows?",
+                                    "answer": "A decrease in accounts payable during the year.",
+                                    "options": [
+                                        "An increase in cash resulting from the issuance of previously authorized common stock.",
+                                        "The purchase of additional equipment needed for current production.",
+                                        "The payment of a cash dividend from money arising from current operations.",
+                                        "A decrease in accounts payable during the year."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer A.</div> Changes in current assets and current liabilities are presented as operating activities on the Cash Flow Statement. The other transactions listed are investing or financing activities."
+                                },
+
+                                {
+                                    "sNo": 19,
+                                    "title": "When using the statement of cash flows to evaluate a company's continuing solvency, the most important factor to consider is the cash",
+                                    "answer": "Flows from (used for) operating activities.",
+                                    "options": [
+                                        "Balance at the end of the period.",
+                                        "Flows from (used for) operating activities.",
+                                        "Flows from (used for) investing activities.",
+                                        "Flows from (used for) financing activities."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> A company's solvency is best represented by the amount of cash that can be generated internally rather than having to borrow from outside sources. This is shown on the Cash Flow Statement as flows from operating activities."
+                                },
+
+                                {
+                                    "sNo": 20,
+                                    "title": "The most commonly used method for calculating and reporting a company's net cash flow from operating activities on its statement of cash flows is the",
+                                    "answer": "Indirect method.",
+                                    "options": [
+                                        "Direct method.",
+                                        "Indirect method.",
+                                        "Single-step method.",
+                                        "Multiple-step method."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> The two methods used to calculate the cash flow from operating activities are the direct method and the indirect method. The indirect method is used more frequently than the direct method."
+                                },
+                                {
+                                    "sNo": 21,
+                                    "title": "The presentation of the major classes of operating cash receipts (such as receipts from customers) less the major classes of operating cash disbursements (such as cash paid for merchandise) is best described as the",
+                                    "answer": "Direct method of calculating net cash provided or used by operating activities.",
+                                    "options": [
+                                        "Direct method of calculating net cash provided or used by operating activities.",
+                                        "Cash method of determining income in conformity with generally accepted accounting principles.",
+                                        "Format of the statement of cash flows.",
+                                        "Indirect method of calculating net cash provided or used by operating activities."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer A.</div> The direct method of calculating cash flow from operating activities presents major classes of operating cash receipts less major classes of operating cash disbursements."
+                                },
+
+                                {
+                                    "sNo": 22,
+                                    "title": "Which one of the following would result in a decrease to cash flow in the indirect method of preparing a statement of cash flows?",
+                                    "answer": "Decrease in income taxes payable.",
+                                    "options": [
+                                        "Amortization expense.",
+                                        "Decrease in income taxes payable.",
+                                        "Proceeds from the issuance of common stock.",
+                                        "Decrease in inventories."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> Decreases in current liabilities such as accounts payable and income taxes payable are deducted from net income when determining cash flow indicating that cash was used to decrease the balances in these accounts."
+                                },
+
+                                {
+                                    "sNo": 23,
+                                    "title": "The information reported in the statement of cash flows should help investors, creditors, and others to assess all of the following except the",
+                                    "answer": "Management with respect to the efficient and profitable use of the firm's resources.",
+                                    "options": [
+                                        "Company's ability to pay dividends and meet obligations.",
+                                        "Company's ability to generate future cash flows.",
+                                        "Management with respect to the efficient and profitable use of the firm's resources.",
+                                        "Cash and noncash investing and financing transactions during the period."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer C.</div> The statement of cash flows reports cash inflows, outflows, and net changes in cash resulting from operating, investing and financing activities. This can also include certain noncash activities. The statement of cash flows does not provide sufficient information to evaluate the performance of management with respect to the uses of the firm's resources."
+                                },
+
+                                {
+                                    "sNo": 24,
+                                    "title": "Larry Mitchell, Bailey Company&#8217;s controller, is gathering data for the Statement of Cash Flows for the most recent year end. Mitchell is planning to use the indirect method to prepare this statement, and has made the following list of cash inflows for the period. <div class=\"TblScrl\"><table><tr><td>&#8226; Net income of $100,000. </td></tr><tr><td>&#8226; Securities purchased for investment purposes with an original cost of $100,000 sold for $125,000. </td></tr><tr><td>&#8226; Proceeds from the issuance of additional company stock totaling $10,000. </td></tr></table></div>The correct amount to be shown as net cash provided by operating activities is",
+                                    "answer": "$100,000.",
+                                    "options": [
+                                        "$100,000.",
+                                        "$135,000.",
+                                        "$225,000.",
+                                        "$235,000."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer A.</div> Bailey's net income of $100,000 is a cash flow from operating activities. The sale of investment securities for $125,000 is an investing activity while the issuance of company stock is a financing activity."
+                                },
+
+                                {
+                                    "sNo": 25,
+                                    "title": "During the year, Deltech Inc. acquired a long-term productive asset for $5,000, and also borrowed $10,000 from a local bank.",
+                                    "answer": "Outflows for Investing Activities, $5,000; Inflows from Financial Activities, $10,000.",
+                                    "options": [
+                                        "Outflows for Investing Activities, $5,000; Inflows from Financial Activities, $10,000.",
+                                        "Inflows from Investing Activities, $10,000; Outflows for Financing Activities, $5,000.",
+                                        "Outflows for Operating Activities, $5,000; Inflows from Financing Activities, $10,000.",
+                                        "Outflows for Financing Activities, $5,000; Inflows from Investing Activities, $10,000."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer A.</div> Deltech's $5,000 acquisition of a productive asset is an outflow for investing activities, while the bank loan is an inflow for financing activities."
+                                },
+
+                                {
+                                    "sNo": 26,
+                                    "title": "Atwater Company has recorded the following payments for the current period. <div class=\"TblScrl\"><table><tr><td>Purchase Trillium stock</td><td>$300,000 </td></tr><tr><td>Dividends paid to Atwater shareholders</td><td>200,000 </td></tr><tr><td>Repurchase of Atwater Company stock</td><td>400,000 </td></tr></table></div>The amount to be shown in the Investing Activities Section of Atwater&#8217;s Cash Flow Statement should be.",
+                                    "answer": "$300,000.",
+                                    "options": [
+                                        "$300,000.",
+                                        "$500,000.",
+                                        "$700,000.",
+                                        "$900,000."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer A.</div> Atwater's cash flow for investing activities is $300,000 for the purchase of Trillium stock. Both the payment of dividends and the repurchase of Atwater stock are financing activities."
+                                },
+
+                                {
+                                    "sNo": 27,
+                                    "title": "Carlson Company has the following payments recorded for the current period. <div class=\"TblScrl\"><table><tr><td>Dividends paid to Carlson shareholders</td><td>$150,000 </td></tr><tr><td>Interest paid on bank loan</td><td>250,000 </td></tr><tr><td>Purchase of equipment</td><td>350,000</td></tr></table></div> The total amount of the above items to be shown in the Operating Activities Section of Carlson&#8217;s Cash Flow Statement should be",
+                                    "answer": "$250,000.",
+                                    "options": [
+                                        "$150,000.",
+                                        "$250,000.",
+                                        "$350,000.",
+                                        "$750,000."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> The interest paid on the bank loan ($250,000) should be included as an operating activity on Carlson's cash flow statement. The dividend payment is a financing activity and the equipment purchase is an investment activity."
+                                },
+
+                                {
+                                    "sNo": 28,
+                                    "title": "Barber Company has recorded the following payments for the current period. <div class=\"TblScrl\"><table><tr><td>Interest paid on bank loan</td><td>$300,000 </td></tr><tr><td>Dividends paid to Barber shareholders</td><td>200,000 </td></tr><tr><td>Repurchase of Barber Company stock</td><td>400,000 </td></tr></table></div>The amount to be shown in the Financing Activities Section of Barber&#8217;s Cash Flow Statement should be",
+                                    "answer": "$600,000.",
+                                    "options": [
+                                        "$300,000.",
+                                        "$500,000.",
+                                        "$600,000.",
+                                        "$900,000."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer C.</div> The Financing Section of Barber's Cash Flow Statement should include the dividend payment and the repurchase of Barber's stock for a total of $600,000."
+                                },
+
+                                {
+                                    "sNo": 29,
+                                    "title": "Selected financial information for Kristina Company for the year just ended is shown below. <div class=\"TblScrl\"><table><tr><td>Net income</td><td>$2,000,000 </td></tr><tr><td>Increase in accounts receivable</td><td>300,000 </td></tr><tr><td>Decrease in inventory</td><td>100,000 </td></tr><tr><td>Increase in accounts payable</td><td>200,000 </td></tr><tr><td>Depreciation expense</td><td>400,000 </td></tr><tr><td>Cash received from the issue of common stock</td><td>800,000 </td></tr><tr><td>Cash paid for dividends</td><td>80,000 </td></tr><tr><td>Cash paid for the acquisition of land</td><td>1,500,000 </td></tr></table></div>Kristina&#8217;s cash flow from financing activities for the year is",
+                                    "answer": "$720,000.",
+                                    "options": [
+                                        "$(80,000).",
+                                        "$720,000.",
+                                        "$800,000.",
+                                        "$3,520,000."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> Kristina's cash flow from financing activities should be $720,000 ($800,000 inflow from the issuance of common stock less the $80,000 payment of dividends)."
+                                },
+
+                                {
+                                    "sNo": 30,
+                                    "title": "An accountant with Nasbo Enterprises Inc. has gathered the following information in order to prepare the Statement of Cash Flows for the current year. Net income of $456,900 includes a deduction of $45,600 for depreciation expense. The company issued $300,000 of dividends this year and purchased one new building for $275,000. The balance sheets from the current period and prior period included the following balances. <div class=\"TblScrl\"><table><tr><td></td><th>Prior Year</th><th>Current Year </th></tr><tr><td>Accounts receivable, net</td><td>$56,860</td><td>$45,300 </td></tr><tr><td>Accounts payable</td><td>12,900</td><td>10,745 </td></tr><tr><td>Inventory</td><td>186,700</td><td>194,320 </td></tr></table></div> Using the indirect method, what is the amount of cash provided by operating activities? ",
+                                    "answer": "$504,285.",
+                                    "options": [
+                                        "$202,500.",
+                                        "$405,205.",
+                                        "$504,285.",
+                                        "$521,405."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer C.</div> <div class=\"TblScrl\"><table><tr><td>Net income</td><td>$456,900 </td></tr><tr><td>Depreciation on fixed assets</td><td>45,600</td></tr><tr><td>Decrease in accounts receivable, net</td><td>11,560</td></tr><tr><td>Increase in inventory</td><td>(7,620)</td></tr><tr><td>Decrease in accounts payable</td><td>(2,155)</td></tr><tr><td>Cash provided by operating activities</td><td>$504,285</td></tr></table></div>"
+                                },
+
+                                {
+                                    "sNo": 31,
+                                    "title": "For the fiscal year just ended, Doran Electronics had the following results. <div class=\"TblScrl\"><table><tr><td>Net income</td><td>$920,000</td></tr><tr><td>Depreciation expense</td><td>110,000</td></tr><tr><td>Increase in accounts payable</td><td>45,000</td></tr><tr><td>Increase in accounts receivable</td><td>73,000</td></tr><tr><td>Increase in deferred income tax liability</td><td>16,000</td></tr></table></div>Doran&#8217;s net cash flow from operating activities is",
+                                    "answer": "$1,018,000.",
+                                    "options": [
+                                        "$928,000.",
+                                        "$986,000.",
+                                        "$1,018,000.",
+                                        "$1,074,000."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer C.</div> Doran's net cash flow from operating activities is $1,018,000 as shown below. <div class=\"TblScrl\"><table><tr><td>Net income</td><td>$920,000 </td></tr><tr><td>Depreciation expense</td><td>+ 110,000 </td></tr><tr><td>Increase in payables</td><td>+ 45,000 </td></tr><tr><td>Increase in receivables</td><td>- 73,000 </td></tr><tr><td>Increase in tax liability</td><td>+ 16,000 </td></tr><tr><td>Cash flow</td><td>$1,018,000 </td></tr></table></div>"
+                                },
+
+                                {
+                                    "sNo": 32,
+                                    "title": "Three years ago, James Company purchased stock in Zebra Inc. at a cost of $100,000. This stock was sold for $150,000 during the current fiscal year. The result of this transaction should be shown in the Investing Activities Section of James' Statement of Cash Flows as",
+                                    "answer": "$150,000.",
+                                    "options": [
+                                        "Zero.",
+                                        "$50,000.",
+                                        "$100,000.",
+                                        "$150,000."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer D.</div> James should include the total value of the sale ($150,000) in the Investing Activities Section of the Cash Flow Statement."
+                                },
+                                {
+                                    "sNo": 33,
+                                    "title": "Madden Corporation's controller has gathered the following information as a basis for preparing the Statement of Cash Flows. Net income for the current year was $82,000. During the year, old equipment with a cost of $60,000 and a net carrying value of $53,000 was sold for cash at a gain of $10,000. New equipment was purchased for $100,000. Shown below are selected closing balances for last year and the current year. <div class=\"TblScrl\"><table><tr><td></td><th>Last Year</th><th>Current Year </th></tr><tr><td>Cash</td><td>$39,000</td><td>$85,000 </td></tr><tr><td>Accounts receivable net</td><td>43,000</td><td>37,000 </td></tr><tr><td>Inventories</td><td>93,000</td><td>105,000 </td></tr><tr><td>Equipment</td><td>360,000</td><td>400,000 </td></tr><tr><td>Accumulated depreciation - equipment</td><td>70,000</td><td>83,000 </td></tr><tr><td>Accounts payable</td><td>22,000</td><td>19,000 </td></tr><tr><td>Notes payable</td><td>100,000</td><td>100,000 </td></tr><tr><td>Common stock</td><td>250,000</td><td>250,000 </td></tr><tr><td>Retained earnings</td><td>93,000</td><td>175,000</td></tr></table></div> Madden&#8217;s cash inflow from operating activities for the current year is.",
+                                    "answer": " $83,000.",
+                                    "options": [
+                                        "$63,000.",
+                                        "$73,000.",
+                                        "$83,000.",
+                                        "$93,000."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer C.</div> Madden's net cash flow from operating activities is $83,000 as shown below.<div class=\"TblScrl\"><table><tr><td>Net income</td><td>$82,000</td></tr><tr><td>Decrease in receivables</td><td>$6,000</td></tr><tr><td>Increase in inventory</td><td>-$12,000</td></tr><tr><td>Depreciation expense</td><td>+$20,000</td></tr><tr><td>Decrease in payables</td><td>-$3,000</td></tr><tr><td>Gain on equipment sale</td><td>-$10,000</td></tr><tr><td>Cash flow</td><td>$83,000</td></tr></table></div>"
+                                },
+                                {
+                                    "sNo": 34,
+                                    "title": "A leading manufacturer of electric vehicles has accumulated customer driving interaction data through its unique pilot driver-assist program. This data will be used to further develop more advanced autonomous features that the company plans to implement in the near future on its most popular model. In integrated reporting, the system used to accumulate and analyze the driving data is best categorized as",
+                                    "answer": "intellectual capital.",
+                                    "options": [
+                                        "human capital.",
+                                        "intellectual capital.",
+                                        "natural capital.",
+                                        "manufactural capital."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> Intellectual capital represents the intangibles critical to the organization; it includes resources such as patents, copyrights, intellectual property, and organizational systems."
+                                },
+                                {
+                                    "sNo": 35,
+                                    "title": "Which one of the following statements regarding an integrated report is correct?",
+                                    "answer": "It should include material matters, both positive and negative.",
+                                    "options": [
+                                        "It only contains financial information.",
+                                        "It only focuses on the creation of value over the long term.",
+                                        "It should include material matters, both positive and negative.",
+                                        "It must be included as a prominent and accessible part of another report."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer C.</div> An integrated report should include all material matters, both positive and negative, in a balanced way and without material error. 'a', An integrated report contains relevant information, both financial and other. 'b' An integrated report should disclose information affecting the organization's ability to create value over the short, medium, and long term. 'd' An integrated report may be either a standalone report or be part of another report or communication."
+                                }
+                            ]
+                        },
+                        {
+                            "subSectionTitle": "A2 - Recognition, Measurement, Valuation, and Disclosure",
+                            "questions": [
+                                {
+                                    "sNo": 36,
+                                    "title": "A change in the estimate for bad debts should be",
+                                    "answer": "treated as affecting only the period of the change.",
+                                    "options": [
+                                        "treated as an error.",
+                                        "handled retroactively.",
+                                        "considered as an extraordinary item.",
+                                        "treated as affecting only the period of the change."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer D.</div> A change in the estimate for bad debts should be treated as affecting only the period of the change. Changes in estimates are viewed as normal recurring corrections, and retrospective treatment is prohibited."
+                                },
+                                {
+                                    "sNo": 37,
+                                    "title": "Finer Foods Inc., a chain of supermarkets specializing in gourmet food, has been using the average cost method to value its inventory. During the current year, the company changed to the first-in, first-out method of inventory valuation. The president of the company reasoned that this change was appropriate since it would more closely match the flow of physical goods. This change should be reported on the financial statements as",
+                                    "answer": "retroactive-effect type accounting change.",
+                                    "options": [
+                                        "cumulative-effect type accounting change.",
+                                        "retroactive-effect type accounting change.",
+                                        "change in an accounting estimate.",
+                                        "correction of an error."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> Finer Foods' change in inventory method should be presented on a retrospective basis to maintain consistency and comparability."
+                                },
+                                {
+                                    "sNo": 38,
+                                    "title": "Best Billiard Company owns 40% of Supreme Table Company's stock at a historical cost of $300,000. Supreme Table recently reported their earnings for the prior year. Best Billiard's proportional share of Supreme Table's prior year net income was $10,000. Best Billiard also received $15,000 in dividends from Supreme Table in the prior year. Best Billiard uses the equity method as the accounting treatment for this investment. Based on the information presented, the proper presentation of this investment would result in Best Billiard reporting",
+                                    "answer": " a decrease in the book value of their investment in Supreme Table.",
+                                    "options": [
+                                        "an increase in the book value of their investment in Supreme Table.",
+                                        "their investment in Supreme Table at the original cost.",
+                                        "consolidated financial statements with Supreme Table.",
+                                        "no change in the book value of their investment in Supreme Table."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer A.</div> 300,000+10,000-15,000 = 295,000, book value of investment decreased by $5,000"
+                                },
+
+                                {
+                                    "sNo": 39,
+                                    "title": "Under U.S. GAAP, which one of the following statements best describes the effects on the financial statements resulting from a change in the accounting classification for a security from available-for sale to held-to-maturity?",
+                                    "answer": " Net income will not be impacted in the future by unrealized gains/losses.",
+                                    "options": [
+                                        "Comprehensive income will be impacted in the future by unrealized gains/losses.",
+                                        "Net income will not be impacted in the future by unrealized gains/losses.",
+                                        "The balance sheet will be impacted by unrealized gains/losses.",
+                                        "No change will occur regarding the accounting treatment for unrealized gains/losses."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> Unrealized gains/losses on debt securities classified as available-for-sale securities are recognized in comprehensive income, whereas they are not recognized in either net income or comprehensive income if the debt security is classified as a held-to-maturity security. Therefore, in this case, the recognition of unrealized gains/losses in other comprehensive income will discontinue, which means the balance sheet will no longer be impacted as well."
+                                },
+                                {
+                                    "sNo": 40,
+                                    "title": "A company has $100 million of debt that is due in March Year 3. In December Year 2, the company entered into a non-cancelable agreement with its lender to refinance the debt with the same interest rate, and the full principal is due in December Year 5. How should the debt be classified on the December Year 2 balance sheet of the company?",
+                                    "answer": " Classified as a long-term liability.",
+                                    "options": [
+                                        "Classified as a current liability.",
+                                        "Classified as a long-term liability.",
+                                        "Considered as an off-balance sheet liability.",
+                                        "Classified as a contingent liability."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> The debt should be classified as long-term because the company has both the intent and ability to refinance the debt, and the agreement was entered into before the end of Year 2. Since no principal payments are due until Year 5 when there will be a lump-sum payment, the entire amount should be classified as long-term."
+                                },
+                                {
+                                    "sNo": 41,
+                                    "title": "Which one of the following transactions would affect retained earnings but not additional paid-in capital?",
+                                    "answer": "Impairment of a long-term asset.",
+                                    "options": [
+                                        "Declaration of a small stock dividend.",
+                                        "Decrease in the value of an available-for-sale investment.",
+                                        "Impairment of a long-term asset.",
+                                        "Purchase of treasury stock using the cost method."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer C.</div> <div class=\"TblScrl\"><table><tr><td>a.</td><td>This decreases retained earnings and increases stock dividends distributable, part of paid-in capital, so both retained earnings and paid-in capital are affected. </td></tr><tr><td>b.</td><td>This is recorded as an unrealized loss and is shown in other comprehensive income, affecting neither retained earnings nor paid-in capital. </td></tr><tr><td>c.</td><td>This results in a loss on the income statement that would reduce retained earnings but not affect paid-in capital. </td></tr><tr><td>d.</td><td>Treasury stock is its own account, directly affecting neither retained earnings nor paid-in capital, shown as a deduction from paid-in capital and retained earnings.</td></tr></table></div>"
+                                },
+                                {
+                                    "sNo": 42,
+                                    "title": "During the month of October, a company purchased 1,000 units of inventory for $500 per unit and sold 900 of these units which represented 10% of the company's annual sales budget in units. The company also incurred administrative costs of $300,000 during October. By applying the matching principle, the total amount of the company's expenses on its October income statement is",
+                                    "answer": "$750,000.",
+                                    "options": [
+                                        "$750,000.",
+                                        "$800,000.",
+                                        "$810,000.",
+                                        "$860,000."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer A.</div> <div class=\"TblScrl\"><table><tr><td>a.</td><td>(900 x $500) + $300,000 </td></tr><tr><td>b.</td><td>(1,000 x $500) + $300,000 </td></tr><tr><td>c.</td><td>($300,000 x 12 months)/(900/.10) = $400/unit; ($500 + $400) x 900 </td></tr><tr><td>d.</td><td>($300,000 x 12 months)/(900/.10) = $400/unit; ($500 x 1,000) + ($400 x 900)</td></tr></table></div>"
+                                },
+                                {
+                                    "sNo": 43,
+                                    "title": "A company is preparing its financial statements in accordance with U.S. GAAP. Listed below are select financial data for the company. <div class=\"TblScrl\"><table><tr><td>Net income</td><td>$950,000</td></tr><tr><td>Depreciation</td><td>$40,000</td></tr><tr><td>Investment by owners</td><td>$60,000</td></tr><tr><td>Unrealized gain on available-for-sale securities</td><td>$90,000</td></tr><tr><td>Foreign currency translation loss</td><td>-$20,000</td></tr></table></div>What is the amount that would be reported as comprehensive income?",
+                                    "answer": "$1,020,000.",
+                                    "options": [
+                                        "$970,000.",
+                                        "$1,020,000.",
+                                        "$1,060,000.",
+                                        "$1,120,000."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> The company's comprehensive income = Net Income + Unrealized gain on available for sale securities - Foreign currency translation loss<br>$950,000 + $90,000 - $20,000 = $1,020,000 "
+                                },
+                                {
+                                    "sNo": 44,
+                                    "title": "A fundamental difference between U.S. GAAP and IFRS is that",
+                                    "answer": "Reversal of inventory write-downs is prohibited under U.S. GAAP but is permitted under IFRS.",
+                                    "options": [
+                                        "Reversal of inventory write-downs is prohibited under U.S. GAAP but is permitted under IFRS.",
+                                        "Distribution costs are included in cost of sales under U.S. GAAP but are excluded from cost of sales under IFRS.",
+                                        "Inventory is generally valued at the lower of cost or net realizable value under U.S. GAAP but is generally valued at the lower of cost or market under IFRS.",
+                                        "Marketing costs are included in cost of sales under U.S. GAAP but are excluded from cost of sales under IFRS."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer A.</div> <div class=\"TblScrl\"><table><tr><td>b. and d.</td><td>are not the differences between U.S. GAAP and IFRS. </td></tr><tr><td>c.</td><td>inventory is generally valued at the lower of cost or market under U.S. GAAP; however, inventory is generally valued at the lower of cost or net realizable value under IFRS.</td></tr></table></div>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sectionTitle": "Section B : Planning, Budgeting and Forecasting",
+                    "subSectionTopics": [
+                        {
+                            "subSectionTitle": "Sub Section 1 : Financial Statements",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Consider the following financial data for a company that is preparing its cash flow statement. <div class=\"TblScrl\"><table><tr><td>Amortization expense</td><td>$150,000 </td></tr><tr><td>Cash dividends paid to common shareholders</td><td>$75,000 </td></tr><tr><td>Net income</td><td>$1,500,000 </td></tr><tr><td>Work-in-process inventory increase over the prior year</td><td>$300,000 </td></tr><tr><td>Gain on sale of equipment</td><td>$50,000 </td></tr></table></div>Using the indirect method, cash flow from operating activities would be",
+                                    "answer": "Stockbrokers",
+                                    "options": [
+                                        "Stockbrokers",
+                                        "Bankers preparing to lend money",
+                                        "Competing businesses",
+                                        "Managers in charge of operating activities"
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"answerContainer\">Correct answer d</div> The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations"
+                                }
+                            ]
+                        },
+                        {
+                            "subSectionTitle": "Sub Section 2 : Recognition, Measurement, Valuation, and Disclosure",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Consider the following financial data for a company that is preparing its cash flow statement. <div class=\"TblScrl\"><table><tr><td>Amortization expense</td><td>$150,000 </td></tr><tr><td>Cash dividends paid to common shareholders</td><td>$75,000 </td></tr><tr><td>Net income</td><td>$1,500,000 </td></tr><tr><td>Work-in-process inventory increase over the prior year</td><td>$300,000 </td></tr><tr><td>Gain on sale of equipment</td><td>$50,000 </td></tr></table></div>Using the indirect method, cash flow from operating activities would be",
+                                    "answer": "Stockbrokers",
+                                    "options": [
+                                        "Stockbrokers",
+                                        "Bankers preparing to lend money",
+                                        "Competing businesses",
+                                        "Managers in charge of operating activities"
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"answerContainer\">Correct answer d</div> The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sectionTitle": "Section C : Performance Management",
+                    "subSectionTopics": [
+                        {
+                            "subSectionTitle": "Sub Section 1 : Financial Statements",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Consider the following financial data for a company that is preparing its cash flow statement. <div class=\"TblScrl\"><table><tr><td>Amortization expense</td><td>$150,000 </td></tr><tr><td>Cash dividends paid to common shareholders</td><td>$75,000 </td></tr><tr><td>Net income</td><td>$1,500,000 </td></tr><tr><td>Work-in-process inventory increase over the prior year</td><td>$300,000 </td></tr><tr><td>Gain on sale of equipment</td><td>$50,000 </td></tr></table></div>Using the indirect method, cash flow from operating activities would be",
+                                    "answer": "Stockbrokers",
+                                    "options": [
+                                        "Stockbrokers",
+                                        "Bankers preparing to lend money",
+                                        "Competing businesses",
+                                        "Managers in charge of operating activities"
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"answerContainer\">Correct answer d</div> The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations"
+                                }
+                            ]
+                        },
+                        {
+                            "subSectionTitle": "Sub Section 2 : Recognition, Measurement, Valuation, and Disclosure",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Consider the following financial data for a company that is preparing its cash flow statement. <div class=\"TblScrl\"><table><tr><td>Amortization expense</td><td>$150,000 </td></tr><tr><td>Cash dividends paid to common shareholders</td><td>$75,000 </td></tr><tr><td>Net income</td><td>$1,500,000 </td></tr><tr><td>Work-in-process inventory increase over the prior year</td><td>$300,000 </td></tr><tr><td>Gain on sale of equipment</td><td>$50,000 </td></tr></table></div>Using the indirect method, cash flow from operating activities would be",
+                                    "answer": "Stockbrokers",
+                                    "options": [
+                                        "Stockbrokers",
+                                        "Bankers preparing to lend money",
+                                        "Competing businesses",
+                                        "Managers in charge of operating activities"
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"answerContainer\">Correct answer d</div> The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sectionTitle": "Section D : Cost Management",
+                    "subSectionTopics": [
+                        {
+                            "subSectionTitle": "Sub Section 1 : Financial Statements",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Consider the following financial data for a company that is preparing its cash flow statement. <div class=\"TblScrl\"><table><tr><td>Amortization expense</td><td>$150,000 </td></tr><tr><td>Cash dividends paid to common shareholders</td><td>$75,000 </td></tr><tr><td>Net income</td><td>$1,500,000 </td></tr><tr><td>Work-in-process inventory increase over the prior year</td><td>$300,000 </td></tr><tr><td>Gain on sale of equipment</td><td>$50,000 </td></tr></table></div>Using the indirect method, cash flow from operating activities would be",
+                                    "answer": "Stockbrokers",
+                                    "options": [
+                                        "Stockbrokers",
+                                        "Bankers preparing to lend money",
+                                        "Competing businesses",
+                                        "Managers in charge of operating activities"
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"answerContainer\">Correct answer d</div> The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations"
+                                }
+                            ]
+                        },
+                        {
+                            "subSectionTitle": "Sub Section 2 : Recognition, Measurement, Valuation, and Disclosure",
+                            "questions": [
+                                {
+                                    "sNo": 1,
+                                    "title": "Consider the following financial data for a company that is preparing its cash flow statement. <div class=\"TblScrl\"><table><tr><td>Amortization expense</td><td>$150,000 </td></tr><tr><td>Cash dividends paid to common shareholders</td><td>$75,000 </td></tr><tr><td>Net income</td><td>$1,500,000 </td></tr><tr><td>Work-in-process inventory increase over the prior year</td><td>$300,000 </td></tr><tr><td>Gain on sale of equipment</td><td>$50,000 </td></tr></table></div>Using the indirect method, cash flow from operating activities would be",
+                                    "answer": "Stockbrokers",
+                                    "options": [
+                                        "Stockbrokers",
+                                        "Bankers preparing to lend money",
+                                        "Competing businesses",
+                                        "Managers in charge of operating activities"
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"answerContainer\">Correct answer d</div> The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sectionTitle": "Section E : Internal Controls",
+                    "subSectionTopics": [
+                        {
+                            "subSectionTitle": "E1 - Governance, Risk and Compliance",
+                            "questions": [
+                                {
+                                    "sNo": 327,
+                                    "title": "When assessing a company's internal control structure policies and procedures, the primary consideration is whether they",
+                                    "answer": "affect the financial statement assertions.",
+                                    "options": [
+                                        "prevent management override.",
+                                        "relate to the control environment.",
+                                        "reflect management's philosophy and operating style.",
+                                        "affect the financial statement assertions."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer D.</div> One of the main objectives of internal controls is to provide reasonable assurance of reliability of financial reporting (financial statement assertions)."
+                                },
+                                {
+                                    "sNo": 328,
+                                    "title": "Which one of the following auditor findings would most likely raise a red flag about a company's internal control environment?",
+                                    "answer": "Only select committees of the board have access to outside attorneys.",
+                                    "options": [
+                                        "The company has an established independent audit committee.",
+                                        "Only select committees of the board have access to outside attorneys.",
+                                        "The role of the company's CEO and board chairman are separate.",
+                                        "The board nominations committee selects only independent directors."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> All committees of the board should have access to outside attorneys and consultants other than the corporation's normal counsel and consultants. Under the provisions of SOX, the audit committee of an SEC reporting company is entitled to such representation independently."
+                                },
+                                {
+                                    "sNo": 329,
+                                    "title": "The basic concepts implicit in internal accounting controls include the following.<div class=\"TblScrl\"><table><tr><td>&#8226; The cost of the system should not exceed benefits expected to be attained.</td></tr><tr><td>&#8226; The overall impact of the control procedure should not hinder operating efficiency.</td></tr></table></div>Which one of the following recognizes these two factors?",
+                                    "answer": "Reasonable assurance.",
+                                    "options": [
+                                        "Limitations.",
+                                        "Management responsibility.",
+                                        "Methods of data processing.",
+                                        "Reasonable assurance."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer D.</div> The benefits of internal controls must always exceed the costs of implementing them. Implementing a system of absolute assurance is overly costly; thus only reasonable assurance can be obtained."
+                                },
+                                {
+                                    "sNo": 330,
+                                    "title": "Which one of the following functions performed in an organization is a violation of internal control?",
+                                    "answer": "At the end of the week, the Cashier prepares a deposit slip for all of the cash receipts received during the week.",
+                                    "options": [
+                                        "A mail clerk opening the mail compares the check received with the source document accompanying the payment, noting the amount paid, then forwards the checks daily (along with a listing of the cash receipts) to the Cashier for deposit.",
+                                        "A mail clerk opening the mail compares the check received with the source document accompanying the payment, noting the amount paid, then forwards the source documents that accompany the payments (along with a listing of the cash receipts) to Accounts Receivable, on a daily basis, for posting to the subsidiary ledger.",
+                                        "At the end of the week, the Cashier prepares a deposit slip for all of the cash receipts received during the week.",
+                                        "The General Ledger clerk compares the summary journal entry, received from the Cashier for cash receipts applicable to outstanding accounts, with the batch total for posting to the Subsidiary Ledger by the Accounts Receivable clerk."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer C.</div> Cashier prepares deposit slip for all cash receipts received. This action involves two functions that are not segregated: custody of assets and recording of transactions. In addition, the summary is not done in a timely manner."
+                                },
+                                {
+                                    "sNo": 331,
+                                    "title": "In order to properly segregate duties, which function within the computer department should be responsible for reprocessing the errors detected during the processing of data?",
+                                    "answer": "Data control group.",
+                                    "options": [
+                                        "Department manager.",
+                                        "Systems analyst.",
+                                        "Computer programmer.",
+                                        "Data control group."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer D.</div> In order to properly segregate duties within the computer department, the responsibility to reprocess the errors detected during processing of the data should be given to the data control group and not to department manager, who should have access to review transactions, but not process transactions; nor to systems analyst, who should have access to view and analyze transactions, but not process transactions, and not to the computer programmer, who should have access to programs, not transactions."
+                                },
+                                {
+                                    "sNo": 332,
+                                    "title": "The U.S. Public Company Accounting Oversight Board (PCAOB) seeks to protect investors by requiring public companies to",
+                                    "answer": "integrate an internal control audit with the financial statement audit.",
+                                    "options": [
+                                        "integrate an internal control audit with the financial statement audit.",
+                                        "disclose the identity of owners with more than 5% ownership interest.",
+                                        "disclose executive compensation and bonuses.",
+                                        "have an independent audit committee within the board of directors."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer A.</div>"
+                                },
+                                {
+                                    "sNo": 333,
+                                    "title": "The risk associated with auditors failing to identify material misstatements in a financial statement is referred to as",
+                                    "answer": "detection risk.",
+                                    "options": [
+                                        "control risk.",
+                                        "inherent risk.",
+                                        "unsystematic risk.",
+                                        "detection risk."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer D.</div>"
+                                },
+                                {
+                                    "sNo": 334,
+                                    "title": "A company is headquartered in the U.S. and has international subsidiaries in several countries. One of the company's international subsidiaries created several off-the-book accounts to pay bribes to foreign officials, and these payments were not properly reflected in the subsidiary's books and records. The subsidiary has certain internal controls in place but does not utilize the COSO internal controls framework and does not have a compliance program in place. Based on the information presented, all of the following are violations by the subsidiary under the internal control provisions of U.S. Foreign Corrupt Practices act except the",
+                                    "answer": "failure to use the COSO framework for internal controls.",
+                                    "options": [
+                                        "use of bribery payments.",
+                                        "failure to use the COSO framework for internal controls.",
+                                        "failure to have internal controls to ensure that transactions were appropriately recorded.",
+                                        "lack of a compliance program as part of its system of internal controls."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> The FCPA has several internal control provisions but does not stipulate the use of the COSO Framework. Other frameworks are permissible as long as they encompass the components of a control environment, risk assessment, information and communication procedures, monitoring activities and control policies and procedures."
+                                },
+                                {
+                                    "sNo": 335,
+                                    "title": "With respect to the internal control provisions of the U.S. Foreign Corrupt Practices Act (FCPA), all of the following statements are true except that",
+                                    "answer": "the FCPA prescribes a particular set of internal controls that companies are required to develop and implement.",
+                                    "options": [
+                                        "the FCPA prescribes a particular set of internal controls that companies are required to develop and implement.",
+                                        "internal controls are used by companies to help provide reasonable assurance regarding reliability of financial reporting.",
+                                        "access to company assets are permitted in accordance with management's general and specific authorization.",
+                                        "good internal controls can help prevent not only FCPA violations but also other illegal or unethical conduct."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer A.</div> The FCPA does not specify the particular set of controls a company must implement. It gives companies flexibility to develop and maintain its set of internal controls that is appropriate to its nature, needs and circumstances."
+                                }
+                            ]
+                        },
+                        {
+                            "subSectionTitle": "E2 - Systems Controls and Security Measures",
+                            "questions": [
+                                {
+                                    "sNo": 336,
+                                    "title": "A computer virus is different from a “Trojan Horse” because the virus can",
+                                    "answer": "replicate itself.",
+                                    "options": [
+                                        "corrupt data.",
+                                        "alter programming instructions.",
+                                        "replicate itself.",
+                                        "erase executable files."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer C.</div> Viruses are computer programs that propagate themselves from one computer to another without the user’s knowledge. Trojan horses are restricted to a specific computer, these are voluntarily installed as regular programs, but, behind the scenes, they contain codes that a hacker can activate later to take over the computer."
+                                },
+                                {
+                                    "sNo": 337,
+                                    "title": "In situations where it is crucial that data be entered correctly into an accounting information system, the best method of data control would be to use",
+                                    "answer": "key verification.",
+                                    "options": [
+                                        "key verification.",
+                                        "compatibility tests.",
+                                        "limit checks.",
+                                        "reasonableness tests."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer A.</div> Key verification is one of the data controls. A record’s key is the group of values that uniquely identify the record. No application process should be able to alter the data in these key fields."
+                                },
+                                {
+                                    "sNo": 338,
+                                    "title": "The data entry staff of National Manufacturing Inc. has responsibility for converting all of the plant’s shipping information to computerized records. The most effective way to visualize and understand this set of activities would be through the use of a",
+                                    "answer": "document flowchart.",
+                                    "options": [
+                                        "program flowchart.",
+                                        "decision table.",
+                                        "document flowchart.",
+                                        "Gantt chart."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer C.</div> Flowcharting is the representation of a process using pictorial symbols. A document flowchart would be an effective way to visualize how the document (a copy of a shipping order) flows through various departments."
+                                },
+                                {
+                                    "sNo": 339,
+                                    "title": "Which one of the following is most likely considered a processing control for an entity’s accounting application system?",
+                                    "answer": "Transaction log.",
+                                    "options": [
+                                        "Validity check.",
+                                        "Transaction log.",
+                                        "Spooling.",
+                                        "Check digit."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> Transaction logs are considered processing controls. Check digit and validity check are considered input controls. Spooling is considered an output control."
+                                },
+                                {
+                                    "sNo": 340,
+                                    "title": "The most appropriate control to verify that a user is authorized to execute a particular on-line transaction is a",
+                                    "answer": "compatibility check.",
+                                    "options": [
+                                        "password.",
+                                        "challenge/response system.",
+                                        "compatibility check.",
+                                        "closed-loop verification."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer C.</div> Compatibility check is the most appropriate control to verify that the user is authorized to execute a particular on-line transaction. It verifies the user access information, such as user ID, password and security profile is correct."
+                                },
+                                {
+                                    "sNo": 341,
+                                    "title": "Which one of the following is the most appropriate technique to restrict access to computer programs and databases to authorized personnel?",
+                                    "answer": "Develop unique account numbers for each user.",
+                                    "options": [
+                                        "Conduct intrusion-prevention training.",
+                                        "Provide color-coded employee identification badges.",
+                                        "Deploy electronic detectors.",
+                                        "Develop unique account numbers for each user."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer D.</div> The development of a unique account number for each user in a company allows only authorized users to gain access to a system through a process of identification."
+                                },
+                                {
+                                    "sNo": 342,
+                                    "title": "In securing the client/server environment of an information system, a principal disadvantage of using a single level sign-on password is the danger of creating a(n)",
+                                    "answer": "single point of failure.",
+                                    "options": [
+                                        "trap door entry point.",
+                                        "single point of failure.",
+                                        "administrative bottleneck.",
+                                        "lock-out of valid users."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> Single sign-on, although a great convenience to users, because they don’t need to remember multiple passwords and user-ids and can assess all IT resources using single sign-on data. This, however, becomes a single-point of failure, if the sign-on does not work and the user is not able to access any of the IT resources."
+                                },
+                                {
+                                    "sNo": 343,
+                                    "title": "Which one of the following represents a weakness in the internal control system of an electronic data processing system?",
+                                    "answer": "The computer operator executes programs according to operating instructions and maintains custody of programs and data files.",
+                                    "options": [
+                                        "The data control group reviews and tests procedures and handles the reprocessing of errors detected by the computer.",
+                                        "The accounts receivable clerk prepares and enters data into the computer system and reviews the output for errors.",
+                                        "The systems analyst designs new systems and supervises testing of the system.",
+                                        "The computer operator executes programs according to operating instructions and maintains custody of programs and data files."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer D.</div> Computer Operator executes programs and maintains custody of programs and files. This action involves two functions that are not segregated: recording of transactions and custody of assets."
+                                },
+                                {
+                                    "sNo": 344,
+                                    "title": "Confidential data can be securely transmitted over the internet by using",
+                                    "answer": "encryption.",
+                                    "options": [
+                                        "single-use passwords.",
+                                        "firewalls.",
+                                        "encryption.",
+                                        "digital signatures."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer C.</div> Encryption technology converts data into a code. Unauthorized users may still be able to access the data, but without the encryption key, they will be unable to decode the information; thus, encrypting confidential data is a secure way of transmitting it over the Internet."
+                                },
+                                {
+                                    "sNo": 345,
+                                    "title": "All of the following are examples of encryption techniques used for computer security except",
+                                    "answer": "primary key.",
+                                    "options": [
+                                        "public key.",
+                                        "private key.",
+                                        "primary key.",
+                                        "authentication key."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer C.</div> Encryption technology converts data into a code. Unauthorized users may still be able to access the data, but without the encryption key, they will be unable to decode the information. Two major types of encryption software exist: public key and private key. An example of authentication is assigning each user a unique identifier and password. Not even information security personnel should be able to view unencrypted passwords."
+                                },
+                                {
+                                    "sNo": 346,
+                                    "title": "The chief information technology officer introduced a technology to prevent unauthorized external access to its client's network. The technology described by the chief information officer is most likely",
+                                    "answer": "a firewall.",
+                                    "options": [
+                                        "data encryption.",
+                                        "a firewall.",
+                                        "a public key.",
+                                        "a private key."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> A firewall is designed to manage and control the Internet traffic that is allowed to access a company's protected computer network with the key goal of protecting a company's computer network from threats."
+                                },
+                                {
+                                    "sNo": 347,
+                                    "title": "An owner of a company has entered into a contract with a hardware vendor ensuring that in the event of a disaster, the vendor would provide the company with computer equipment. The owner has also entered into a lease contract with a building owner ensuring that in the event of a disaster, the company will be provided with an empty floor in the building to allow for the continuation of its business. Which one of the following best describes this disaster recovery plan?",
+                                    "answer": "Cold site.",
+                                    "options": [
+                                        "Mirrored data center.",
+                                        "Hot site.",
+                                        "Recovery operations center.",
+                                        "Cold site."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer D.</div> A cold site plan is an arrangement where a company leases empty space in a building that will serve as a data center. In the event of a disaster, the leased empty space is available and ready to receive whatever hardware the company needs to run a business. A company's management in this situation must also obtain contracts from hardware equipment vendors that in the event of a disaster the vendor will provide the company with hardware equipment."
+                                },
+                                {
+                                    "sNo": 348,
+                                    "title": "When attempting to restore computing facilities at an alternate site following a disaster, which one of the following should be restored first?",
+                                    "answer": "Operating system.",
+                                    "options": [
+                                        "Online system.",
+                                        "Batch system.",
+                                        "Operating system.",
+                                        "Decision support system."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer C.</div> Operating system should be the first one to be restored at an alternate site so the operations can continue with a minimum amount of interruption; while other systems, such as decision support, online system, can be restored later."
+                                },
+                                {
+                                    "sNo": 349,
+                                    "title": "A company is following a plan to continue operations if a place of business is affected by disasters. The plan is most likely called",
+                                    "answer": "business continuity planning.",
+                                    "options": [
+                                        "crisis communication planning.",
+                                        "continuous availability planning.",
+                                        "business continuity planning.",
+                                        "strategic planning"
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer C.</div> Business continuity planning is a methodology used to create and validate a plan for maintaining continuous business operations before, during and after disaster and disruptive events."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sectionTitle": "Section F : Technology and Analytics",
+                    "subSectionTopics": [
+                        {
+                            "subSectionTitle": "F1 - Information System",
+                            "questions": [
+                                {
+                                    "sNo": 350,
+                                    "title": "A company’s accounting information system needs to capture the information of the financing cycle, which encompasses all transactions involving",
+                                    "answer": "The investment of capital, borrowing money, payment of interest, and loan repayments.",
+                                    "options": [
+                                        "Sales to customers and the collection of cash receipts for those sales.",
+                                        "The purchase and payment of supplies and services it consumes.",
+                                        "The hiring, training, and payment of employees.",
+                                        "The investment of capital, borrowing money, payment of interest, and loan repayments."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer D.</div> The financing cycle encompasses all transactions involving the investment of capital in the company, borrowing money, payment of interest, and loan repayments."
+                                },
+                                {
+                                    "sNo": 351,
+                                    "title": "A primary advantage of an ERP system is",
+                                    "answer": "Centralization of data.",
+                                    "options": [
+                                        "Program-data dependence.",
+                                        "Separate data updating for different functions.",
+                                        "Data redundancy.",
+                                        "Centralization of data."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer D.</div> An advantage of an ERP system is the elimination of data redundancy through the use of a central database. In principle, information about an item of data is stored once and all functions have access to it. Thus, when the item (e.g. price) is updated, the change is effectively made for all functions. The result is reliability (data integrity)."
+                                },
+                                {
+                                    "sNo": 352,
+                                    "title": "An ERP system",
+                                    "answer": "Integrates multiple aspects of an organization’s activities into one system.",
+                                    "options": [
+                                        "Integrates multiple aspects of an organization’s activities into one system.",
+                                        "Is part of the accounting information system.",
+                                        "Is focused on supply chain optimization.",
+                                        "Covers financial information only."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer A.</div> An ERP system integrates all aspects of an organization’s activities—such as accounting, finance, marketing, human resources, manufacturing, and inventory management— into one system."
+                                }
+                            ]
+                        },
+                        {
+                            "subSectionTitle": "F2 - Data Governance",
+                            "questions": [
+                                {
+                                    "sNo": 353,
+                                    "title": "Which one of the following statements best describes COBIT?",
+                                    "answer": "It is an IT management framework used to meet the needs of IT governance and ensure the integrity of information and information systems.",
+                                    "options": [
+                                        "It is an IT management framework used to meet the needs of IT governance and ensure the integrity of information and information systems.",
+                                        "It is a benchmarking tool that helps management compare its marketing practices against best-in-class practices.",
+                                        "It is a control framework that provides the board of directors with reasonable assurance of adequate internal controls.",
+                                        "It is a risk management framework that helps external auditors provide assurance of accurate financial reporting."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer A.</div> The purpose of COBIT is to provide management and business process owners with an information technology (IT) governance model that helps in delivering value from IT and understanding and managing the risks associated with IT. COBIT helps bridge the gaps amongst business requirements, control needs and technical issues. It is a control model to meet the needs of IT governance and ensure the integrity of information and information systems."
+                                },
+                                {
+                                    "sNo": 354,
+                                    "title": "A hotel chain allows its customers to sign up for its loyalty program online. Management discovered that many customers misspelled their mailing addresses when inputting their personal information. The company revised the online form so that the customer can only select from a list of cities and streets instead of typing in their own addresses. This measure is an example of managing the data’s",
+                                    "answer": "Integrity.",
+                                    "options": [
+                                        "Availability.",
+                                        "Integrity.",
+                                        "Usability.",
+                                        "Security."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> It is an example of managing the data’s integrity through input control."
+                                },
+                                {
+                                    "sNo": 355,
+                                    "title": "Which one of the following best defines COBIT?",
+                                    "answer": "A framework for the governance and management of enterprise information and technology, aimed at the whole enterprise.",
+                                    "options": [
+                                        "A framework for the governance and management of enterprise information and technology, aimed at the whole enterprise.",
+                                        "A control framework published by the Committee of Sponsoring Organizations.",
+                                        "A set of guidelines intended to help shareholders understand the IT systems utilized by management.",
+                                        "A set of risks and responses to technology challenges."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer A.</div> COBIT is a framework for the governance and management of enterprise information and technology, aimed at the whole enterprise. Enterprise IT means all the technology and information processing the enterprise puts in place to achieve its goals, regardless of where this happens in the enterprise. In other words, enterprise IT is not limited to the IT department of an organization, but certainly includes it."
+                                },
+                                {
+                                    "sNo": 356,
+                                    "title": "After a systems programmer was terminated and passwords were disabled, the company’s server crashed and all of its files and software were erased. The terminated employee had installed a virus in the operating system and executed it via a back door. Which one of the following measures would most likely have prevented this occurrence?",
+                                    "answer": "An advanced firewall used to detect intrusions.",
+                                    "options": [
+                                        "A policy to encrypt all data and files maintained on their server.",
+                                        "Daily backup of all data on the server.",
+                                        "An intrusion detection system used to create logs of network traffic.",
+                                        "An advanced firewall used to detect intrusions."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer D.</div> An advanced firewall issues warning alerts on suspicious traffic and also automatically takes steps to stop a suspected attack."
+                                },
+                                {
+                                    "sNo": 357,
+                                    "title": "An equipment manufacturer uses an online order-entry system for its customers so that they can order electronic parts from anywhere in the world. Due to the cost and sensitive nature of several of the electronic parts, the manufacturer needs to maintain a secure order-entry system. The most effective technique for monitoring the security of access is",
+                                    "answer": "Using an access log to identify unsuccessful access attempts to the order-entry system.",
+                                    "options": [
+                                        "Requiring users to change passwords to the order-entry system on an annual basis.",
+                                        "Using an access log to identify unsuccessful access attempts to the order-entry system.",
+                                        "Tracing a selection of transactions through the order-entry system.",
+                                        "Introducing advanced firewall protections to the order-entry system."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> An access log should be used to record all attempts to use the system. The date and time, codes used, mode of access and data involved can all be recorded. The system should monitor unsuccessful attempts because repeated attempts could suggest that someone is trying random character sequences in order to identify a password for a valid user."
+                                }
+                            ]
+                        },
+                        {
+                            "subSectionTitle": "F3 - Technology enabled finance transformation ",
+                            "questions": [
+                                {
+                                    "sNo": 358,
+                                    "title": "An analyst prepared a forecast using newly developed system features. The analyst recently left the company and her replacement was unable to understand how to use these system functionalities. In accordance with system development life cycle (SDLC) best practices, which one of the following controls would have prevented this situation from occurring?",
+                                    "answer": "Documentation standards and procedures are developed.",
+                                    "options": [
+                                        "End-user computing efforts are outlined.",
+                                        "Documentation standards and procedures are developed.",
+                                        "Backup activities and requirements are put into place.",
+                                        "Changes made to the system are monitored and evaluated."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> Developing clear documentation standards and procedures would have best prevented this situation have. This process is initiated in the &#8220;physical design&#8221; phase of the SDLC."
+                                },
+                                {
+                                    "sNo": 359,
+                                    "title": "The systems development life cycle approach is best suited for projects that are",
+                                    "answer": "Large and structured.",
+                                    "options": [
+                                        "Large and unstructured.",
+                                        "Large and structured.",
+                                        "Complex and small.",
+                                        "Expensive and customized."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> The life cycle approach is best employed when systems are large and highly structured. For this reason, having a systems development plan is critical to the smooth running of the project."
+                                },
+                                {
+                                    "sNo": 360,
+                                    "title": "To improve efficiency, a company is considering utilizing a tool developed by a third party that reviews sales contracts and identifies elements and clauses relevant to revenue recognition. The company is most likely using a tool that is employing",
+                                    "answer": "Artificial intelligence.",
+                                    "options": [
+                                        "Business intelligence.",
+                                        "Artificial intelligence.",
+                                        "Blockchain.",
+                                        "Control monitoring."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> Artificial intelligence is knowledge demonstrated by machines that use judgment to make decisions."
+                                },
+                                {
+                                    "sNo": 361,
+                                    "title": "Which one of the following options would allow multiple employees to use a browser to remotely access and use application software?",
+                                    "answer": "Cloud computing.",
+                                    "options": [
+                                        "Virtualization.",
+                                        "Cloud computing.",
+                                        "Distributed ledger.",
+                                        "Blockchain."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> Cloud computing is the process of using a browser to remotely access software, data storage, hardware and applications. It can be accessed by multiple users at the same time."
+                                }
+                            ]
+                        },
+                        {
+                            "subSectionTitle": "F4 - Data Analytics",
+                            "questions": [
+                                {
+                                    "sNo": 362,
+                                    "title": "Analyzing text data taken from online customer reviews in order to identify significant patterns is an example of data mining with",
+                                    "answer": "Unstructured data.",
+                                    "options": [
+                                        "Structured data.",
+                                        "Unstructured data.",
+                                        "Semi-structured data.",
+                                        "Predictive data."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> Unstructured data is information that doesn’t reside in a traditional row-column database. It often includes text and multimedia."
+                                },
+                                {
+                                    "sNo": 363,
+                                    "title": "An organization wants to utilize business intelligence (BI) to assist in the evaluation of key metrics. The IT manager has suggested incorporating a dashboard feature in its BI tool. Which one of the following is the main reason that management should implement the dashboard feature?",
+                                    "answer": "It shows patterns and trends in data across the organization.",
+                                    "options": [
+                                        "It allows management to have as many different charts as possible.",
+                                        "It shows patterns and trends in data across the organization.",
+                                        "It is designed to focus on metrics that have not been met.",
+                                        "It can automatically generate reorders of important materials for production."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> A dashboard is a common feature of BI tools that allows management to monitor key performance indicators and show trends over time."
+                                },
+                                {
+                                    "sNo": 364,
+                                    "title": "Which one of the following best describes data mining?",
+                                    "answer": "Searching through large amounts of computerized data to find useful patterns and trends.",
+                                    "options": [
+                                        "Searching through large amounts of computerized data to find useful patterns and trends.",
+                                        "Examining raw data in order to draw conclusions from that data.",
+                                        "Integrating data, technology, and analytics to optimize business decisions.",
+                                        "Inspecting, cleansing, revising, and modeling raw data in order to find valuable data."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer A.</div> The stem is asking for the definition of data mining. This option provides the best definition of data mining. Option &#8220;b&#8221; is not correct because this statement describes data analytics. Option &#8220;c&#8221; is not correct because this statement describes business analytics. Option &#8220;d&#8221; is not correct because this statement describes data analysis."
+                                },
+                                {
+                                    "sNo": 365,
+                                    "title": "A company developed the following multiple regression equation, utilizing 10 years of data, and uses it to estimate the cost of its product.",
+                                    "answer": "A significant change in labor productivity.",
+                                    "options": [
+                                        "Changing the source of material to a low-cost foreign source.",
+                                        "A significant reduction in factory overhead.",
+                                        "A significant change in labor productivity.",
+                                        "Renegotiation of the union contract resulting in a higher wage rate."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer C.</div> With a significant change in labor productivity, the labor rate is no longer ‘purchasing’ the same amount of product. Therefore, there is a significant impact on the reliability of the model."
+                                },
+                                {
+                                    "sNo": 366,
+                                    "title": "An analysis of historical hotel occupancy data concluded that the decline in food and beverage revenue was due mostly to the low hotel occupancy. This is an example of",
+                                    "answer": "diagnostic analytics.",
+                                    "options": [
+                                        "descriptive analytics.",
+                                        "diagnostic analytics.",
+                                        "predictive analytics.",
+                                        "prescriptive analytics."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer B.</div> It is an example of diagnostic analytics. Diagnostic analysis describes the reason for the historical results."
+                                },
+                                {
+                                    "sNo": 367,
+                                    "title": "A hospital has observed an increase in the number of cases of a disease and has asked an analyst to collect data on the cases over the last three years. The analyst noted that the disease appeared three years ago during the second quarter of the year. Since then, the third and fourth quarters of each year showed significant spikes in the number of cases when compared to the first two quarters. What is the best way to present these findings?",
+                                    "answer": "Bar graph, showing the number of cases in each quarter of the last three years.",
+                                    "options": [
+                                        "Table, showing the number of cases in each month for the last three years.",
+                                        "Pie chart, showing the number of cases in each quarter of the last three years.",
+                                        "Scatter plot chart, showing the change in the number of cases for each quarter of the last three years.",
+                                        "Bar graph, showing the number of cases in each quarter of the last three years."
+                                    ],
+                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer D.</div> The hospital is interested in showing that there has been an increase in cases of the illness. Additionally, it wants to communicate important trends, such as when the illness started presenting and the fact that spikes were noted in Q3 and Q4. The best way to present that data would be with a tool that can easily and clearly show the discrete number of cases over time. This would best be accomplished with a bar chart that shows the number of cases in each quarter. Higher bars would show the spikes in the number of cases in Q3 and Q4. A bar chart/graph (histogram) is the perfect tool to show frequency of categories (in this case, the count of the number of cases observed in each quarter)."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "statistics": []
+        },
+        {
+            "courseName": "ESP_MCQ_P2",
             "topics": [
                 {
                     "sectionTitle": "Section A : External Financial Reporting Decisions",
@@ -490,10 +1717,10 @@
                     ]
                 }
             ],
-            "savedQuestions": []
+            "statistics": []
         },
         {
-            "courseName": "ExamSupportPackagePracticeEssayP1",
+            "courseName": "ESP_Essay_P1",
             "topics": [
                 {
                     "sectionTitle": "Section B - Planning, Budgeting & Forcasting",
@@ -1700,10 +2927,11 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "statistics": []
         },
         {
-            "courseName": "ExamSupportPackagePracticeEssayP2",
+            "courseName": "ESP_Essay_P2",
             "topics": [
                 {
                     "sectionTitle": "Section A : Financial Statement Analysis",
@@ -2458,7 +3686,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "statistics": []
         }
     ]
 }
