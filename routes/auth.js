@@ -113,7 +113,7 @@ authRouter.post('/login', checkLoggedIn, async (req, res) => {
         //     token,
         //     user: { id: user._id, name: user.name, email: user.email },
         // });
-        console.log("Logged-In successfully ✅")
+        console.log('Logged-In successfully ✅');
         res.json({
             token,
             user,

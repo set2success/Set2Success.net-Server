@@ -45,22 +45,16 @@ espRouter.post(
     },
 );
 
-// Post: save question
+// Post: submitResult
 espRouter.post(
-    '/saveQuestion',
-    espPracticeController.SaveQuestionById,
+    '/statistics',
+    espPracticeController.SubmitStatistics,
     (req, res) => {
         res.status(201).json(req.updatedCourses);
     },
 );
 
-// Post: flagged question
-espRouter.post(
-    '/flagQuestion',
-    espPracticeController.FlagQuestionById,
-    (req, res) => {
-        res.status(201).json(req.updatedCourses);
-    },
-);
+// Get: submitResult
+espRouter.get('/statistics', espPracticeController.GetStatistics);
 
 module.exports = espRouter;

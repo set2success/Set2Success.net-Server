@@ -90,22 +90,18 @@ const addNewCoursesMiddleware = async (req, res, next) => {
     }
 };
 
-// Save question by id
-const SaveQuestionById = async (req, res) => {
-    const { questionId } = req.query;
-    console.log('question id: ' + questionId);
-
-    // User ID Handling:
-    let userId;
-    if (req.body.userId) {
-        userId = req.body.userId;
-    } else {
-        userId = req.userId;
-    }
-
-    if (!questionId) {
-        return res.status(400).json({ error: 'Question ID is required' });
-    }
+// Store Result: SubmitResult
+const SubmitStatistics = async (req, res) => {
+    const {
+        userId,
+        courseName,
+        totalQuestions,
+        correctQuestions,
+        wrongQuestions,
+        completed,
+        percentage,
+        topicName,
+    } = req.body;
 
     try {
         const course = await ESPPracticeModel.findOne({ user: userId });
@@ -114,58 +110,54 @@ const SaveQuestionById = async (req, res) => {
             return res.status(404).json({ error: 'Course not found' });
         }
 
-        const savedQuestionsArray = course?.ESPPracticeExams[0]?.savedQuestions;
-
-        const isQuestionSaved = savedQuestionsArray.includes(questionId);
-
-        const updateOperation = isQuestionSaved
-            ? { $pull: { 'ESPPracticeExams.0.savedQuestions': questionId } }
-            : {
-                  $addToSet: {
-                      'ESPPracticeExams.0.savedQuestions': questionId,
-                  },
-              };
-
-        const updatedCourse = await ESPPracticeModel.findOneAndUpdate(
-            { user: userId },
-            updateOperation,
-            { new: true, upsert: true },
+        const espMcqP1Course = course.ESPPracticeExams.find(
+            (exam) => exam.courseName === courseName,
         );
 
-        const updatedSavedQuestionsArray =
-            updatedCourse?.ESPPracticeExams[0]?.savedQuestions;
-        // const message = isQuestionSaved
-        //     ? `Remove (-) Question ID: ${questionId} from savedQuestions, to userId: ${userId}`
-        //     : `Add (+) Question ID: ${questionId} to savedQuestions, to userId: ${userId}`;
-        const message = isQuestionSaved
-            ? `Question Removed Successfully`
-            : `Question Saved Successfully`;
+        const topicIndex = espMcqP1Course.statistics.findIndex(
+            (stat) => stat.topicName === topicName,
+        );
 
-        console.log(message);
+        if (topicIndex !== -1) {
+            // If topic exists, update the statistics
+            espMcqP1Course.statistics[topicIndex] = {
+                totalQuestions,
+                correctQuestions,
+                wrongQuestions,
+                completed,
+                percentage,
+                topicName,
+                date: new Date(),
+            };
+        } else {
+            // If topic does not exist, push new statistics
+            espMcqP1Course.statistics.push({
+                totalQuestions,
+                correctQuestions,
+                wrongQuestions,
+                completed,
+                percentage,
+                topicName,
+                date: new Date(),
+            });
+        }
 
-        res.json({ updatedSavedQuestionsArray, message });
+        const updatedCourse = await course.save();
+
+        return res.status(200).json({
+            message: 'Result Submitted Successfully',
+        });
     } catch (error) {
         console.error(error);
         res.status(500).json({ error: 'Internal Server Error' });
     }
 };
 
-// flag questions by id
-const FlagQuestionById = async (req, res) => {
-    const { questionId } = req.query;
-
-    // User ID Handling:
-    let userId;
-    if (req.body.userId) {
-        userId = req.body.userId;
-    } else {
-        userId = req.userId;
-    }
-    console.log('userId', userId);
-
-    if (!questionId) {
-        return res.status(400).json({ error: 'Question ID is required' });
-    }
+// Get Result: SubmitStatistics
+const GetStatistics = async (req, res) => {
+    const { userId, courseName } = req.query;
+    console.log('userId1: ', userId);
+    console.log('courseName2: ', courseName);
 
     try {
         const course = await ESPPracticeModel.findOne({ user: userId });
@@ -174,37 +166,16 @@ const FlagQuestionById = async (req, res) => {
             return res.status(404).json({ error: 'Course not found' });
         }
 
-        const flaggedQuestionsArray =
-            course?.ESPPracticeExams[0]?.flaggedQuestions;
-
-        const isQuestionFlagged = flaggedQuestionsArray.includes(questionId);
-
-        const updateOperation = isQuestionFlagged
-            ? { $pull: { 'ESPPracticeExams.0.flaggedQuestions': questionId } }
-            : {
-                  $addToSet: {
-                      'ESPPracticeExams.0.flaggedQuestions': questionId,
-                  },
-              };
-
-        const updatedCourse = await ESPPracticeModel.findOneAndUpdate(
-            { user: userId },
-            updateOperation,
-            { new: true, upsert: true },
+        const espMcqP1Course = course.ESPPracticeExams.find(
+            (exam) => exam.courseName === courseName,
         );
 
-        const updatedFlaggedQuestionsArray =
-            updatedCourse?.ESPPracticeExams[0]?.flaggedQuestions;
-        // const message = isQuestionFlagged
-        //     ? `Remove (-) Question ID: ${questionId} from flaggedQuestions, to userId: ${userId}`
-        //     : `Add (+) Question ID: ${questionId} to flaggedQuestions, to userId: ${userId}`;
-        const message = isQuestionFlagged
-            ? `Question UnFlagged Successfully`
-            : `Question Flagged Successfully`;
+        console.log(`Statistics fetched for courseName: ${courseName} ✅`);
 
-        console.log(message);
-
-        res.json({ updatedFlaggedQuestionsArray, message });
+        return res.status(200).json({
+            data: espMcqP1Course,
+            message: 'Result Fetched Successfully',
+        });
     } catch (error) {
         console.error(error);
         res.status(500).json({ error: 'Internal Server Error' });
@@ -215,6 +186,6 @@ const FlagQuestionById = async (req, res) => {
 module.exports = {
     GetSingleCourseById,
     addNewCoursesMiddleware,
-    SaveQuestionById,
-    FlagQuestionById,
+    SubmitStatistics,
+    GetStatistics,
 };

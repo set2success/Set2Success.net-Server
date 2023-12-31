@@ -1,26 +1,26 @@
 const mongoose = require('mongoose');
 
 const questionSchema = new mongoose.Schema({
-    sNo: {type: Number, required: true},
-    title: { type: String, required: true },
-    quesType: { type: String, required: true },
-    essayAnswer: { type: String, required: true },
-    answer: { type: String, required: true },
+    sNo: { type: Number },
+    title: { type: String },
+    quesType: { type: String },
+    essayAnswer: { type: String },
+    answer: { type: String },
     options: [{ type: String }],
-    correctOptionExplanation: { type: String, required: true },
-    note: { type: String, required: true },
-    isFlagged: { type: Boolean, default: false, required: true },
+    correctOptionExplanation: { type: String },
+    note: { type: String },
+    isFlagged: { type: Boolean, default: false },
 });
-
 
 const SubTopicSchema = new mongoose.Schema({
-    subSectionTitle: { type: String, required: true },
-    questions: [questionSchema]
+    subSectionTitle: { type: String },
+    subEssayTitle: { type: String },
+    pdfLink: { type: String },
+    questions: [questionSchema],
 });
 
-
 const TopicSchema = new mongoose.Schema({
-    sectionTitle: { type: String, required: true },
+    sectionTitle: { type: String },
     subSectionTopics: [SubTopicSchema],
 });
 
@@ -29,14 +29,12 @@ const ESPPracticeSchema = new mongoose.Schema(
         user: {
             type: mongoose.Schema.Types.ObjectId,
             ref: 'User',
-            required: true,
         },
         ESPPracticeExams: [
             {
-                courseName: { type: String, required: true },
+                courseName: { type: String },
                 topics: [TopicSchema],
-                savedQuestions:[],
-                flaggedQuestions:[],
+                statistics: [],
             },
         ],
     },
