@@ -100,6 +100,7 @@ const SubmitStatistics = async (req, res) => {
         wrongQuestions,
         completed,
         percentage,
+        topicName,
     } = req.body;
 
     try {
@@ -109,25 +110,41 @@ const SubmitStatistics = async (req, res) => {
             return res.status(404).json({ error: 'Course not found' });
         }
 
-        // console.log("course:", course);
         const espMcqP1Course = course.ESPPracticeExams.find(
             (exam) => exam.courseName === courseName,
         );
 
-        // espMcqP1Course.statistics is a array you have to insert data as a object
-        espMcqP1Course.statistics.push({
-            totalQuestions,
-            correctQuestions,
-            wrongQuestions,
-            completed,
-            percentage,
-            date: new Date(),
-        });
+        const topicIndex = espMcqP1Course.statistics.findIndex(
+            (stat) => stat.topicName === topicName,
+        );
 
-        await course.save();
+        if (topicIndex !== -1) {
+            // If topic exists, update the statistics
+            espMcqP1Course.statistics[topicIndex] = {
+                totalQuestions,
+                correctQuestions,
+                wrongQuestions,
+                completed,
+                percentage,
+                topicName,
+                date: new Date(),
+            };
+        } else {
+            // If topic does not exist, push new statistics
+            espMcqP1Course.statistics.push({
+                totalQuestions,
+                correctQuestions,
+                wrongQuestions,
+                completed,
+                percentage,
+                topicName,
+                date: new Date(),
+            });
+        }
+
+        const updatedCourse = await course.save();
 
         return res.status(200).json({
-            data: espMcqP1Course,
             message: 'Result Submitted Successfully',
         });
     } catch (error) {

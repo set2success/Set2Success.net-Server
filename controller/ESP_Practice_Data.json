@@ -424,7 +424,7 @@
                                 {
                                     "sNo": 33,
                                     "title": "Madden Corporation's controller has gathered the following information as a basis for preparing the Statement of Cash Flows. Net income for the current year was $82,000. During the year, old equipment with a cost of $60,000 and a net carrying value of $53,000 was sold for cash at a gain of $10,000. New equipment was purchased for $100,000. Shown below are selected closing balances for last year and the current year. <div class=\"TblScrl\"><table><tr><td></td><th>Last Year</th><th>Current Year </th></tr><tr><td>Cash</td><td>$39,000</td><td>$85,000 </td></tr><tr><td>Accounts receivable net</td><td>43,000</td><td>37,000 </td></tr><tr><td>Inventories</td><td>93,000</td><td>105,000 </td></tr><tr><td>Equipment</td><td>360,000</td><td>400,000 </td></tr><tr><td>Accumulated depreciation - equipment</td><td>70,000</td><td>83,000 </td></tr><tr><td>Accounts payable</td><td>22,000</td><td>19,000 </td></tr><tr><td>Notes payable</td><td>100,000</td><td>100,000 </td></tr><tr><td>Common stock</td><td>250,000</td><td>250,000 </td></tr><tr><td>Retained earnings</td><td>93,000</td><td>175,000</td></tr></table></div> Madden&#8217;s cash inflow from operating activities for the current year is.",
-                                    "answer": " $83,000.",
+                                    "answer": "$83,000.",
                                     "options": [
                                         "$63,000.",
                                         "$73,000.",
@@ -489,7 +489,7 @@
                                 {
                                     "sNo": 38,
                                     "title": "Best Billiard Company owns 40% of Supreme Table Company's stock at a historical cost of $300,000. Supreme Table recently reported their earnings for the prior year. Best Billiard's proportional share of Supreme Table's prior year net income was $10,000. Best Billiard also received $15,000 in dividends from Supreme Table in the prior year. Best Billiard uses the equity method as the accounting treatment for this investment. Based on the information presented, the proper presentation of this investment would result in Best Billiard reporting",
-                                    "answer": " a decrease in the book value of their investment in Supreme Table.",
+                                    "answer": "a decrease in the book value of their investment in Supreme Table.",
                                     "options": [
                                         "an increase in the book value of their investment in Supreme Table.",
                                         "their investment in Supreme Table at the original cost.",
@@ -502,7 +502,7 @@
                                 {
                                     "sNo": 39,
                                     "title": "Under U.S. GAAP, which one of the following statements best describes the effects on the financial statements resulting from a change in the accounting classification for a security from available-for sale to held-to-maturity?",
-                                    "answer": " Net income will not be impacted in the future by unrealized gains/losses.",
+                                    "answer": "Net income will not be impacted in the future by unrealized gains/losses.",
                                     "options": [
                                         "Comprehensive income will be impacted in the future by unrealized gains/losses.",
                                         "Net income will not be impacted in the future by unrealized gains/losses.",
@@ -514,7 +514,7 @@
                                 {
                                     "sNo": 40,
                                     "title": "A company has $100 million of debt that is due in March Year 3. In December Year 2, the company entered into a non-cancelable agreement with its lender to refinance the debt with the same interest rate, and the full principal is due in December Year 5. How should the debt be classified on the December Year 2 balance sheet of the company?",
-                                    "answer": " Classified as a long-term liability.",
+                                    "answer": "Classified as a long-term liability.",
                                     "options": [
                                         "Classified as a current liability.",
                                         "Classified as a long-term liability.",
@@ -1723,7 +1723,7 @@
             "courseName": "ESP_Essay_P1",
             "topics": [
                 {
-                    "sectionTitle": "Section B - Planning, Budgeting & Forcasting",
+                    "sectionTitle": "Section B - Planning, Budgeting & Forecasting",
                     "subSectionTopics": [
                         {
                             "subEssayTitle": "Essay 1 - COE COMPANY",
@@ -3420,7 +3420,7 @@
                             "questions": [
                                 {
                                     "sNo": 1,
-                                    "title": " Because of volatility in the financial markets, the company’s cost of equity may be higher than assumed in this analysis. This is important as RomCo is entirely equity financed. a. What cost of equity was used in this analysis? Explain your answer. b. Would an increase in the cost of equity affect the NPV and IRR of the projects, and thus the desirability of undertaking the projects? Explain your answer.",
+                                    "title": "Because of volatility in the financial markets, the company’s cost of equity may be higher than assumed in this analysis. This is important as RomCo is entirely equity financed. a. What cost of equity was used in this analysis? Explain your answer. b. Would an increase in the cost of equity affect the NPV and IRR of the projects, and thus the desirability of undertaking the projects? Explain your answer.",
                                     "quesType": "ESSAY",
                                     "isFlagged": false
                                 },
@@ -3540,7 +3540,7 @@
                                 },
                                 {
                                     "sNo": 4,
-                                    "title": " For the following items which are being reviewed by HotSpot’s management, indicate how the item would be included in the project’s cash flow and the year in which the cash flows will be affected. a. Research and development. b. Additional computer equipment. c. Working capital increase. d. Introductory advertising program. e. Sale of the Oceanport office at the end of the project. ",
+                                    "title": "For the following items which are being reviewed by HotSpot’s management, indicate how the item would be included in the project’s cash flow and the year in which the cash flows will be affected. a. Research and development. b. Additional computer equipment. c. Working capital increase. d. Introductory advertising program. e. Sale of the Oceanport office at the end of the project. ",
                                     "quesType": "ESSAY",
                                     "isFlagged": false
                                 },

@@ -94,8 +94,6 @@ const GetStatisticsRead = async (req, res) => {
             ESP_Lecture_P2: resultESPLectureP2,
         };
 
-        console.log('ResponseArray', ResponseArray);
-
         // console.log(`Statistics fetched for courseName: ${courseName} ✅`);
         return res.status(200).json({
             data: ResponseArray,
