@@ -7,6 +7,6 @@ const dashboardRouter = require('./dashboard.routes');
 api.use('/auth', authRouter);
 api.use('/lms', lmsRouter);
 api.use('/esp', espRouter);
-api.use('/dashboard',dashboardRouter)
+api.use('/dashboard', dashboardRouter);
 
 module.exports = api;

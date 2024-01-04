@@ -101,6 +101,7 @@ const SubmitStatistics = async (req, res) => {
         completed,
         percentage,
         topicName,
+        subSectionTitle,
     } = req.body;
 
     try {
@@ -127,6 +128,7 @@ const SubmitStatistics = async (req, res) => {
                 completed,
                 percentage,
                 topicName,
+                subSectionTitle,
                 date: new Date(),
             };
         } else {
@@ -138,6 +140,7 @@ const SubmitStatistics = async (req, res) => {
                 completed,
                 percentage,
                 topicName,
+                subSectionTitle,
                 date: new Date(),
             });
         }
