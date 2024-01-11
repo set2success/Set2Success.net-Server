@@ -1,6 +1,6 @@
 const express = require('express');
-const esp_json_data = require('./ESP_Practice_Data.json');
-const ESPPracticeModel = require('../models/ESPPracticeModal');
+const questionBankJSON = require('./QuestionBankJsonData.json');
+const QuestionBankModal = require('../models/QuestionBankModal');
 
 // Get single course that contains the logged-in userId and specified courseName
 const GetSingleCourseById = async (req, res) => {
@@ -13,19 +13,19 @@ const GetSingleCourseById = async (req, res) => {
         }
 
         // Find the course that matches the specified user ID and course name
-        const course = await ESPPracticeModel.findOne(
+        const course = await QuestionBankModal.findOne(
             { user: userId },
-            { ESPPracticeExams: { $elemMatch: { courseName } } },
+            { QuestionBankDataSet: { $elemMatch: { courseName } } },
         );
 
         // let courses = [];
-        // let course = await ESPPracticeModel.findOne({ user: userId });
+        // let course = await QuestionBankModal.findOne({ user: userId });
 
         if (!course) {
             return res.status(404).json({ error: 'Course not found' });
         }
 
-        res.json(course?.ESPPracticeExams);
+        res.json(course?.QuestionBankDataSet);
     } catch (error) {
         console.error(error);
         res.status(500).json({ error: 'Internal Server Error' });
@@ -44,24 +44,24 @@ const addNewCoursesMiddleware = async (req, res, next) => {
         }
 
         // Data Collection:
-        const coursesJSON = esp_json_data.ESPPracticeExams;
+        const coursesJSON = questionBankJSON.QuestionBankDataSet;
 
         // Retrieve Existing Courses:
-        let existingCourses = await ESPPracticeModel.findOne({
+        let existingCourses = await QuestionBankModal.findOne({
             user: userId,
         });
 
         // Create New Course Object if None Exists:
         if (!existingCourses) {
-            existingCourses = new ESPPracticeModel({
+            existingCourses = new QuestionBankModal({
                 user: userId,
-                ESPPracticeExams: [],
+                QuestionBankDataSet: [],
             });
         }
 
         // Filter New Courses:
         const newCourses = coursesJSON.filter((course) => {
-            const doesCourseExist = existingCourses.ESPPracticeExams.some(
+            const doesCourseExist = existingCourses.QuestionBankDataSet.some(
                 (existingCourse) =>
                     existingCourse.courseName === course.courseName,
             );
@@ -77,7 +77,7 @@ const addNewCoursesMiddleware = async (req, res, next) => {
         }
 
         // Add New Courses to Existing Courses:
-        existingCourses.ESPPracticeExams.push(...newCourses);
+        existingCourses.QuestionBankDataSet.push(...newCourses);
 
         // Save the updated courses
         const updatedCourses = await existingCourses.save();
@@ -105,30 +105,31 @@ const SubmitStatistics = async (req, res) => {
     } = req.body;
 
     try {
-        const course = await ESPPracticeModel.findOne({ user: userId });
+        const course = await QuestionBankModal.findOne({ user: userId });
 
         if (!course) {
             return res.status(404).json({ error: 'Course not found' });
         }
 
-        const espMcqP1Course = course.ESPPracticeExams.find(
+        const QBCourse = course.QuestionBankDataSet.find(
             (exam) => exam.courseName === courseName,
         );
 
         let topicIndex = -1;
+        //TODO: set QB essay names here.
         if (courseName === 'ESP_Essay_P2' || courseName === 'ESP_Essay_P2') {
-            topicIndex = espMcqP1Course.statistics.findIndex(
+            topicIndex = QBCourse.statistics.findIndex(
                 (stat) => stat.subSectionTitle === subSectionTitle,
             );
         } else {
-            topicIndex = espMcqP1Course.statistics.findIndex(
+            topicIndex = QBCourse.statistics.findIndex(
                 (stat) => stat.topicName === topicName,
             );
         }
 
         if (topicIndex !== -1) {
             // If topic exists, update the statistics
-            espMcqP1Course.statistics[topicIndex] = {
+            QBCourse.statistics[topicIndex] = {
                 totalQuestions,
                 correctQuestions,
                 wrongQuestions,
@@ -140,7 +141,7 @@ const SubmitStatistics = async (req, res) => {
             };
         } else {
             // If topic does not exist, push new statistics
-            espMcqP1Course.statistics.push({
+            QBCourse.statistics.push({
                 totalQuestions,
                 correctQuestions,
                 wrongQuestions,
@@ -168,20 +169,20 @@ const GetStatistics = async (req, res) => {
     const { userId, courseName } = req.query;
 
     try {
-        const course = await ESPPracticeModel.findOne({ user: userId });
+        const course = await QuestionBankModal.findOne({ user: userId });
 
         if (!course) {
             return res.status(404).json({ error: 'Course not found' });
         }
 
-        const espMcqP1Course = course.ESPPracticeExams.find(
+        const QBCourse = course.QuestionBankDataSet.find(
             (exam) => exam.courseName === courseName,
         );
 
         console.log(`Statistics fetched for courseName: ${courseName} ✅`);
 
         return res.status(200).json({
-            data: espMcqP1Course,
+            data: QBCourse,
             message: 'Result Fetched Successfully',
         });
     } catch (error) {
