@@ -60,8 +60,38 @@ const ReadCart = (req, res) => {
         });
 };
 
+// DeleteCartItemByName
+const DeleteCartItemByName = async (req, res) => {
+    try {
+        const { userId, itemName } = req.body;
+        console.log("Received Data")
+        console.log('userId', userId);
+        console.log('itemName', itemName);
+        const myCart = await CartModel.findOne({ user: userId });
+        if (!myCart) {
+            res.status(404).json({
+                message: 'Cart not found',
+            });
+        }
+        if (myCart) {
+            const itemIndex = myCart.cartItems.findIndex(
+                (p) => p.item === itemName,
+            );
+            if (itemIndex > -1) {
+                myCart.cartItems.splice(itemIndex, 1);
+            }
+            await myCart.save();
+            res.status(200).json(myCart);
+        }
+    } catch (error) {
+        console.error('Error deleting from cart:', error);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+};
+
 // export functions
 module.exports = {
     AddToCart,
     ReadCart,
+    DeleteCartItemByName,
 };

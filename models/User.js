@@ -7,6 +7,10 @@ const userSchema = new mongoose.Schema({
     totalLearned: { type: Number, default: 0 },
     role: { type: Boolean, default: false },
     lms_purchase: { type: Boolean, default: false },
+    mindMap_purchase: { type: Boolean, default: false },
+    esp_purchase: { type: Boolean, default: false },
+    qb_purchase: { type: Boolean, default: false },
+
 });
 
 module.exports = mongoose.model('User', userSchema);
