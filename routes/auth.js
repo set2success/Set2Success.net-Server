@@ -168,7 +168,10 @@ authRouter.get('/getUserDetails/:userId', checkLoggedIn, async (req, res) => {
         const userId = req.params.userId;
 
         // Fetch user details by userId
-        const user = await User.findById(userId, 'name email'); // You can specify which user properties to retrieve
+        const user = await User.findById(
+            userId,
+            'name email totalLearned role lms_purchase mindMap_purchase esp_purchase qb_purchase fName lName userName phone address city state country',
+        ); // You can specify which user properties to retrieve
 
         if (!user) {
             return res.status(404).json({ message: 'User not found' });
@@ -184,11 +187,13 @@ authRouter.get('/getUserDetails/:userId', checkLoggedIn, async (req, res) => {
 });
 
 // Route to update a user's password
-authRouter.post('/updatePassword', checkUserLoggedIn, async (req, res) => {
+authRouter.post('/updatePassword/:userId', async (req, res) => {
     try {
-        const userId = req.userId; // Get the logged-in user's ID from the request
+        // const userId = req.userId; // Get the logged-in user's ID from the request
+        const userId = req.params.userId;
 
-        const { currentPassword, newPassword } = req.body;
+        // const { currentPassword, newPassword } = req.body;
+        const { data } = req.body;
 
         // Find the user by ID
         const user = await User.findById(userId);
@@ -199,29 +204,33 @@ authRouter.post('/updatePassword', checkUserLoggedIn, async (req, res) => {
 
         // Check if the current password matches the stored password
         const passwordMatch = await bcrypt.compare(
-            currentPassword,
+            data.currentPassword,
             user.password,
         );
 
         if (!passwordMatch) {
             return res
-                .status(400)
-                .json({ message: 'Current password is incorrect' });
+                .status(200)
+                .json({ message: 'Current password is incorrect', status: 0 });
         }
 
         // Hash and save the new password
-        const hashedPassword = await bcrypt.hash(newPassword, 10);
+        const hashedPassword = await bcrypt.hash(data.newPassword, 10);
         user.password = hashedPassword;
         await user.save();
 
         // Clear the token cookie (user needs to log in again with the new password)
         res.clearCookie('token');
 
-        res.status(200).json({ message: 'Password updated successfully' });
+        res.status(200).json({
+            message: 'Password updated successfully',
+            status: 1,
+        });
     } catch (error) {
         res.status(500).json({
             message: 'Failed to update password',
             error: error.message,
+            status: 0,
         });
     }
 });
@@ -254,10 +263,13 @@ authRouter.post('/deleteUser', checkUserLoggedIn, async (req, res) => {
 });
 
 // Route to update a user's details
-authRouter.post('/updateUserDetails', checkUserLoggedIn, async (req, res) => {
+authRouter.post('/updateUserDetails/:userId', async (req, res) => {
     try {
-        const userId = req.userId; // Get the logged-in user's ID from the request
-        const { name, email } = req.body;
+        // const userId = req.userId; // Get the logged-in user's ID from the request
+        const userId = req.params.userId;
+
+        const { formData } = req.body;
+        console.log('formData', formData);
 
         // Find the user by ID
         const user = await User.findById(userId);
@@ -267,12 +279,27 @@ authRouter.post('/updateUserDetails', checkUserLoggedIn, async (req, res) => {
         }
 
         // Update user details
-        if (name) user.name = name;
-        if (email) user.email = email;
+        if (formData.name) user.name = formData.name;
+        if (formData.email) user.email = formData.email;
+        if (formData.totalLearned) user.totalLearned = formData.totalLearned;
+        if (formData.role) user.role = formData.role;
+        if (formData.lms_purchase) user.lms_purchase = formData.lms_purchase;
+        if (formData.mindMap_purchase)
+            user.mindMap_purchase = formData.mindMap_purchase;
+        if (formData.esp_purchase) user.esp_purchase = formData.esp_purchase;
+        if (formData.qb_purchase) user.qb_purchase = formData.qb_purchase;
+        if (formData.userName) user.userName = formData.userName;
+        if (formData.phone) user.phone = formData.phone;
+        if (formData.address) user.address = formData.address;
+        if (formData.city) user.city = formData.city;
+        if (formData.state) user.state = formData.state;
+        if (formData.country) user.country = formData.country;
 
         await user.save();
 
-        res.status(200).json({ message: 'User details updated successfully' });
+        res.status(200).json({
+            message: 'User details updated successfully',
+        });
     } catch (error) {
         res.status(500).json({
             message: 'Failed to update user details',
