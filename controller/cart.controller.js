@@ -44,29 +44,39 @@ const AddToCart = async (req, res) => {
     }
 };
 
-const ReadCart = (req, res) => {
-    const { userId } = req.body;
-    console.log('userId', userId);
+const ReadCart = async (req, res) => {
+    // CartModel.findOne({ userId: userId })
+    //     .then((cart) => {
+    //         res.status(200).json(cart);
+    //     })
+    //     .catch((err) => {
+    //         res.status(500).json({
+    //             message: 'Error finding cart',
+    //             error: err.message,
+    //         });
+    //     });
 
-    CartModel.findOne({ userId: userId })
-        .then((cart) => {
-            res.status(200).json(cart);
-        })
-        .catch((err) => {
-            res.status(500).json({
-                message: 'Error finding cart',
-                error: err.message,
+    try {
+        const { userId } = req.query;
+        const myCart = await CartModel.findOne({ user: userId });
+        if (!myCart) {
+            res.status(404).json({
+                message: 'Cart not found',
             });
-        });
+        }
+        if (myCart) {
+            res.status(200).json(myCart);
+        }
+    } catch (error) {
+        console.error('Error deleting from cart:', error);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
 };
 
 // DeleteCartItemByName
 const DeleteCartItemByName = async (req, res) => {
     try {
         const { userId, itemName } = req.body;
-        console.log("Received Data")
-        console.log('userId', userId);
-        console.log('itemName', itemName);
         const myCart = await CartModel.findOne({ user: userId });
         if (!myCart) {
             res.status(404).json({

@@ -4,12 +4,20 @@ const userSchema = new mongoose.Schema({
     name: { type: String, required: true },
     email: { type: String, required: true, unique: true },
     password: { type: String, required: true },
-    totalLearned: { type: Number, default: 0 },
     idAdmin: { type: Boolean, default: 0 },
-    lms_purchase: { type: Boolean, default: false },
-    mindMap_purchase: { type: Boolean, default: false },
-    esp_purchase: { type: Boolean, default: false },
-    qb_purchase: { type: Boolean, default: false },
+
+    lmsPurchaseP1: { type: Boolean, default: false },
+    lmsPurchaseP2: { type: Boolean, default: false },
+
+    mindMapPurchaseP1: { type: Boolean, default: false },
+    mindMapPurchaseP2: { type: Boolean, default: false },
+
+    espPurchaseP1: { type: Boolean, default: false },
+    espPurchaseP2: { type: Boolean, default: false },
+
+    qbPurchaseP1: { type: Boolean, default: false },
+    qbPurchaseP2: { type: Boolean, default: false },
+
     userName: { type: String, default: '' },
     phone: { type: String, default: '' },
     address: { type: String, default: '' },

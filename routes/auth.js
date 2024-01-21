@@ -22,24 +22,24 @@ authRouter.post('/register', async (req, res) => {
         const hashedPassword = await bcrypt.hash(password, 10);
 
         // Create a new user
-        const newUser = new User({ name, email, password: hashedPassword });
+        const user = new User({ name, email, password: hashedPassword });
 
         // Save the user to the database
-        await newUser.save();
+        await user.save();
 
         // Generate and send a JWT token
-        const token = jwt.sign({ id: newUser._id }, SESSION_PASSWORD, {
+        const token = jwt.sign({ id: user._id }, SESSION_PASSWORD, {
             expiresIn: '1h', // Token expires in 1 hour
         });
 
         // res.status(201).json({
         //     token,
-        //     user: { id: newUser._id, name: newUser.name, email: newUser.email },
+        //     user: { id: user._id, name: user.name, email: user.email },
         // });
 
         res.status(201).json({
             token,
-            newUser,
+            user,
         });
     } catch (error) {
         res.status(500).json({
@@ -391,6 +391,68 @@ authRouter.get('/logout', checkLoggedIn, (req, res) => {
     } catch (error) {
         res.status(500).json({
             message: 'Logout failed',
+            error: error.message,
+        });
+    }
+});
+
+//receive email & name from user & check is account exist from that email, if exist then return userData, otherwise create new user & return userData
+authRouter.post('/google-login', async (req, res) => {
+    try {
+        const { email, name, jti } = req.body;
+
+        // Check if the email is already registered
+        const user = await User.findOne({ email });
+
+        if (user) {
+            // Generate and send a JWT token
+            const token = jwt.sign({ id: user._id }, SESSION_PASSWORD, {
+                expiresIn: '1h', // Token expires in 1 hour
+            });
+
+            // Store the token as an HttpOnly cookie on the client side
+            res.cookie('token', token, { httpOnly: true });
+
+            // Send the token to the client (optional)
+            // res.json({
+            //     token,
+            //     user: { id: user._id, name: user.name, email: user.email },
+            // });
+
+            console.log('Logged-In successfully ✅');
+            res.json({
+                token,
+                user,
+            });
+        } else {
+            // Create a new user
+            const user = new User({ name, email, password: jti });
+
+            // Save the user to the database
+            await user.save();
+
+            // Generate and send a JWT token
+            const token = jwt.sign({ id: user._id }, SESSION_PASSWORD, {
+                expiresIn: '1h', // Token expires in 1 hour
+            });
+
+            // Store the token as an HttpOnly cookie on the client side
+            res.cookie('token', token, { httpOnly: true });
+
+            // Send the token to the client (optional)
+            // res.json({
+            //     token,
+            //     user: { id: user._id, name: user.name, email: user.email },
+            // });
+            console.log('Signup successfully ✅');
+            res.json({
+                token,
+                user,
+            });
+        }
+    } catch (error) {
+        res.status(500).json({
+            message: 'Login failed',
             error: error.message,
         });
     }

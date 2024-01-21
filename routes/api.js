@@ -9,8 +9,8 @@ const cartRouter = require('./cart.routes');
 api.use('/auth', authRouter);
 api.use('/lms', lmsRouter);
 api.use('/esp', espRouter);
-api.use('/qb', QuestionBankRouter)
+api.use('/qb', QuestionBankRouter);
 api.use('/dashboard', dashboardRouter);
-api.use('/cart', cartRouter)
+api.use('/cart', cartRouter);
 
 module.exports = api;
