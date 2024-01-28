@@ -6,6 +6,7 @@ const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 require('dotenv').config();
 const api = require('./routes/api');
+const myHooks = require('./routes/webhooks');
 const app = express();
 
 const PORT = process.env.PORT || 4001;
@@ -15,7 +16,10 @@ const SESSION_PASSWORD = process.env.SESSION_PASSWORD;
 //! Middleware
 // Use the cors middleware to allow cross-origin requests
 app.use(cors());
-app.use(bodyParser.json());
+// app.use(express.json());
+
+// app.use(bodyParser.json());
+// app.use(bodyParser.raw({ type: 'application/json' }));
 
 //! MONGOOSE CONNECTION
 mongoose
@@ -47,11 +51,13 @@ app.use(
     }),
 );
 
-app.use(express.json());
+// app.use(express.json());
 app.use(cookieParser());
 
 //! API'S
+app.use('/hook', myHooks);
 app.use('/', api);
+
 // const myRoutes = require('./routes/myRoute');
 // app.use(myRoutes);
 
