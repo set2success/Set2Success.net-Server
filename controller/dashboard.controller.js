@@ -10,7 +10,7 @@ const GetStatisticsRead = async (req, res) => {
         const LMSCourse = await CourseTextBookModel.findOne({ user: userId });
 
         if (!LMSCourse) {
-            return res.status(404).json({ error: 'LMSCourse not found' });
+            return res.status(404).json({ error: 'Course not found' });
         }
 
         const getLMSData = (courseName) => {
