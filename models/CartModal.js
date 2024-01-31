@@ -14,6 +14,7 @@ const cartSchema = new mongoose.Schema(
                 price: { type: Number, required: true },
             },
         ],
+        courseArray: [],
     },
     { timestamps: true },
 );

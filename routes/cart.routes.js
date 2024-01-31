@@ -9,4 +9,8 @@ cartRouter.get('/getCartItems', cartController.ReadCart);
 
 cartRouter.post('/deleteItemByItemName/', cartController.DeleteCartItemByName);
 
+cartRouter.post('/payment', cartController.Payment);
+
+cartRouter.post('/enableCourse', cartController.Payment);
+
 module.exports = cartRouter;

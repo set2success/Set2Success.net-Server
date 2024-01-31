@@ -1,4 +1,6 @@
-const api = require('express')();
+const express = require('express');
+const app = express();
+
 const lmsRouter = require('./lms.routes');
 const authRouter = require('./auth');
 const espRouter = require('./esp.routes');
@@ -6,11 +8,14 @@ const dashboardRouter = require('./dashboard.routes');
 const QuestionBankRouter = require('./QuestionBankRoutes');
 const cartRouter = require('./cart.routes');
 
-api.use('/auth', authRouter);
-api.use('/lms', lmsRouter);
-api.use('/esp', espRouter);
-api.use('/qb', QuestionBankRouter);
-api.use('/dashboard', dashboardRouter);
-api.use('/cart', cartRouter);
+app.use(express.json());
 
-module.exports = api;
+
+app.use('/auth', authRouter);
+app.use('/lms', lmsRouter);
+app.use('/esp', espRouter);
+app.use('/qb', QuestionBankRouter);
+app.use('/dashboard', dashboardRouter);
+app.use('/cart', cartRouter);
+
+module.exports = app;

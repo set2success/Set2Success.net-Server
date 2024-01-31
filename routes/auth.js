@@ -4,6 +4,8 @@ const User = require('../models/User');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const cookie = require('cookie'); // Import the 'cookie' package to store user
+const { enableCourseAfterPurchase } = require('../controller/User.Controllers');
+const { addCoursesToUser } = require('../controller/Courses.controller');
 const SESSION_PASSWORD = process.env.SESSION_PASSWORD;
 
 // Registration
@@ -170,7 +172,7 @@ authRouter.get('/getUserDetails/:userId', checkLoggedIn, async (req, res) => {
         // Fetch user details by userId
         const user = await User.findById(
             userId,
-            'name email totalLearned role lms_purchase mindMap_purchase esp_purchase qb_purchase fName lName userName phone address city state country',
+            'name email totalLearned role lmsPurchaseP1 lmsPurchaseP2 mindMapPurchaseP1 mindMapPurchaseP2 espPurchaseP1 espPurchaseP2 qbPurchaseP1 qbPurchaseP2 fName lName userName phone address city state country',
         ); // You can specify which user properties to retrieve
 
         if (!user) {
@@ -312,9 +314,12 @@ authRouter.post('/updateUserDetails/:userId', async (req, res) => {
 authRouter.post('/forgotPassword', async (req, res) => {
     try {
         const { email, newPassword } = req.body;
+        // console.log('email', email);
+        // console.log('newPassword', newPassword);
 
         // Find the user by email
         const user = await User.findOne({ email });
+        // console.log('user', user);
 
         if (!user) {
             return res.status(404).json({ message: 'User not found' });
@@ -330,9 +335,12 @@ authRouter.post('/forgotPassword', async (req, res) => {
         // Hash the new password
         const hashedPassword = await bcrypt.hash(newPassword, 10);
         user.password = hashedPassword;
-        await user.save();
+        const updatedUser = await user.save();
 
-        res.status(200).json({ message: 'Password reset successful' });
+        res.status(200).json({
+            user: updatedUser,
+            message: 'Password reset successful',
+        });
     } catch (error) {
         res.status(500).json({
             message: 'Failed to reset password',
@@ -457,5 +465,7 @@ authRouter.post('/google-login', async (req, res) => {
         });
     }
 });
+
+authRouter.post('/enable-course', enableCourseAfterPurchase);
 
 module.exports = authRouter;
