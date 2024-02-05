@@ -326,7 +326,7 @@ authRouter.post('/forgotPassword', async (req, res) => {
         }
 
         // Generate and send a JWT token with a short expiration time (e.g., 15 minutes)
-        const token = jwt.sign({ id: user._id }, SESSION_PASSWORD, {
+        const token = await jwt.sign({ id: user._id }, SESSION_PASSWORD, {
             expiresIn: '15m',
         });
 

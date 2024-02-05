@@ -10,7 +10,6 @@ const cartRouter = require('./cart.routes');
 
 app.use(express.json());
 
-
 app.use('/auth', authRouter);
 app.use('/lms', lmsRouter);
 app.use('/esp', espRouter);
