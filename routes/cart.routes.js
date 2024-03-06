@@ -9,8 +9,10 @@ cartRouter.get('/getCartItems', cartController.ReadCart);
 
 cartRouter.post('/deleteItemByItemName/', cartController.DeleteCartItemByName);
 
-cartRouter.post('/payment', cartController.Payment);
+cartRouter.post('/payment', cartController.PaymentRazorpay);
 
-cartRouter.post('/enableCourse', cartController.Payment);
+cartRouter.post('/payment-validate', cartController.paymentVerifySignature);
+
+// cartRouter.post('/enableCourse', cartController.Payment);
 
 module.exports = cartRouter;

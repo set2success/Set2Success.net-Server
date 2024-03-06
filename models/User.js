@@ -4,7 +4,7 @@ const userSchema = new mongoose.Schema({
     name: { type: String, required: true },
     email: { type: String, required: true, unique: true },
     password: { type: String, required: true },
-    idAdmin: { type: Boolean, default: 0 },
+    isAdmin: { type: Boolean, default: 0 },
 
     lmsPurchaseP1: { type: Boolean, default: false },
     lmsPurchaseP2: { type: Boolean, default: false },
