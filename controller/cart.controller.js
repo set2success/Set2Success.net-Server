@@ -2,8 +2,10 @@ const express = require('express');
 const CartModel = require('../models/CartModal');
 const User = require('../models/User');
 const fetchCourseAndAdd = require('./Courses.controller');
-const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
+// const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 const FRONTEND_URL = process.env.FRONTEND_URL;
+const Razorpay = require('razorpay');
+const crypto = require('crypto');
 
 const AddToCart = async (req, res) => {
     try {
@@ -127,46 +129,102 @@ const DeleteCartItemByName = async (req, res) => {
 };
 
 // Payment
-const Payment = async (req, res) => {
+// stripe payment integration
+// const Payment = async (req, res) => {
+//     try {
+//         const { userId, cartItems, coursesArray } = req.body;
+
+//         const lineItems = cartItems.map((product) => {
+//             return {
+//                 price_data: {
+//                     currency: 'usd',
+//                     product_data: {
+//                         name: product.item,
+//                     },
+//                     unit_amount: Math.round(product.price * 100),
+//                 },
+//                 quantity: product.quantity,
+//             };
+//         });
+
+//         const session = await stripe.checkout.sessions.create({
+//             // payment_method_types: [
+//             //     'card', // Credit or debit cards
+//             //     'alipay', // Alipay
+//             //     'ideal', // iDEAL
+//             //     // Add more payment methods as needed
+//             // ],
+//             payment_method_types: ['card'],
+//             line_items: lineItems,
+//             mode: 'payment',
+//             success_url: `${FRONTEND_URL}/purchase-success`,
+//             cancel_url: `${FRONTEND_URL}/purchase-failed`,
+//             metadata: {
+//                 userId: String(userId),
+//                 coursesArray: String(coursesArray),
+//             },
+//         });
+
+//         res.status(200).json({ id: session.id });
+//     } catch (error) {
+//         console.error('Error deleting from cart:', error);
+//         res.status(500).json({ error: 'Internal Server Error' });
+//     }
+// };
+
+function arrayToString(arr) {
+    return JSON.stringify(arr);
+}
+
+// Razorpay payment integration
+const PaymentRazorpay = async (req, res) => {
     try {
-        const { userId, cartItems, coursesArray } = req.body;
-
-        const lineItems = cartItems.map((product) => {
-            return {
-                price_data: {
-                    currency: 'usd',
-                    product_data: {
-                        name: product.item,
-                    },
-                    unit_amount: Math.round(product.price * 100),
-                },
-                quantity: product.quantity,
-            };
+        const { userId, cartItems, coursesArray, amount, currency, receipt } =
+            req.body;
+        const razorpay = new Razorpay({
+            key_id: process.env.RAZORPAY_KEY_ID,
+            key_secret: process.env.RAZORPAY_KEY_SECRET,
         });
 
-        const session = await stripe.checkout.sessions.create({
-            // payment_method_types: [
-            //     'card', // Credit or debit cards
-            //     'alipay', // Alipay
-            //     'ideal', // iDEAL
-            //     // Add more payment methods as needed
-            // ],
-            payment_method_types: ['card'],
-            line_items: lineItems,
-            mode: 'payment',
-            success_url: `${FRONTEND_URL}/purchase-success`,
-            cancel_url: `${FRONTEND_URL}/purchase-failed`,
-            metadata: {
-                userId: String(userId),
-                coursesArray: String(coursesArray),
+        // Construct options object with payload
+        const options = {
+            amount: amount,
+            currency: currency,
+            receipt: receipt,
+            notes: {
+                userId: userId || '',
+                // cartItems: cartItems || [],
+                coursesArray: arrayToString(coursesArray) || '',
             },
-        });
+        };
 
-        res.status(200).json({ id: session.id });
+        console.log('options', options);
+        const order = await razorpay.orders.create(options);
+        if (!order) {
+            res.status(500).json({ error: 'Internal Server Error' });
+        }
+        res.status(200).json(order);
     } catch (error) {
         console.error('Error deleting from cart:', error);
         res.status(500).json({ error: 'Internal Server Error' });
     }
+};
+
+const paymentVerifySignature = (req, res) => {
+    const { razorpay_order_id, razorpay_payment_id, razorpay_signature } =
+        req.body;
+    const sha = crypto.createHmac('sha256', process.env.RAZORPAY_KEY_SECRET);
+    sha.update(`${razorpay_order_id}|${razorpay_payment_id}`);
+    const digest = sha.digest('hex');
+    if (digest !== razorpay_signature) {
+        return res.status(400).json({ message: 'failure' });
+    }
+    return res.status(200).json({
+        message: 'success',
+        orderId: razorpay_order_id,
+        paymentId: razorpay_payment_id,
+        signature: razorpay_signature,
+    });
 };
 
 const enableCourseAfterPurchase = async (userId, coursesArray) => {
@@ -209,6 +267,8 @@ module.exports = {
     AddToCart,
     ReadCart,
     DeleteCartItemByName,
-    Payment,
+    // Payment,
     enableCourseAfterPurchase,
+    PaymentRazorpay,
+    paymentVerifySignature,
 };
