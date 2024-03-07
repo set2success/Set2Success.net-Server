@@ -47,6 +47,14 @@ app.use(express.json());
 //     res.json({ success: true });
 // });
 
+app.post('/free-courses', async (req, res) => {
+    const { userId, coursesArray } = req.body;
+    const responseForEmptyCart = await emptyCart(userId);
+    const enableCourse = await enableCourseAfterPurchase(userId, coursesArray);
+    const addCourses = await fetchCourseAndAdd(userId, coursesArray);
+    res.json({ message: 'success' });
+});
+
 app.post('/razorpay-webhook', (req, res) => {
     const secret = 'qJurcw9mBF68BsY';
     const crypto = require('crypto');
