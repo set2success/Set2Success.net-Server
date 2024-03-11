@@ -111,21 +111,29 @@ const SubmitStatistics = async (req, res) => {
             return res.status(404).json({ error: 'Course not found' });
         }
 
+        // console.log('course', course);
+
         const espMcqP1Course = course.ESPPracticeExams.find(
             (exam) => exam.courseName === courseName,
         );
 
+        // console.log('espMcqP1Course', espMcqP1Course);
+        // console.log('subSectionTitle', subSectionTitle);
         let topicIndex = -1;
-        if (courseName === 'ESP_Essay_P2' || courseName === 'ESP_Essay_P2') {
-            topicIndex = espMcqP1Course.statistics.findIndex(
-                (stat) => stat.subSectionTitle === subSectionTitle,
-            );
-        } else {
+        if (courseName === 'ESP_Essay_P1' || courseName === 'ESP_Essay_P2') {
+            // console.log("🚀 ~ SubmitStatistics ~ courseName:", courseName)
             topicIndex = espMcqP1Course.statistics.findIndex(
                 (stat) => stat.topicName === topicName,
             );
+        } else {
+            // console.log("🚀 ~ SubmitStatistics ~ topicIndex:", topicIndex)
+            topicIndex = espMcqP1Course.statistics.findIndex(
+                (stat) => stat.subSectionTitle === subSectionTitle,
+            );
         }
 
+        // console.log('topicIndex', topicIndex);
+        // console.log('espMcqP1Course', espMcqP1Course.statistics);
         if (topicIndex !== -1) {
             // If topic exists, update the statistics
             espMcqP1Course.statistics[topicIndex] = {
@@ -151,6 +159,8 @@ const SubmitStatistics = async (req, res) => {
                 date: new Date(),
             });
         }
+
+        // console.log('espMcqP1Course', espMcqP1Course.statistics);
 
         const updatedCourse = await course.save();
 
