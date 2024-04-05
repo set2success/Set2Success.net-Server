@@ -8,6 +8,7 @@ const cartRouter = require('./cart.routes');
 const couponsRouter = require('./Coupons.routes');
 const dashboardRouter = require('./dashboard.routes');
 const QuestionBankRouter = require('./QuestionBankRoutes');
+const espQbUpdateRouter = require('./ESPQBUpdateRoutes');
 
 app.use(express.json());
 
@@ -18,5 +19,6 @@ app.use('/cart', cartRouter);
 app.use('/coupons', couponsRouter);
 app.use('/qb', QuestionBankRouter);
 app.use('/dashboard', dashboardRouter);
+app.use('/espqbupdate', espQbUpdateRouter);
 
 module.exports = app;
