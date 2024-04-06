@@ -12,4 +12,21 @@ espQbUpdateRouter.post(
     ESPQBUpdateController.UpdateQbCoursesAllUsers,
 );
 
+espQbUpdateRouter.post(
+    '/esp/add',
+    ESPQBUpdateController.AddEspQuestionsAllUsers,
+);
+
+espQbUpdateRouter.post('/qb/add', ESPQBUpdateController.AddQbQuestionsAllUsers);
+
+espQbUpdateRouter.post(
+    '/esp/delete',
+    ESPQBUpdateController.DeleteESPQuestionsAllUsers,
+);
+
+espQbUpdateRouter.post(
+    '/qb/delete',
+    ESPQBUpdateController.DeleteQBQuestionsAllUsers,
+);
+
 module.exports = espQbUpdateRouter;
