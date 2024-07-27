@@ -1,190 +1,191 @@
 {
-    "QuestionBankDataSet": [
+  "QuestionBankDataSet": [
+    {
+      "courseName": "QB_MCQ_P1",
+      "topics": [
         {
-            "courseName": "QB_MCQ_P1",
-            "topics": [
+          "sectionTitle": "Section A : External Financial Reporting Decisions",
+          "subSectionTopics": [
+            {
+              "subSectionTitle": "A1 - Financial Statements",
+              "pdfLink": "https://drive.google.com/file/d/1bIzlaUtNG1Rzx8NNuA0ShEBlsCj73of2/preview",
+              "questions": [
                 {
-                    "sectionTitle": "Section A : External Financial Reporting Decisions",
-                    "subSectionTopics": [
-                        {
-                            "subSectionTitle": "A1 - Financial Statements",
-                            "questions": [
-                                {
-                                    "sNo": 1,
-                                    "title": "A primary objective of external financial reporting is 14",
-                                    "answer": "Provision of information that is useful to present and potential investors, creditors, and others in making rational financial decisions regarding the enterprise.",
-                                    "options": [
-                                        "Direct measurement of the value of a business enterprise.",
-                                        "Provision of information that is useful to present and potential investors, creditors, and others in making rational financial decisions regarding the enterprise.",
-                                        "Establishment of rules for accruing liabilities.",
-                                        "Direct measurement of the enterprise’s stock price."
-                                    ],
-                                    "correctOptionExplanation": "<div class=\"mainEx\"><div class=\"rngAns\"><div class=\"rngHd\">Answer (A) is incorrect.</div>Financial reporting is not designed to measure directly the value of a business.</div><div class=\"corAns\"><div class=\"corHd\">Answer (B) is correct.</div>According to the FASB’s Conceptual Framework, the objectives of external financial reporting are to provide information that (1) is useful to present and potential investors, creditors, and others in making rational financial decisions regarding the enterprise; (2) helps those parties in assessing the amounts, timing, and uncertainty of prospective cash receipts from dividends or interest and the proceeds from sale, redemption, or maturity of securities or loans; and (3) concerns the economic resources of an enterprise, the claims thereto, and the effects of transactions, events, and circumstances that change its resources and claims thereto.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (C) is incorrect.</div>While rules for accruing liabilities are a practical concern, the establishment of such rules is not a primary objective of external reporting.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (D) is incorrect.</div>The objectives of financial accounting are unrelated to the measurement of stock prices; stock prices are a product of stock market forces.</div></div>"
-                                },
-                                {
-                                    "sNo": 2,
-                                    "title": "An objective of financial reporting is",
-                                    "answer": "Providing information useful to investors, creditors, donors, and other users for decision making.",
-                                    "options": [
-                                        "Providing information useful to investors, creditors, donors, and other users for decision making.",
-                                        "Assessing the adequacy of internal control.",
-                                        "Evaluating management results compared with standards.",
-                                        "Providing information on compliance with established procedures."
-                                    ],
-                                    "correctOptionExplanation": "<div class=\"mainEx\"><div class=\"corAns\"><div class=\"corHd\">Answer (A) is correct.</div>The objective is to report financial information that is useful in making decisions about providing resources to the reporting entity. Primary users of financial information are current or prospective investors and creditors who cannot obtain it directly. Their decisions depend on expected returns.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (B) is incorrect.</div>Assessing the adequacy of internal control is a function of internal auditing, not financial reporting.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (C) is incorrect.</div>Evaluating management results compared with standards is a function of internal auditing, not financial reporting.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (D) is incorrect.</div>Providing information on compliance with established procedures is a function of internal auditing, not financial reporting.</div></div>"
-                                },
-                                {
-                                    "sNo": 3,
-                                    "title": "The financial statements included in the annual report to the shareholders are least useful to which one of the following?",
-                                    "answer": "Managers in charge of operating activities.",
-                                    "options": [
-                                        "Stockbrokers.",
-                                        "Bankers preparing to lend money.",
-                                        "Competing businesses.",
-                                        "Managers in charge of operating activities."
-                                    ],
-                                    "correctOptionExplanation": "<div class=\"mainEx\"><div class=\"rngAns\"><div class=\"rngHd\">Answer (A) is incorrect.</div>Brokers and other financial professionals can find information in financial statements that is useful in assessing a firm’s current and potential profitability.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (B) is incorrect.</div>Potential creditors can find information in financial statements that is useful in assessing a firm’s ability to repay.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (C) is incorrect.</div>Competing businesses can compare a firm’s performance with its own.</div><div class=\"corAns\"><div class=\"corHd\">Answer (D) is correct.</div>Accrual-basis amounts used in financial reporting are not useful to managers making day-to-day operating decisions. The practice of management accounting fulfills the needs of these users.</div></div>"
-                                },
-                                {
-                                    "sNo": 4,
-                                    "title": "Which of the following is a true statement about the objective of general-purpose financial reporting?",
-                                    "answer": "The information provided relates to the entity’s economic resources and claims. ",
-                                    "options": [
-                                        "Financial reporting is ordinarily focused on industries rather than individual entities.",
-                                        "The objective applies only to information that is useful for investment professionals.",
-                                        "Financial reporting directly measures management performance.",
-                                        "The information provided relates to the entity’s economic resources and claims. "
-                                    ],
-                                    "correctOptionExplanation": "<div class=\"mainEx\"><div class=\"rngAns\"><div class=\"rngHd\">Answer (A) is incorrect.</div>Financial reporting is focused on individual entities.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (B) is incorrect.</div>The objectives apply to information that is useful for current and potential investors, creditors, and other users in making rational investment, credit, and other decisions.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (C) is incorrect.</div>Entity performance is affected by many factors other than management.</div><div class=\"corAns\"><div class=\"corHd\">Answer (D) is correct.</div>The information reported relates to the entity’s economic resources and claims to them (financial position) and to changes in those resources and claims.</div></div>"
-                                },
-                                {
-                                    "sNo": 5,
-                                    "title": "All of the following support the objective of financial reporting except providing information that",
-                                    "answer": "Helps management evaluate alternative projects.",
-                                    "options": [
-                                        "Is useful for making investment and credit decisions.",
-                                        "Helps management evaluate alternative projects.",
-                                        "Concerns enterprise resources and claims to those resources.",
-                                        "Helps investors and creditors predict future cash flows."
-                                    ],
-                                    "correctOptionExplanation": "<div class=\"mainEx\"><div class=\"rngAns\"><div class=\"rngHd\">Answer (A) is incorrect.</div>Providing information that is useful for making investment and credit decisions is an objective of financial reporting.</div><div class=\"corAns\"><div class=\"corHd\">Answer (B) is correct.</div>The role of general purpose external financial reporting is to provide information that is useful to current and potential investors and creditors, not merely to management.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (C) is incorrect.</div>Providing information about entity resources and claims to those resources is an objective of financial reporting.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (D) is incorrect.</div>Providing information that helps investors and creditors predict future cash flows is an objective of financial reporting.</div></div>"
-                                },
-                                {
-                                    "sNo": 6,
-                                    "title": "General purpose external financial reporting of a corporation focuses primarily on the needs of which of the following users?",
-                                    "answer": "Investors and creditors and their advisors.",
-                                    "options": [
-                                        "Regulatory and taxing authorities.",
-                                        "Investors and creditors and their advisors.",
-                                        "The board of directors of the corporation.",
-                                        "The management of the corporation."
-                                    ],
-                                    "correctOptionExplanation": "<div class=\"mainEx\"><div class=\"rngAns\"><div class=\"rngHd\">Answer (A) is incorrect.</div>Primary users of financial information are current and potential investors and creditors who cannot obtain it directly. Regulatory and taxing authorities have an indirect stake in a corporation and are able to demand access to its financial information. Accordingly, they are not primary users.</div><div class=\"corAns\"><div class=\"corHd\">Answer (B) is correct.</div>The objective is to report financial information that is useful in making decisions about providing resources to the reporting entity. Primary users of financial information are current and potential investors and creditors who cannot obtain it directly.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (C) is incorrect.</div>Directors are internal users of the entity’s financial information and can obtain it directly.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (D) is incorrect.</div>External financial reporting focuses primarily on the needs of external users such as investors and creditors. Management is an internal user with direct access to accounting information. </div></div>"
-                                },
-                                {
-                                    "sNo": 7,
-                                    "title": "For financial reporting to be useful, it must",
-                                    "answer": "Provide information useful for making business and investment decisions.",
-                                    "options": [
-                                        "Be in accordance with generally accepted accounting principles.",
-                                        "Provide information useful for making business and investment decisions.",
-                                        "Be understandable to those who have a limited knowledge of business activities.",
-                                        "Directly measure the value of the entity being reported on."
-                                    ],
-                                    "correctOptionExplanation": "<div class=\"mainEx\"><div class=\"rngAns\"><div class=\"rngHd\">Answer (A) is incorrect.</div>Unusual circumstances may permit a departure from GAAP. In such circumstances, the financial information is considered useful if it is relevant and faithfully represented.</div><div class=\"corAns\"><div class=\"corHd\">Answer (B) is correct.</div>The objective of general-purpose financial reporting is to report financial information that is useful in making decisions about providing resources to the reporting entity. This information must have the fundamental qualitative characteristics of relevance and faithful representation.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (C) is incorrect.</div>Financial information should be readily understandable by reasonably knowledgeable and diligent users but should not be excluded because of its complexity. But understandable information may not be useful. </div><div class=\"rngAns\"><div class=\"rngHd\">Answer (D) is incorrect.</div>Some financial information is measured at historical cost and not at fair value. For example, items of property, plant, and equipment are measured at historical cost adjusted subsequently for depreciation. Accordingly, financial information cannot directly measure the value of the entity being reported on.</div></div>"
-                                },
-                                {
-                                    "sNo": 8,
-                                    "title": "What is the primary objective of financial reporting?",
-                                    "answer": "To provide information that is useful for economic decision making. ",
-                                    "options": [
-                                        "To provide economic information that is comprehensible to all users.",
-                                        "To provide management with an accurate evaluation of their financial performance.",
-                                        "To provide forecasts for future cash flows and financial performance.",
-                                        "To provide information that is useful for economic decision making. "
-                                    ],
-                                    "correctOptionExplanation": "<div class=\"mainEx\"><div class=\"rngAns\"><div class=\"rngHd\">Answer (A) is incorrect.</div>“Financial reports are prepared for users who have a reasonable knowledge of business and economic activities and who review and analyze the information diligently” (SFAC No. 8 Ch. 3).  </div><div class=\"rngAns\"><div class=\"rngHd\">Answer (B) is incorrect.</div>The primary objective of financial reporting is to provide external investors and creditors with an accurate evaluation of the reporting entity’s financial performance.  </div><div class=\"rngAns\"><div class=\"rngHd\">Answer (C) is incorrect.</div>Although financial reporting is helpful in creating forecasts of future cash flows, this is not its primary purpose.  </div><div class=\"corAns\"><div class=\"corHd\">Answer (D) is correct.</div>The overall objective is to report financial information that is useful to current and potential investors and creditors in making decisions about providing resources to an individual reporting entity.</div></div>"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "statistics": []
-        },
-        {
-            "courseName": "QB_MCQ_P2",
-            "topics": [
+                  "sNo": 1,
+                  "title": "A primary objective of external financial reporting is 14",
+                  "answer": "Provision of information that is useful to present and potential investors, creditors, and others in making rational financial decisions regarding the enterprise.",
+                  "options": [
+                    "Direct measurement of the value of a business enterprise.",
+                    "Provision of information that is useful to present and potential investors, creditors, and others in making rational financial decisions regarding the enterprise.",
+                    "Establishment of rules for accruing liabilities.",
+                    "Direct measurement of the enterprise’s stock price."
+                  ],
+                  "correctOptionExplanation": "<div class=\"mainEx\"><div class=\"rngAns\"><div class=\"rngHd\">Answer (A) is incorrect.</div>Financial reporting is not designed to measure directly the value of a business.</div><div class=\"corAns\"><div class=\"corHd\">Answer (B) is correct.</div>According to the FASB’s Conceptual Framework, the objectives of external financial reporting are to provide information that (1) is useful to present and potential investors, creditors, and others in making rational financial decisions regarding the enterprise; (2) helps those parties in assessing the amounts, timing, and uncertainty of prospective cash receipts from dividends or interest and the proceeds from sale, redemption, or maturity of securities or loans; and (3) concerns the economic resources of an enterprise, the claims thereto, and the effects of transactions, events, and circumstances that change its resources and claims thereto.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (C) is incorrect.</div>While rules for accruing liabilities are a practical concern, the establishment of such rules is not a primary objective of external reporting.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (D) is incorrect.</div>The objectives of financial accounting are unrelated to the measurement of stock prices; stock prices are a product of stock market forces.</div></div>"
+                },
                 {
-                    "sectionTitle": "Section A : External Financial Reporting Decisions",
-                    "subSectionTopics": [
-                        {
-                            "subSectionTitle": "A1 - Financial Statements",
-                            "questions": [
-                                {
-                                    "sNo": 1,
-                                    "title": "The financial statements included in the annual report to the shareholders are least useful to which one of the following?",
-                                    "answer": "Managers in charge of operating activities.",
-                                    "options": [
-                                        "Stockbrokers.",
-                                        "Bankers preparing to lend money.",
-                                        "Competing businesses.",
-                                        "Managers in charge of operating activities."
-                                    ],
-                                    "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer D.</div> The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations."
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "statistics": []
-        },
-        {
-            "courseName": "QB_Essay_P1",
-            "topics": [
+                  "sNo": 2,
+                  "title": "An objective of financial reporting is",
+                  "answer": "Providing information useful to investors, creditors, donors, and other users for decision making.",
+                  "options": [
+                    "Providing information useful to investors, creditors, donors, and other users for decision making.",
+                    "Assessing the adequacy of internal control.",
+                    "Evaluating management results compared with standards.",
+                    "Providing information on compliance with established procedures."
+                  ],
+                  "correctOptionExplanation": "<div class=\"mainEx\"><div class=\"corAns\"><div class=\"corHd\">Answer (A) is correct.</div>The objective is to report financial information that is useful in making decisions about providing resources to the reporting entity. Primary users of financial information are current or prospective investors and creditors who cannot obtain it directly. Their decisions depend on expected returns.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (B) is incorrect.</div>Assessing the adequacy of internal control is a function of internal auditing, not financial reporting.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (C) is incorrect.</div>Evaluating management results compared with standards is a function of internal auditing, not financial reporting.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (D) is incorrect.</div>Providing information on compliance with established procedures is a function of internal auditing, not financial reporting.</div></div>"
+                },
                 {
-                    "sectionTitle": "Section B - Planning, Budgeting & Forecasting",
-                    "subSectionTopics": [
-                        {
-                            "subEssayTitle": "Essay 1 - COE COMPANY",
-                            "pdfLink": "https://drive.google.com/file/d/1bIzlaUtNG1Rzx8NNuA0ShEBlsCj73of2/preview",
-                            "questions": [
-                                {
-                                    "sNo": 1,
-                                    "title": "By using the cumulative average-time learning curve, estimate the total number of labor hours that are required to manufacture the first four units of product. Show your calculations.",
-                                    "quesType": "ESSAY",
-                                    "isFlagged": false
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "statistics": []
-        },
-        {
-            "courseName": "QB_Essay_P2",
-            "topics": [
+                  "sNo": 3,
+                  "title": "The financial statements included in the annual report to the shareholders are least useful to which one of the following?",
+                  "answer": "Managers in charge of operating activities.",
+                  "options": [
+                    "Stockbrokers.",
+                    "Bankers preparing to lend money.",
+                    "Competing businesses.",
+                    "Managers in charge of operating activities."
+                  ],
+                  "correctOptionExplanation": "<div class=\"mainEx\"><div class=\"rngAns\"><div class=\"rngHd\">Answer (A) is incorrect.</div>Brokers and other financial professionals can find information in financial statements that is useful in assessing a firm’s current and potential profitability.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (B) is incorrect.</div>Potential creditors can find information in financial statements that is useful in assessing a firm’s ability to repay.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (C) is incorrect.</div>Competing businesses can compare a firm’s performance with its own.</div><div class=\"corAns\"><div class=\"corHd\">Answer (D) is correct.</div>Accrual-basis amounts used in financial reporting are not useful to managers making day-to-day operating decisions. The practice of management accounting fulfills the needs of these users.</div></div>"
+                },
                 {
-                    "sectionTitle": "Section B - Planning, Budgeting & Forecasting",
-                    "subSectionTopics": [
-                        {
-                            "subEssayTitle": "Essay 1 - COE COMPANY",
-                            "pdfLink": "https://drive.google.com/file/d/1bIzlaUtNG1Rzx8NNuA0ShEBlsCj73of2/preview",
-                            "questions": [
-                                {
-                                    "sNo": 1,
-                                    "title": "By using the cumulative average-time learning curve, estimate the total number of labor hours that are required to manufacture the first four units of product. Show your calculations.",
-                                    "quesType": "ESSAY",
-                                    "isFlagged": false
-                                }
-                            ]
-                        }
-                    ]
+                  "sNo": 4,
+                  "title": "Which of the following is a true statement about the objective of general-purpose financial reporting?",
+                  "answer": "The information provided relates to the entity’s economic resources and claims. ",
+                  "options": [
+                    "Financial reporting is ordinarily focused on industries rather than individual entities.",
+                    "The objective applies only to information that is useful for investment professionals.",
+                    "Financial reporting directly measures management performance.",
+                    "The information provided relates to the entity’s economic resources and claims. "
+                  ],
+                  "correctOptionExplanation": "<div class=\"mainEx\"><div class=\"rngAns\"><div class=\"rngHd\">Answer (A) is incorrect.</div>Financial reporting is focused on individual entities.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (B) is incorrect.</div>The objectives apply to information that is useful for current and potential investors, creditors, and other users in making rational investment, credit, and other decisions.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (C) is incorrect.</div>Entity performance is affected by many factors other than management.</div><div class=\"corAns\"><div class=\"corHd\">Answer (D) is correct.</div>The information reported relates to the entity’s economic resources and claims to them (financial position) and to changes in those resources and claims.</div></div>"
+                },
+                {
+                  "sNo": 5,
+                  "title": "All of the following support the objective of financial reporting except providing information that",
+                  "answer": "Helps management evaluate alternative projects.",
+                  "options": [
+                    "Is useful for making investment and credit decisions.",
+                    "Helps management evaluate alternative projects.",
+                    "Concerns enterprise resources and claims to those resources.",
+                    "Helps investors and creditors predict future cash flows."
+                  ],
+                  "correctOptionExplanation": "<div class=\"mainEx\"><div class=\"rngAns\"><div class=\"rngHd\">Answer (A) is incorrect.</div>Providing information that is useful for making investment and credit decisions is an objective of financial reporting.</div><div class=\"corAns\"><div class=\"corHd\">Answer (B) is correct.</div>The role of general purpose external financial reporting is to provide information that is useful to current and potential investors and creditors, not merely to management.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (C) is incorrect.</div>Providing information about entity resources and claims to those resources is an objective of financial reporting.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (D) is incorrect.</div>Providing information that helps investors and creditors predict future cash flows is an objective of financial reporting.</div></div>"
+                },
+                {
+                  "sNo": 6,
+                  "title": "General purpose external financial reporting of a corporation focuses primarily on the needs of which of the following users?",
+                  "answer": "Investors and creditors and their advisors.",
+                  "options": [
+                    "Regulatory and taxing authorities.",
+                    "Investors and creditors and their advisors.",
+                    "The board of directors of the corporation.",
+                    "The management of the corporation."
+                  ],
+                  "correctOptionExplanation": "<div class=\"mainEx\"><div class=\"rngAns\"><div class=\"rngHd\">Answer (A) is incorrect.</div>Primary users of financial information are current and potential investors and creditors who cannot obtain it directly. Regulatory and taxing authorities have an indirect stake in a corporation and are able to demand access to its financial information. Accordingly, they are not primary users.</div><div class=\"corAns\"><div class=\"corHd\">Answer (B) is correct.</div>The objective is to report financial information that is useful in making decisions about providing resources to the reporting entity. Primary users of financial information are current and potential investors and creditors who cannot obtain it directly.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (C) is incorrect.</div>Directors are internal users of the entity’s financial information and can obtain it directly.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (D) is incorrect.</div>External financial reporting focuses primarily on the needs of external users such as investors and creditors. Management is an internal user with direct access to accounting information. </div></div>"
+                },
+                {
+                  "sNo": 7,
+                  "title": "For financial reporting to be useful, it must",
+                  "answer": "Provide information useful for making business and investment decisions.",
+                  "options": [
+                    "Be in accordance with generally accepted accounting principles.",
+                    "Provide information useful for making business and investment decisions.",
+                    "Be understandable to those who have a limited knowledge of business activities.",
+                    "Directly measure the value of the entity being reported on."
+                  ],
+                  "correctOptionExplanation": "<div class=\"mainEx\"><div class=\"rngAns\"><div class=\"rngHd\">Answer (A) is incorrect.</div>Unusual circumstances may permit a departure from GAAP. In such circumstances, the financial information is considered useful if it is relevant and faithfully represented.</div><div class=\"corAns\"><div class=\"corHd\">Answer (B) is correct.</div>The objective of general-purpose financial reporting is to report financial information that is useful in making decisions about providing resources to the reporting entity. This information must have the fundamental qualitative characteristics of relevance and faithful representation.</div><div class=\"rngAns\"><div class=\"rngHd\">Answer (C) is incorrect.</div>Financial information should be readily understandable by reasonably knowledgeable and diligent users but should not be excluded because of its complexity. But understandable information may not be useful. </div><div class=\"rngAns\"><div class=\"rngHd\">Answer (D) is incorrect.</div>Some financial information is measured at historical cost and not at fair value. For example, items of property, plant, and equipment are measured at historical cost adjusted subsequently for depreciation. Accordingly, financial information cannot directly measure the value of the entity being reported on.</div></div>"
+                },
+                {
+                  "sNo": 8,
+                  "title": "What is the primary objective of financial reporting?",
+                  "answer": "To provide information that is useful for economic decision making. ",
+                  "options": [
+                    "To provide economic information that is comprehensible to all users.",
+                    "To provide management with an accurate evaluation of their financial performance.",
+                    "To provide forecasts for future cash flows and financial performance.",
+                    "To provide information that is useful for economic decision making. "
+                  ],
+                  "correctOptionExplanation": "<div class=\"mainEx\"><div class=\"rngAns\"><div class=\"rngHd\">Answer (A) is incorrect.</div>“Financial reports are prepared for users who have a reasonable knowledge of business and economic activities and who review and analyze the information diligently” (SFAC No. 8 Ch. 3).  </div><div class=\"rngAns\"><div class=\"rngHd\">Answer (B) is incorrect.</div>The primary objective of financial reporting is to provide external investors and creditors with an accurate evaluation of the reporting entity’s financial performance.  </div><div class=\"rngAns\"><div class=\"rngHd\">Answer (C) is incorrect.</div>Although financial reporting is helpful in creating forecasts of future cash flows, this is not its primary purpose.  </div><div class=\"corAns\"><div class=\"corHd\">Answer (D) is correct.</div>The overall objective is to report financial information that is useful to current and potential investors and creditors in making decisions about providing resources to an individual reporting entity.</div></div>"
                 }
-            ],
-            "statistics": []
+              ]
+            }
+          ]
         }
-    ]
+      ],
+      "statistics": []
+    },
+    {
+      "courseName": "QB_MCQ_P2",
+      "topics": [
+        {
+          "sectionTitle": "Section A : External Financial Reporting Decisions",
+          "subSectionTopics": [
+            {
+              "subSectionTitle": "A1 - Financial Statements",
+              "questions": [
+                {
+                  "sNo": 1,
+                  "title": "The financial statements included in the annual report to the shareholders are least useful to which one of the following?",
+                  "answer": "Managers in charge of operating activities.",
+                  "options": [
+                    "Stockbrokers.",
+                    "Bankers preparing to lend money.",
+                    "Competing businesses.",
+                    "Managers in charge of operating activities."
+                  ],
+                  "correctOptionExplanation": "<div class=\"ExplnAns\">Correct answer D.</div> The annual report to shareholders is prepared in accordance with generally accepted accounting principles and is designed to provide information that is pertinent to investors and other external users. Managers responsible for operating activities use internal reports designed to provide information about various aspects of internal functions that measure the effectiveness and efficiency of operations."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "statistics": []
+    },
+    {
+      "courseName": "QB_Essay_P1",
+      "topics": [
+        {
+          "sectionTitle": "Section B - Planning, Budgeting & Forecasting",
+          "subSectionTopics": [
+            {
+              "subEssayTitle": "Essay 1 - COE COMPANY",
+              "pdfLink": "https://drive.google.com/file/d/1bIzlaUtNG1Rzx8NNuA0ShEBlsCj73of2/preview",
+              "questions": [
+                {
+                  "sNo": 1,
+                  "title": "By using the cumulative average-time learning curve, estimate the total number of labor hours that are required to manufacture the first four units of product. Show your calculations.",
+                  "quesType": "ESSAY",
+                  "isFlagged": false
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "statistics": []
+    },
+    {
+      "courseName": "QB_Essay_P2",
+      "topics": [
+        {
+          "sectionTitle": "Section B - Planning, Budgeting & Forecasting",
+          "subSectionTopics": [
+            {
+              "subEssayTitle": "Essay 1 - COE COMPANY",
+              "pdfLink": "https://drive.google.com/file/d/1bIzlaUtNG1Rzx8NNuA0ShEBlsCj73of2/preview",
+              "questions": [
+                {
+                  "sNo": 1,
+                  "title": "By using the cumulative average-time learning curve, estimate the total number of labor hours that are required to manufacture the first four units of product. Show your calculations.",
+                  "quesType": "ESSAY",
+                  "isFlagged": false
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "statistics": []
+    }
+  ]
 }
